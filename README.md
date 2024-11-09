@@ -1,4 +1,4 @@
-(Below are the commands to execute)
+Below are the commands to execute:
 
 `cd path/to/docker_fuzzing`
 
@@ -7,6 +7,7 @@
 (Please note that above command has a . (dot) in the end, which is also to be included)
 
 (Below command will save the docker image in the current directory)
+
 `docker save -o image_fuzzing.img image_fuzzing:1.0.0`
 
 (Below command loads the saved image)
