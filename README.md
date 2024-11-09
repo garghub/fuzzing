@@ -25,6 +25,7 @@
 ---
 
 (Below command is to be attached to the running docker container and enables execution of bash commands which are followed)
+
 `docker exec -it container_fuzzing bash`
 
 ---
