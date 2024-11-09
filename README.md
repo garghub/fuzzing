@@ -1,10 +1,10 @@
-Below are the commands to execute:
+**Below are the commands to execute:**
 
 `cd path/to/docker_fuzzing`
 
 `docker buildx build --platform linux/amd64 -t image_fuzzing:1.0.0 .`
 
-(Please note that above command has a . (dot) in the end, which is also to be included)
+(Please note that the above command has a **.** (dot) in the end, which is also to be included)
 
 (Below command will save the docker image in the current directory)
 
