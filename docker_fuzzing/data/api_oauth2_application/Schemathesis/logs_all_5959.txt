@@ -1,0 +1,84 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_application/api_oauth2_application.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 323794527271161764776032657488871131876
+Workers: 1
+Collected API operations: 4
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example F                  [ 25%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping .                     [ 50%]
+POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                   [ 75%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                    [100%]
+
+=================================== FAILURES ===================================
+____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example ____________
+1. Test Case ID: GtmiRl
+
+- Undocumented HTTP status code
+
+    Received: 400
+    Documented: 200
+
+[400] Bad Request:
+
+    `<h1>Bad Message 400</h1><pre>reason: Illegal character CNTL=0x1b</pre>`
+
+Reproduce with: 
+
+    curl -X GET -H 'X-Request-ID: ' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/example
+
+____________ POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+1. Test Case ID: 3m0pE8
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d true https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+_____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: vtWbfL
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users?age=false&%F0%90%B7%9D5=%F1%83%90%860%3E14%C2%82&%F0%90%B7%9D5=&%F0%90%B7%9D5=%F1%BB%8A%9E%3A_8%F0%92%90%94%F0%93%85%AE&%EC%B2%A1%C3%AF%F0%96%B8%BDp%F3%A1%A9%BC%F3%94%90%A7%C3%BCQ.%3B%F2%B8%8E%89qz%F4%8A%85%A5%C3%9A%C3%A0_%F0%BF%80%84%C2%9E%F3%82%B1%BC%F1%A3%A2%98=%F1%90%92%8E5%01&%EC%B2%A1%C3%AF%F0%96%B8%BDp%F3%A1%A9%BC%F3%94%90%A7%C3%BCQ.%3B%F2%B8%8E%89qz%F4%8A%85%A5%C3%9A%C3%A0_%F0%BF%80%84%C2%9E%F3%82%B1%BC%F1%A3%A2%98=%F0%93%A7%93%F2%89%80%A7%C3%8B%C3%8C%C3%95%C2%97%C3%B5%C3%A5&%C2%B8%3A%C2%BC%C2%82%3C%C3%A2%C3%A7%C2%A3%0A%C3%A1%F0%AE%B7%8C%C2%AA%28%C3%96%13%F1%8C%A4%BC=False&%C2%B8%3A%C2%BC%C2%82%3C%C3%A2%C3%A7%C2%A3%0A%C3%A1%F0%AE%B7%8C%C2%AA%28%C3%96%13%F1%8C%A4%BC='
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              54 / 54 passed          PASSED 
+    status_code_conformance                         29 / 54 passed          FAILED 
+    content_type_conformance                        54 / 54 passed          PASSED 
+    response_headers_conformance                    54 / 54 passed          PASSED 
+    response_schema_conformance                     54 / 54 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=323794527271161764776032657488871131876`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 3 failed in 7.05s ==========================

@@ -1,0 +1,33 @@
+{
+    "0bbb188016c9792e69df47bf20f5b97d6099caa5_1": {
+        "verb": "GET",
+        "endpoint": "/example",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example?filter=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nX-Request-ID: d34a48ad-9564-40c3-af85-f6643211a242\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 23:23:12 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 71\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"message\" : \"string\",\n  \"timestamp\" : \"2015-07-20T15:49:04-07:00\"\n}"
+    },
+    "1f618f842e18eb2f5e460fd10297b7118f7ae878_1": {
+        "verb": "POST",
+        "endpoint": "/users",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    \"id\":\"47ac4ef7-5af3-45b6-b4f3-bfa31b734767\",\n    \"name\":\"fuzzstring\",\n    \"email\":\"fuzzstring\",\n    \"age\":1}\r\n",
+        "response": "HTTP/1.1 201 Created\r\nDate: Fri, 03 May 2024 23:23:13 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n"
+    },
+    "9653b2494e7b1213f58f1c3f5f464836ddb9e6df_1": {
+        "verb": "GET",
+        "endpoint": "/ping",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 23:23:13 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n"
+    },
+    "d007d97507801ce9652dac419a74e1a2e6a7b1ca_1": {
+        "verb": "GET",
+        "endpoint": "/users",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users?age=1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 23:23:14 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 123\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n[ {\n  \"id\" : \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\n  \"name\" : \"string\",\n  \"email\" : \"apiteam@swagger.io\",\n  \"age\" : 0\n} ]"
+    }}

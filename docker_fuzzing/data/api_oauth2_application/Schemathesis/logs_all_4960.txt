@@ -1,0 +1,86 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_application/api_oauth2_application.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 136767621763168143875171711728883931843
+Workers: 1
+Collected API operations: 4
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example F                  [ 25%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping .                     [ 50%]
+POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                   [ 75%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                    [100%]
+
+=================================== FAILURES ===================================
+____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example ____________
+1. Test Case ID: 9znfl5
+
+- Undocumented HTTP status code
+
+    Received: 400
+    Documented: 200
+
+[400] Bad Request:
+
+    `<h1>Bad Message 400</h1><pre>reason: Illegal character CNTL=0x1b</pre>`
+
+Reproduce with: 
+
+    curl -X GET -H 'X-Request-ID: ' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/example
+
+____________ POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: f2csIr
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '[{"": {"\u00d4\ud95d\udff8Q\u0001I3": 5.960464477539063e-08, "*": [], "\udb94\udfe8": {"\u0013": [2.225073858507e-311, null], "": -10000000.0, "\u00e5": {}}}}, [{"ri\ud9a6\udf9e": {"\u0019J\u007f\u0084\udb0b\udce0\u00b7\u00ed\u00f9=\u00e0t": {"B\u00a6\u00adP\u00bc\u0017\u00f1": [[false, 70, "\u0085"], {"\uda54\ude38\u00bb\ud917\ude72\u008el": null, "\u00c7E": "\ud929\udfdc\ud940\uddbb"}, 30572], "F\udb0a\udcf1X\u00bcE\u00b6\u00d3\u0095\u00bd\u00fa\u0098\ud896\uddde\uda59\udf61X\ud824\udd3f\u00b6\ud9f2\ude72\u0001\ud9b4\udf68>\u00d2F": {"v\u00e6\u00b9\udb83\udf18\u008f[$\u00e5\n\u0018W\udbed\udc72J": true}, "\u0080": false}, "y\u0095\u00f0": [], "v\u0097\u00cfb_\u008b": [{}, -1796]}}, [], {}], -3416, {"\u00e0:": [-9.218595943651636e+63], "": {}}, [5.576070643801272e+16, "s?\ud8b5\udf6e\u000fx", "s\u00ba\u0016\udaff\udc1f\uda02\udd0a\u00d3"], [[["\u00f7\u0094", null, null], [], []]], {}, {}, true, null, {"": {"\u00ef\u001d\u00b4QL\u0005\udbfb\udd00": -58, "": -27402, "\u0006\u0086\u0007\udb4d\ude2e": null}, "H": [true, "\u00b5\uda12\udfdc\u00b1\u00a5"]}, {}, {"\u0013": false, "\u00b4\ud806\udd33~\udb05\udce0L\uda1a\udd79": true, "": 1.175494351e-38}, [[[[], ":\uda60\uded4\u008b\u00a0\u00e2\u00bb\u009e\u00ea\ub909_\u001f", {"9U\u00d1\u00bb\ud8cf\udce0\u00cf\u00e3\u0018\u0095\ud8b2\udeb3\u0097\u0082\u00e3": false, "8": false, "\u0089\uda2c\udd7c\ud91a\udca2u\u0004\u00f8\u6f23i\u009c\ud853\udde5\u00c7\u0099\u00b7}": -1e-05}]], [{"": true, "!\u008b\u00cb\u00c6\u0096jp\u00d1\u00ae\u00ca\ud95c\udd64\u00a2\u00a2": -109}, {"": {}}, ["\u00d7L\udb58\udd2e_\u0018\ud829\ude622\udb2c\uddfd\u000b\u00cf+;", [], [-16494]]], [{"+\udaaf\udcf4hZ": "\u00dcui\u00a3\ud9bc\udc0b\u001d\u0013T\u000b.\u00b0", "": [], "\u00b67\ud9fc\udc6f;~\ud809\udccc\u00b0\u0080\ud977\udd97\udabe\udde7$\u00f2Er": -2.220446049250313e-16}]], [[]], {"\u00ceD\ud8fb\udcf6\udaca\udd1c\u00b6": "\udbfa\udd55\u00bc\u00cd\u00e2\u001d"}, {}, [{"\u00df/\ud833\udf31\u009b\u00d0\u001e\u00a3\u009da\udb90\ude5e": "\u00ff\ud8f1\ude2f\u00e0R!\u0018\u0000[\u00e8\u008f\u009c\u0011\u0082K", "\u00b8\u00c6\u0001\u00ac\ud92b\udf2bm\uda79\udcb4\u00b1\u00da\u009e\u0096\u00c4\u0098WM": null, "\u000e\u00a2D\u008bsI": 4.609019864971052e+16}, [], -9007199254740992.0], {"X\ud93f\udf0d\u0095n\u00e1W\ud989\udd78\u00a5 ": null, "\u0087\u00cd\u00d3": 3960}, {}]' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+_____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: azgp7A
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              56 / 56 passed          PASSED 
+    status_code_conformance                         31 / 56 passed          FAILED 
+    content_type_conformance                        56 / 56 passed          PASSED 
+    response_headers_conformance                    56 / 56 passed          PASSED 
+    response_schema_conformance                     56 / 56 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=136767621763168143875171711728883931843`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 3 failed in 7.42s ==========================

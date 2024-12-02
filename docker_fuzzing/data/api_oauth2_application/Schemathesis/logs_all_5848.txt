@@ -1,0 +1,86 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_application/api_oauth2_application.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 150027138808359835156449509567997650060
+Workers: 1
+Collected API operations: 4
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example F                  [ 25%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping .                     [ 50%]
+POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                   [ 75%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                    [100%]
+
+=================================== FAILURES ===================================
+____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example ____________
+1. Test Case ID: wOpLdG
+
+- Undocumented HTTP status code
+
+    Received: 400
+    Documented: 200
+
+[400] Bad Request:
+
+    `<h1>Bad Message 400</h1><pre>reason: Illegal character CNTL=0x1b</pre>`
+
+Reproduce with: 
+
+    curl -X GET -H 'X-Request-ID: ' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/example
+
+____________ POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: VJYNje
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"email": "Ze*p^m'"'"'@Z.TiENDa", "id": "Og\u00e7\uda8b\udfb0\u0017\ud8d2\udf25\uda7f\udcbc", "\u0002\u00ee\u0096\u00e9\u00ff\uda5d\udfc8\u00dc\ud9b5\udf3f\u00da\uda2d\uddc2\u0094\ud99e\udf38\u0014\u001d\u00da\u00ea\u00d4\u0086": {"\uda27\udf3e": [{"": false, "\u0087\udb8a\uddf4\u00fd\u00bfg\ud89e\udf98": -9007199254740992.0, "\ud9f2\udf65@\uda8d\ude4f@\u00b1\u008c\u0019?\u00cd\u001b\u00b9\u0014": -17487}, "C\ud91c\udee7\u00e2e\u0012"]}, "\uda6c\ude36@\ud874\ude96\u00c3\udb09\udde2@\ud970\udc42SN\u0095\u0099\u00e6\u00dd\u00e0\uda52\ude06\u0019\ud809\udf5aN\u0093\u00e5\u00c2k\u00fe\u00d4\ud9b4\udcbd": [{"\u00ee\u0095\u008a\u0095!W\u008a\u00c3\u00d7m\u00a9j\u008c>Z\t\u00a2&\u00e1\u009ey\u00a8\u009d": {"3\u0003s)\u00c7\u00ce\u0010": null, "\u00a5": -10879}, "TJ\u00a7": true}, {">\u00d8\ud9f1\udf1d\u001e\ud8f0\ude88:\u00cf\u001b\udb3e\udd9f\u00f7\ud999\ude80": -1.1754943508222875e-38}, [null]]}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+_____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: BgryvO
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              54 / 54 passed          PASSED 
+    status_code_conformance                         29 / 54 passed          FAILED 
+    content_type_conformance                        54 / 54 passed          PASSED 
+    response_headers_conformance                    54 / 54 passed          PASSED 
+    response_schema_conformance                     54 / 54 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=150027138808359835156449509567997650060`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 3 failed in 7.56s ==========================

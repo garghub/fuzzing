@@ -1,0 +1,40 @@
+{
+    "status_code": "502",
+    "checker_name": "main_driver",
+    "reproducible": true,
+    "verb": "GET",
+    "endpoint": "/example",
+    "status_text": "Bad Gateway",
+    "request_sequence": [
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    \"id\":\"0db719a6-49f6-49ae-aa6e-3e8176b516d1\",\n    \"name\":\"fuzzstring\",\n    \"email\":\"fuzzstring\",\n    \"age\":1}\r\n",
+            "response": "HTTP/1.1 201 Created\r\nDate: Thu, 23 May 2024 14:24:49 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(11.0.14)\r\n\r\n0\r\n\r\n"
+        },
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+            "response": "HTTP/1.1 200 OK\r\nDate: Thu, 23 May 2024 14:24:49 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(11.0.14)\r\n\r\n0\r\n\r\n"
+        },
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users?age=1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+            "response": "HTTP/1.1 200 OK\r\nDate: Thu, 23 May 2024 14:24:49 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 123\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(11.0.14)\r\n\r\n[ {\n  \"id\" : \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\n  \"name\" : \"string\",\n  \"email\" : \"apiteam@swagger.io\",\n  \"age\" : 0\n} ]"
+        },
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users?age=1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+            "response": "HTTP/1.1 200 OK\r\nDate: Thu, 23 May 2024 14:25:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 123\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(11.0.14)\r\n\r\n[ {\n  \"id\" : \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\n  \"name\" : \"string\",\n  \"email\" : \"apiteam@swagger.io\",\n  \"age\" : 0\n} ]"
+        },
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+            "response": "HTTP/1.1 502 Bad Gateway\r\nServer: awselb/2.0\r\nDate: Thu, 23 May 2024 14:25:21 GMT\r\nContent-Type: text/html\r\nContent-Length: 122\r\nConnection: keep-alive\r\n\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
+        }
+    ]
+}

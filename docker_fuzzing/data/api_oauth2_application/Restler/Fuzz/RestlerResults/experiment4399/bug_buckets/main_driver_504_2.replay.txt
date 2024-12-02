@@ -1,0 +1,41 @@
+################################################################################
+ main_driver_504
+
+ Hash: main_driver_504_736c6f5beb7516925f4f58f6487c71e16a040547
+
+ To attempt to reproduce this bug using restler, run restler with the command
+ line option of --replay_log <path_to_this_log>.
+ If an authentication token is required, you must also specify the token_refresh_cmd.
+
+ This log may contain specific values for IDs or names that were generated
+ during fuzzing, using the fuzzing dictionary. Such names will be re-played
+ without modification. You must update the replay log manually with any changes
+ required to execute the requests in your environment (for example, replacing
+ pre-created account, subscription, or other resource IDs, as needed).
+################################################################################
+
+-> GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users?age=1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 200 OK\r\nDate: Sun, 26 May 2024 03:33:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 123\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n[ {\n  "id" : "3fa85f64-5717-4562-b3fc-2c963f66afa6",\n  "name" : "string",\n  "email" : "apiteam@swagger.io",\n  "age" : 0\n} ]'
+
+-> POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":"a5f0ca5f-1ecd-4871-b0a9-057fffe5c7f7",\n    "name":"fuzzstring",\n    "email":"fuzzstring",\n    "age":1}\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 201 Created\r\nDate: Sun, 26 May 2024 03:33:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+-> GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users?age=1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 200 OK\r\nDate: Sun, 26 May 2024 03:33:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 123\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n[ {\n  "id" : "3fa85f64-5717-4562-b3fc-2c963f66afa6",\n  "name" : "string",\n  "email" : "apiteam@swagger.io",\n  "age" : 0\n} ]'
+
+-> GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 200 OK\r\nDate: Sun, 26 May 2024 03:33:03 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+-> GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 504 Gateway Time-out\r\nServer: awselb/2.0\r\nDate: Sun, 26 May 2024 03:34:16 GMT\r\nContent-Type: text/html\r\nContent-Length: 132\r\nConnection: keep-alive\r\n\r\n<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n'
+

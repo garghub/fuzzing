@@ -1,0 +1,86 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_application/api_oauth2_application.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 39245507969801337848951275704784924934
+Workers: 1
+Collected API operations: 4
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example F                  [ 25%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping .                     [ 50%]
+POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                   [ 75%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                    [100%]
+
+=================================== FAILURES ===================================
+____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example ____________
+1. Test Case ID: RQ6VKd
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET -H 'X-Request-ID: ' 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/example?filter='
+
+____________ POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: aYL0Na
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '[[{}, {"\u00bf": [-6.889515539755196e+16]}, {}], {}, {"\u00a2\r": {}, "\ud8a8\udc5eU\u0007\u008f\u00f9": [{"\u00e4\u0013": [], "\ubbaf": [{"\u00fb": true}, {}], "": [false, {"\u0098\u00f0/1\u00ba\u00f1y\u00ec": "O\u0083e#\u00b9\u0092\udb8b\udccc\u0098"}]}, [], {"\u0090\ud895\udd1f\u00d0\u000e\u0096": true}], "\ud839\udf28J\u00fb\ud9b1\ude9d\u0085\u001f": [false]}, {"\udbbe\udccd\u00f1\u008e\u001d": [{"\udb82\udfa3T\u00a6\u00a6\u00fd\u00fe\u00a6\u00c0\u0099(\u00fb%\uda48\uddd8": "r\u00a2\u009dN"}, {"\u00ad\u000f\u00fb\u0095v\u0086\u00c5\ud9ed\udf6d": -1.3375965687883041e+113, "=\uda4b\udebf\u00e6PGX\u0098\u009b-\u0099\u00ec\u00ec\u00d8\u00b7\ud88d\uddcd": -1.1125369292536007e-308}, null], "": [-3.402823466e+38, -0.3333333333333333, true]}, {}, {"\u00b1\u00e3\u00ab": [{"\u00db\u00c7\u00f8\u00c3\u0091)": {"": {"\u00ed": {}, "\u00d5": 424314637, "\u00f8\u00d1\u00ca": 424314637}}}, {}, {"d": 24892, "\u00b3\ud9dc\udff0\ud9ca\udf17": [], "\u0090\ud895\udd1f\u00d0\u000e\u0096": []}], "\t\u0080": [], "\u0099\ud9a7\uddfd-\udb60\ude56\udbf4\udeca\u00d0\u00fa\u00ad~\u0080\ud96e\ude4d": [{}, [{"": "\ud817\udc37+"}, [3.626881958918507e+16, -1.1125369292536007e-308], [null]]]}, [{"n\u00ec": [[2.699495221270428e+16, 19933, 67], [8235567935292685366, null], ["\u00d6\u000f\ud90f\ude6d\u00de\udbb1\udd86\u0092n\uda85\udc9f\ud91a\ude25\u0017y\ud9bf\udcd7V\ud9a3\udc87y\u00a2\udbf8\ude7av\u00cd\u008c", true]]}, [{"\ud9f8\udd2eU^": 2.225073858507e-311, ",\u0083\ud9b7\udea2\udb91\ude26S\b\u0007\u00fc\"\u00cc-\u009e\u00ca": "vS\u00cc\u0012{\u00b3\ud9dc\udfe1\u00f0\u0017", "\udb7f\udd9e\u00e77\u0080\u00e7\u00f1\udb29\udd7f}\u00c1_\u0091\u00dc": 2.717962421516575e+16}, [154, false, false]], {"\u00dal\u009b\u00fa\u00de\u00f3": [], "w\u0015b=\u0012\u00b2\u00f2": {"\u00cc\u009a\u0011\u00f4#\u00e0\udbdf\uddbc": false, "": 0.0, "\u0007\u00de~9\u0005\ud913\udc78\u00c8/\u00bd": 1.1}, "\u00d8": {}}], {"\uda35\ude65R\u00ad\ud9ec\ude36\ud91b\udf5c'"'"'R\ud9df\ude29\u00e2\u00cd\uda06\uddc5\u001e\u00cf-2k\u0088\u008c[#i": {"\u00f8": [[null], {"\u009a\ud8b5\ude32": -6.103515625e-05, "]y": false}, {"\u00daN\uda15\udcb0N\u00b7\u00e6\u00b4_\ud8a0\ude7dLH\u00f3": -98}], "\u00dd^9dZ\u008e\u0096\u00a5\u00db\u0005\u0014\u00a8\u0095\u00faK": {"L\u00db": {"J\u0002$I\u001b\u00c5_\u00e1\"\u00a5\u00f5\u0086\u009fJ|\u0013:\ud8e7\udd4d\u00d4zV": null}, "\u00d5\u00b9\u0005a": {"`\u0016\udb84\udf99\u00aa\u00a2\u00c5m$\udb23\udf456": {"\u00de\u0091u\u00bb\u00f1@\udacf\uddb5\u00e3\udb35\uddc0\u00dct\u0002": true, "\uda42\udd62\ud9de\udeed\u00be\udb9c\udf2d\u00b5*": 27738}, "\u0014\u00e5": {"7\u00fd(\u00c5\uda00\udfcd\udaf7\udeee\u0011": 1.7976931348623157e+308, "\ud9c9\udf53": 7275, "*0K": false}, "Y\u00dc\u0004Y\u00d2\u0000\u0013\ud887\udf24": [1.7976931348623157e+308, 1.5206562335415108e+16]}}, "\u00e8k\u00ad\udbb5\udd4c\uda14\udefd\u0003\ud9e4\udf1eq": {}}}, [{"\u0002QAZ\u009f\f2_\udab6\ude33\u0001}bJK\u00a6": {}, "K\ud8ad\udc32\u00bad\u00f1\udbae\udd85": [{"\udac1\udd7d7\u001c\u00ec\u00a9\u00c0s\uda45\udcdd\udb09\udf99": "\u00ae\ud8dc\udc4fU1\u00cd\u0085\u00ad", "\u0010$\u0092\u0088\u0007E": -1.175494351e-38, "\ud8e1\ude67\u00fe\u00d5\u00830": null}, 2.80780109739387e+16], "\u00fa\u00e9\u0088\u009fw\u0014": {"X": -3.402823466e+38, "": -1.7976931348623157e+308, "c\ud9d3\udd88z": 0.3333333333333333}}, [-98627395778601911745784772143228260669], {"\f\u00ae\u00cc": ["\u00a4\u00ee\u00e6\u0090"], "": ["\ud982\udc95\udbbd\udf04\udb83\udfdc\u00f6r\u00b9l", true, "vS\u00cc\u0012{\u00b3\ud9dc\udfe1\u00f0\u0017"], "Z]\u0097": 0.0}], {"\u001d": [{"\u00d8\u00baI\ud806\udd9d\u0018)\u00e6yJg\u00e1\u0095\u00c9\ud9db\udeef\u00a8": [-0.3333333333333333, "\u0090"]}, {"c\u00c3\u00a9\ud925\udc12\ud9d7\udd54S\ud967\ude10\u001fv\u00b0": true, "m\u00a8`\u00a8\u00c0\u63aaq\u00ae\u008f\u00a6\u0004\u0091\u0019\u008c\u00fd\u00ca\u00af": "_\u0003\ud989\udc30"}, [null, "\udb49\uddca\ud90d\ude2a\u0003~\u9404\udac9\udd12", null]], "r\u00cbtm5f": {"Bc": [false]}, "\ud831\uddca\u008e\u0094j\u00f4>S\u00ba\u00aa\u00a8": {"": -2.605934779991049e+16, "\u009c\u0019": null}}, "\ud947\udebei\u00e2\u0000\u00da\u00da\u00c5#\u3bba\u00ad\u00a5\u00eb\u001e\ud97e\udc0bn\u00fb", {"C": {"\u00d2": [21856, true, false]}}, {"": []}, {"\u0099\ud9e9\udd61\u001b\u00d8": -423316305230082}, {"\u00da5\ud8ee\udc06": {"\ud803\udf07": -2359754746446873474, "": true, "\ud86a\udc020\ud842\udd031": null}}]' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+_____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: qUNAck
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              36 / 36 passed          PASSED 
+    status_code_conformance                         13 / 36 passed          FAILED 
+    content_type_conformance                        36 / 36 passed          PASSED 
+    response_headers_conformance                    36 / 36 passed          PASSED 
+    response_schema_conformance                     36 / 36 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=39245507969801337848951275704784924934`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 3 failed in 5.60s ==========================
