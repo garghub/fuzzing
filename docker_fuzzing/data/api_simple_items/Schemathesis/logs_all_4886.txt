@@ -1,0 +1,103 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/api_simple_items.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 195906744724306561331971934168851574951
+Workers: 1
+Collected API operations: 5
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items .                                [ 20%]
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items F                               [ 40%]
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 60%]
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 80%]
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                    [100%]
+
+=================================== FAILURES ===================================
+__________________ POST /AAYUSHGARGBU/Simple_API/1.0.0/items ___________________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: 0ajkY5
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"id": -20, "name": "\ud926\udf02~\u00e8", "\f": {"\u0003\u00ead\u0006\u0014\u00cc\u00eb\n\udbc1\udf45\ud8b4\udd74\u008c\udb8f\udea5k\ud96e\udefe\ud8bf\udd48j\u00f2\u00ac.\udb8f\udf28\u00e4\u00f3\u00c3\uda9a\ude2e": [{"": [false, -940975076, 21976], "\ud81c\udc29\u00eao\uda7f\uddb8\u009c[\ud9d2\udd0el": [{"\u001cg\u000b\uda60\uddb8": null, "\u00fc\u00ad\u00944,\u001f\u00ea\udbc6\udf09\u0099\u00aa\u00bd": "\u00e2nt\u00a0\udbf6\ude76"}, {}, [false, null]], "\ud8b8\udebc\u0004\u00f7D\ud9c6\udecc\u00db": [{" \u0006\u00f8\udaa8\udf53\u001c\u001f<\u00a7\f\u00b1\uda12\udf93\u0004\u00e3\u00db\uf52a1\u00e0\u0012\u00bc\u00e8\u00dd\u00bcD\u0095\u00d3Y\\\u00c9\u00cd\u00e4\b": "2\u000b\u00b7\u00c9\u0017a\udaa4\udc75", "\u00e7": 305243061}]}, {}, [{"": null, "\u0015xP": []}, [{"\u00c9v)\u0094z\u0002\u001b5\u00ec\ud80f\ude31\u00f0Z\ud957\udd36\u00c9": "", "t\ud93f\ude3f\u00a6": 0.0, "": false}], ["", {}, {"\ucc2a\udadd\uddb6\b\udb98\ude43": -1.175494351e-38}]]], "": {}}, "r\udbe9\udeeb": [], "": [], "SZ*\udb3a\ude8d\u00c6<\u00af\u00f9\ud9b4\uddc0\u00b7\u00c6T\uda14\udde7\u000e": {}, "\u00ae '"'"'\u00f7\u00b6q\u00b4\u00eb": [[[]]], "\u00fan\u009e\uda41\udcabp\u00c3\udaf3\udd0a\u00f6\u00b8\u009b;\u0094": [{"f\u008e": false, "": true, "G\u00dd\u0083;": true}, {"\udac5\udcf9\u0099\u001e": {"\u00eb\udae6\uddbb'"'"'4\u00c1": -113}, "\udaa0\udd08K\u009a\ud967\udec1\u00ceY/": "\udb6e\udcac"}, {"\u001b\ud876\udc59\u009b\u00c0\u00e7\u00f67\u00ef\u00ec\ud9c5\udfebZ\u0093\u00f8\u00ebE\u0099": [-5e-324, "\u00cd\uda75\udf95\u009f\u0083", 6.103515625e-05]}]}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items
+
+______________ GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+1. Test Case ID: CVPeLL
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+______________ PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+1. Test Case ID: Peajhl
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{"id": 0, "name": ""}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+_____________ DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: uMAimF
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              52 / 52 passed          PASSED 
+    status_code_conformance                         19 / 52 passed          FAILED 
+    content_type_conformance                        52 / 52 passed          PASSED 
+    response_headers_conformance                    52 / 52 passed          PASSED 
+    response_schema_conformance                     52 / 52 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=195906744724306561331971934168851574951`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 4 failed in 17.71s =========================

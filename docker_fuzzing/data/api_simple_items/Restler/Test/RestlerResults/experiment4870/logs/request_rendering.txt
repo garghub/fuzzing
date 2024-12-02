@@ -1,0 +1,17 @@
+
+2024-05-04 01:10:42.928: Generation-1
+2024-05-04 01:10:42.928: 	Rendered requests: 2 / 5
+2024-05-04 01:10:42.928: 	Rendered requests with "valid" status codes: 2 / 2
+2024-05-04 01:10:42.928: 	Rendered requests determined to be fully valid (no resource creation failures): 2 / 2
+2024-05-04 01:10:42.928: List of failing requests:
+-------------------------
+
+
+2024-05-04 01:10:44.920: Generation-2
+2024-05-04 01:10:44.920: 	Rendered requests: 5 / 5
+2024-05-04 01:10:44.920: 	Rendered requests with "valid" status codes: 5 / 5
+2024-05-04 01:10:44.920: 	Rendered requests determined to be fully valid (no resource creation failures): 5 / 5
+
+2024-05-04 01:10:44.922: 	Never Rendered requests:
+-------------------------
+

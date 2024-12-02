@@ -1,0 +1,103 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/api_simple_items.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 96871090316899666219851361077965523273
+Workers: 1
+Collected API operations: 5
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items .                                [ 20%]
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items F                               [ 40%]
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 60%]
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 80%]
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                    [100%]
+
+=================================== FAILURES ===================================
+__________________ POST /AAYUSHGARGBU/Simple_API/1.0.0/items ___________________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: nP9D8D
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"id": -16, "name": "", "^": [[-1.401298464324817e-45], [[-31, "\u008a\u00e1\u00f2\u00b9\u0002", null], {"": {}}, 0.5], {"\u0019": {"\u00ee": -28977}}], "\u00a0j\u000b": {"\u0001": {"=": {}, "\udaac\udc237\udaf0\uddad\uda1a\uddde\udbf9\udeda\u00c9\u00b0Y\u00932\u00d2\uda75\uddec\u00f4\u0097\u009f": {"2zg\u00e8": true, "\f\u00b0\udb3c\udfc0\u00b2\u00f31": 24043}}, "\u00fcA\u00ce\udb21\udca6\ud927\udf72": {"\u00bb": [["-\u00f4\u00dd\uf7f3", 65, -1.4702776797585446e+82], [], null], "o\u00b9\ud8fb\udef5": {"63\u00f6M\u1d00": [[], null, [9345, 2.2250738585072014e-308, false]]}}, "": [[{"XM\u0011\u00b6S\udbf9\udff1\u0093\u00ff\udadb\ude09\u0019df\u0014\u00df\u0086\u00fc\u0097\u00df\u00a8": true, "G\u00e6\u00c8\ud8c9\udc4cM": null, "\u00e2": true}], [[], 2.690866360346529e+16, ["=\u00feSg\u0090\u00ceG\u00f4", false, 10725]], {"Mf\u00cf\u00e1T\uda06\ude2d\udb13\ude70b": "\u001f\udb39\udef3"}]}, "\u00b8": {"X\u001e2\u00c7$\u0082": null}, "\u0012u": [null], "\u00b5-H": {"\u00f6\u0098": {}, "\u00d4\u00b1\u00cc\u00c3": {}}, "": {}, "\u0014": [], "v\u00d6x\u5265K\udb2a\udc82\u00b2\u00a5\u009f\u00aa": {"\u00f0": [null, -1.1, null]}, "Z\u00da": [{}, {"\udb04\udc98\ud90b\udc82": "V\u00be>\udb2e\udea0\u0007\ud8dd\udda6\u0007\u00e5"}, {"\ud9d4\ude62\u0084\ud95a\udda3": [], "\u00b0\ud90b\udfc7\u0094": [{"\uda2e\ude2d\ud846\udce4F\u00ba\u00b0\u00a5": null}], "\u0082\u00d5T\u00e7\u00dc@\u00c0": []}], "\ud9bd\udc37\uda62\udd4f": [{"": [{"\ud8df\uddaa": null, "\u0000\u00db\udb3f\udd58\\l": "\u0011", "4\uda3a\uddba\u00a1\u001ef\u00b5\u0095\ud9a8\udd10": "\u0017\u008b"}, [], {"": [true, true, -6502], "\u008c|y6\u00d7\ud8a7\ude28C": {"": true, "m\u00da\u00d1)\ud9ac\udd0f\u00e5w\ud8f0\uddfc\u00d5#\udbf3\ude41": false}, "\ud9eb\udc84": 1.0570428736540746e+16}]}, -3.74347433129433e+16, {"\u001c\u008f\u00af\u00e8\udb6f\udf43\udb0e\udd164\u00c8A~lO": [581891610, {}, [{"\u00d4\u00dd\u00b9": null, "\uda39\udd5a": "\u001c\u00e9", "\u00da\u00ca\u00ac": "\udb26\udcc8N\u00d73\u00c0"}, [null, -28182, {"!&": -1.1}], {"'"'"'\u009a:)\u00b6\udb59\ude68\u5279\udb35\udfa7wu": null, "\u00d9\ud950\udd98\u0005\u000fR.\u00da\ud977\uddd2\udb47\ude50\udbde\udd29\u00a7^\udb67\udd38\u9065}\u008a\ud98f\udec0": null}]], "M8\u00f8\u00c8\u00bc\u008e": 427, "\u5372#{\u00c4v\u00be(\u00b0\u00c3\u0085e\u00b8h\udaa7\uddd6\ud8e6\udc16q\u00e9\udb41\ude53G": [[-9007199254740992.0, false], [{}, [-26856, true], [null, [true, null, 2.2250738585e-313]]]]}]}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items
+
+______________ GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: qraSmw
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+______________ PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+1. Test Case ID: 3JIOEe
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{"id": 0, "name": ""}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+_____________ DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _____________
+1. Test Case ID: C1Tvgs
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              33 / 33 passed          PASSED 
+    status_code_conformance                         4 / 33 passed           FAILED 
+    content_type_conformance                        33 / 33 passed          PASSED 
+    response_headers_conformance                    33 / 33 passed          PASSED 
+    response_schema_conformance                     33 / 33 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=96871090316899666219851361077965523273`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 4 failed in 4.76s ==========================

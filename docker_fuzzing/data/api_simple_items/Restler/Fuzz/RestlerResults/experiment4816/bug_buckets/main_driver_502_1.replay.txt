@@ -1,0 +1,41 @@
+################################################################################
+ main_driver_502
+
+ Hash: main_driver_502_070f35ffe6c5f93809d3d93aa4d5ae482762d78e
+
+ To attempt to reproduce this bug using restler, run restler with the command
+ line option of --replay_log <path_to_this_log>.
+ If an authentication token is required, you must also specify the token_refresh_cmd.
+
+ This log may contain specific values for IDs or names that were generated
+ during fuzzing, using the fuzzing dictionary. Such names will be re-played
+ without modification. You must update the replay log manually with any changes
+ required to execute the requests in your environment (for example, replacing
+ pre-created account, subscription, or other resource IDs, as needed).
+################################################################################
+
+-> GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 200 OK\r\nDate: Thu, 23 May 2024 14:24:33 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 39\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(11.0.14)\r\n\r\n[ {\n  "id" : 0,\n  "name" : "string"\n} ]'
+
+-> POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 201 Created\r\nDate: Thu, 23 May 2024 14:24:52 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(11.0.14)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+
+-> PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 200 OK\r\nDate: Thu, 23 May 2024 14:25:01 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(11.0.14)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+
+-> POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 201 Created\r\nDate: Thu, 23 May 2024 14:25:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(11.0.14)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+
+-> DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 502 Bad Gateway\r\nServer: awselb/2.0\r\nDate: Thu, 23 May 2024 14:25:14 GMT\r\nContent-Type: text/html\r\nContent-Length: 122\r\nConnection: keep-alive\r\n\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n'
+

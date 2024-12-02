@@ -1,0 +1,101 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/api_simple_items.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 231509308539939985819512279227438060340
+Workers: 1
+Collected API operations: 5
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items .                                [ 20%]
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items F                               [ 40%]
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 60%]
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 80%]
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                    [100%]
+
+=================================== FAILURES ===================================
+__________________ POST /AAYUSHGARGBU/Simple_API/1.0.0/items ___________________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: 8EzM9X
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"id": 96, "name": "\u00b0\ud873\udf36\u0012\u0000y", "": {"\ud8a1\udf0b\u0092R\udacc\ude80$$u": null, "\u00c7\u00b3\uda62\udcf0": {"\r\ud916\udc19\ud9bf\ude47\udb7e\udf12": [], "5v6\u00e3\u00a0\u0087x\u00eb6\u0090\udabc\udfd7A\u000b": {}, "M\u00df\u00f6\udb9d\udcbf": {}}}, "\u001c\ud804\udc021\u0081\u00dd\ud930\udc9a\u00be)\ud803\udc3e\ud893\udfcf\u00dbAB": ["", {}, [{"": {}, "L\ud95f\ude50\u0007S": {"": "\u0083", "Z": null, "]\uda64\uddbe\u00d0\\\u00ee\u00e8": false}}]], "i1": {"\u00cd\udbe2\udf56\udade\udc94`\u0095\u00d9\ud8e5\udc7e\u00a1\u009a\u001f\u0084": [[]], "\"\u00eb\ud942\ude22\u0005\ud9ae\udcbe4\u00ac\u00b8H\u00c5*\u0087\u00acEF\u00a3&\u009cW\u0014n\udbbb\ude21": {}, "\u00df\ud95d\udd3f\u0007": {"\r\ud916\udc19\ud9bf\ude47\udb7e\udf12": 15121, "\n\u00e1\ud93e\ude0d\u00f8:yQ": "\u00f8\uda5b\udf17\ud9eb\udeb9\u0017\ud8c1\udedc\ud8e6\udd23"}}, "\u0092\u001d\u0082\u0011\u00d0\u0012\ud830\udce2W": [[[["\u00cbv\t\u00bc\uaa74\u00f5\udabd\udc7c", 0.0, 2.220446049250313e-16], -117, {"\u00ba\ud917\udf3c\ud9f7\udc52Q\u00bf\u00b6": {"\u00b0\\\ud9ac\udfd3\u00ad\u00db\u00bd\u00c4E": 122, "\u00ac*\u000bDs`": -24637, "\udb49\udd8a\u00cc\u00a9\ud850\udcfd": -26618}, "": ["0\u00da\u00fcm\u009d\u00b2"], "\b\u000eA": []}]], [{"\u00a4": null}, [], -20604]], "\u0015\u00e4\u0013\u009c>": [], "xH\u001f\u00e1\u00db": [{"": [null, 1598655925], "\u0015\u00be2\u0086\u00bd\u0093:\u00fd!": [11984, "\u00fd\u0084\u0003", "c"]}, []], "\udaf5\udc6b\udb87\uddf8\u00c1\udadd\udfff\uda89\ude95(": [{"": {}, "K": {}, "\u37a1\u001a\u00f8\ud876\uddff": 17842}, [-1.175494351e-38, false, 12166094504843359516683658360602181668], {}], "\u001fS\u00fd\u000b\u0006\u00f0x": {"\u00ec?": ["\ud940\udf21z*\ud8b9\udc3a\u001a\uda71\udecf\ud853\udf52\udaa2\udc54Z"], "w\u0086\u00aa\udb27\uddb2\u0019\uda65\udd1a\udb0e\udc3a\u00bc\u00c5\ud848\udd05\u00dd": {}}, "\uaede\u83f3\"\u0088\u00c6\u00df#\u0007\u0089\u0093": [["\\\u00b4\ud819\udc3d<Y\u00ac\udaed\udc5f", "w\u000b\u0091B\ud9d0\udf8b\\,U&\"8"], {"\uda5b\udc85\udb1e\udcc9\u00f6\u00b2\u00c5l\u00895": [null, "\udbfc\udeb0\u0012\u00d5\udb6e\uded6\u00fc\u00d1\u00d6", 2.2250738585072014e-308]}, []], "K\udb85\udc6e\u0083": [], "\u0083\ud9f8\uddb5\u0095\u0082\uda0a\udc36.\u00f6y\u00ce=+\u0088\u0006": [], "\u0014\u00fb\u00d2\ud80a\udf3d": {"C\u0015\u0015p\udb09\udfe4": [null]}, "\u00ac\udb83\udd1a\ud807\udf20:": {}, "\u00df\u00bf\u0005\u0098\u0012d\u00a47": [[false, -4.006574313607439e+16, -2.2250738585e-313], [null, false, false]]}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items
+
+______________ GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+1. Test Case ID: J1Oo48
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+______________ PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+1. Test Case ID: Mnh6MT
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{"id": 0, "name": ""}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+_____________ DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _____________
+1. Test Case ID: K9Nk47
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              36 / 36 passed          PASSED 
+    status_code_conformance                         8 / 36 passed           FAILED 
+    content_type_conformance                        36 / 36 passed          PASSED 
+    response_headers_conformance                    36 / 36 passed          PASSED 
+    response_schema_conformance                     36 / 36 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=231509308539939985819512279227438060340`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 4 failed in 5.03s ==========================

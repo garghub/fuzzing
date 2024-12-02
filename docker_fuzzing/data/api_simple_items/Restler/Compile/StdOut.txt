@@ -1,0 +1,140 @@
+[05/04/2024 01:10:30] Generating grammar...
+[05/04/2024 01:10:30] Getting requests...
+[05/04/2024 01:10:30] Getting dependencies...
+[05/04/2024 01:10:30] Getting path consumers...
+[05/04/2024 01:10:30] Getting query consumers...
+[05/04/2024 01:10:30] Getting header consumers...
+[05/04/2024 01:10:30] Getting body consumers...
+[05/04/2024 01:10:30] Getting producers...
+[05/04/2024 01:10:30] Done processing producers
+[05/04/2024 01:10:30] Compute dependencies
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }[
+[[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] [05/04/2024 01:10:30] 05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Get }[
+05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }[05/04/2024 01:10:30
+] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Put }[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Delete }
+Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Delete }
+
+
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Get }
+[[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Get }
+05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Get }[05/04/2024 01:10:30] 
+Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] Second pass dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:10:30] Done dependencies for request { endpoint = "/items/{itemId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:10:30] Assigning equality constraints...
+[05/04/2024 01:10:30] Getting ordering constraints...
+[05/04/2024 01:10:30] Dependency analysis completed.
+[05/04/2024 01:10:30] Generating request primitives...
+Writing new dictionary to /mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/dict.json
+[05/04/2024 01:10:30] Generating python grammar...
+[05/04/2024 01:10:30] Get requests
+[05/04/2024 01:10:30] Done get requests
+[05/04/2024 01:10:32] Done generating python grammar.
+Workflow completed.  See /mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile for REST-ler grammar.

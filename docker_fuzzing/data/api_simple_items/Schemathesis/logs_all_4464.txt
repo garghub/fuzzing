@@ -1,0 +1,59 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/api_simple_items.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 256044834742398664162804879315084466152
+Workers: 1
+Collected API operations: 5
+Collected API links: 0
+API probing: ...API probing: ERROR
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items E                                [ 20%]
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items E                               [ 40%]
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} E                       [ 60%]
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} E                       [ 80%]
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} E                    [100%]
+
+==================================== ERRORS ====================================
+___________________ GET /AAYUSHGARGBU/Simple_API/1.0.0/items ___________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+__________________ POST /AAYUSHGARGBU/Simple_API/1.0.0/items ___________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+______________ GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+______________ PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+Need more help?
+    Join our Discord server: https://discord.gg/R9ASRAmHnA
+=================================== SUMMARY ====================================
+
+No checks were performed.
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================= 5 errored in 814.89s =============================
