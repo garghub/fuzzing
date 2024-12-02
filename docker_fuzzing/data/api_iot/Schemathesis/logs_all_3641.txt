@@ -1,0 +1,294 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_iot/api_iot.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 186787591216583525847116339539488024622
+Workers: 1
+Collected API operations: 15
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_iot/1.0.0/devices F                                 [  6%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/devices F                                [ 13%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/{deviceId}/{valu[...] F [ 20%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/{deviceId}/{valu[...] F [ 26%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId} F            [ 33%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId}/{val[...] F [ 40%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId}/{val[...] F [ 46%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/lightingSummary F                         [ 53%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature F                             [ 60%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/forecast/{days} F             [ 66%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId} F                    [ 73%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId}/heater F             [ 80%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId}/heater/{stat[...] F [ 86%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/zones F                                   [ 93%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/zones/{zoneId}/quiet F                    [100%]
+
+=================================== FAILURES ===================================
+___________________ GET /AAYUSHGARGBU/api_iot/1.0.0/devices ____________________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: 97E9Vn
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/devices?skip=0'
+
+___________________ POST /AAYUSHGARGBU/api_iot/1.0.0/devices ___________________
+1. Test Case ID: jLZR9r
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"uri": "http://10.0.0.220:8080", "id": "0729a580-2240-11e6-9eb5-0002a5d5c51b"}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/devices
+
+_____ POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/{deviceId}/{value} _____
+1. Test Case ID: xaE1ZM
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/0/1
+
+ POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/{deviceId}/{value}/timer/{timeunit} 
+1. Test Case ID: QSAS7u
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/0/0/timer/0
+
+_________ GET /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId} _________
+1. Test Case ID: KPZKSK
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/0
+
+____ POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId}/{value} _____
+1. Test Case ID: IUjyQX
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/false/false
+
+ POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId}/{value}/timer/{minutes} 
+1. Test Case ID: 1xFCDp
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/false/false/timer/0
+
+_______________ GET /AAYUSHGARGBU/api_iot/1.0.0/lightingSummary ________________
+1. Test Case ID: FCNReB
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/lightingSummary
+
+_________________ GET /AAYUSHGARGBU/api_iot/1.0.0/temperature __________________
+1. Test Case ID: nRiMB2
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/temperature
+
+_________ GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/forecast/{days} __________
+1. Test Case ID: FHqVWd
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/temperature/forecast/0
+
+_____________ GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId} _____________
+1. Test Case ID: HoUA3k
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/temperature/0
+
+_________ GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId}/heater __________
+1. Test Case ID: jefUUy
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/temperature/0/heater
+
+_____ POST /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId}/heater/{state} _____
+1. Test Case ID: 3j5qyP
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/temperature/0/heater/0
+
+____________________ GET /AAYUSHGARGBU/api_iot/1.0.0/zones _____________________
+1. Test Case ID: wOmlFr
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/zones
+
+_____________ GET /AAYUSHGARGBU/api_iot/1.0.0/zones/{zoneId}/quiet _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: BwSeTn
+
+- Undocumented HTTP status code
+
+    Received: 400
+    Documented: 200
+
+[400] Bad Request:
+
+    `<html>
+    <head><title>400 Bad Request</title></head>
+    <body>
+    <center><h1>400 Bad Request</h1></center>
+    </body>
+    </html>`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0/zones/%19%00%1D/quiet
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              164 / 164 passed          PASSED 
+    status_code_conformance                         7 / 164 passed            FAILED 
+    content_type_conformance                        164 / 164 passed          PASSED 
+    response_headers_conformance                    164 / 164 passed          PASSED 
+    response_schema_conformance                     164 / 164 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=186787591216583525847116339539488024622`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================= 15 failed in 22.71s ==============================

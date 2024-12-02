@@ -1,0 +1,381 @@
+Random seed: 12345
+Setting fuzzing schemes: directed-smoke-test
+2024-05-04 00:27:45.479: Going to fuzz a set with 15 requests
+2024-05-04 00:27:45.479: Request-0: Value Combinations: 4
+2024-05-04 00:27:45.479: Request-1: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-2: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-3: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-4: Value Combinations: 6
+2024-05-04 00:27:45.479: Request-5: Value Combinations: 4
+2024-05-04 00:27:45.479: Request-6: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-7: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-8: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-9: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-10: Value Combinations: 4
+2024-05-04 00:27:45.479: Request-11: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-12: Value Combinations: 3
+2024-05-04 00:27:45.479: Request-13: Value Combinations: 2
+2024-05-04 00:27:45.479: Request-14: Value Combinations: 4
+2024-05-04 00:27:45.479: Avg. Value Combinations per Request: 2.8666666666666667
+2024-05-04 00:27:45.479: Median Value Combinations per Request: 2
+2024-05-04 00:27:45.479: Min Value Combinations per Request: 2
+2024-05-04 00:27:45.479: Max Value Combinations per Request: 6
+2024-05-04 00:27:45.479: Total dependencies: 0
+
+2024-05-04 00:27:45.482: Generation: 1 / Sequences Collection Size: 15 
+(After directed-smoke-test Extend)
+
+Rendering request 0 from scratch
+
+2024-05-04 00:27:46.102: Request 0
+2024-05-04 00:27:46.102: Endpoint - /lighting/switches/{deviceId}/{value}
+2024-05-04 00:27:46.102: Hex Def - 0f2e99dd50c3a6092fe03b1f8e7e5a7129741d66
+2024-05-04 00:27:46.102: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:46.103: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'switches'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		+ restler_fuzzable_group: ['True', 'False']
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 1 from scratch
+
+2024-05-04 00:27:46.516: Request 1
+2024-05-04 00:27:46.516: Endpoint - /temperature/{zoneId}
+2024-05-04 00:27:46.516: Hex Def - 16b22ff485c1864603cb71d8c12fbf3890c56984
+2024-05-04 00:27:46.516: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:46.517: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 2 from scratch
+
+2024-05-04 00:27:46.923: Request 2
+2024-05-04 00:27:46.923: Endpoint - /lightingSummary
+2024-05-04 00:27:46.923: Hex Def - 310a06fb09ca6a15f45e5c8e9ec8b26bcfc9c692
+2024-05-04 00:27:46.923: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:46.924: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lightingSummary'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 3 from scratch
+
+2024-05-04 00:27:47.289: Request 3
+2024-05-04 00:27:47.289: Endpoint - /devices
+2024-05-04 00:27:47.289: Hex Def - 5d1037e240236e5ea21ae86422b7e151a857e07e
+2024-05-04 00:27:47.289: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:47.289: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'devices'
+		- restler_static_string: '?'
+		- restler_static_string: 'skip='
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '&'
+		- restler_static_string: 'limit='
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 4 from scratch
+
+2024-05-04 00:27:47.704: Request 4
+2024-05-04 00:27:47.704: Endpoint - /zones/{zoneId}/quiet
+2024-05-04 00:27:47.704: Hex Def - 6389ef50f832c7a7ee4eebbff3f2367f8a5cc592
+2024-05-04 00:27:47.704: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:47.704: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'zones'
+		- restler_static_string: '/'
+		+ restler_fuzzable_group: ['basement', 'first-floor', 'second-floor']
+		- restler_static_string: '/'
+		- restler_static_string: 'quiet'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 5 from scratch
+
+2024-05-04 00:27:48.081: Request 5
+2024-05-04 00:27:48.081: Endpoint - /temperature/{zoneId}/heater/{state}
+2024-05-04 00:27:48.081: Hex Def - 84594259b8ce9bb054b54bceba3b578e1fd88d12
+2024-05-04 00:27:48.081: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:48.083: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'heater'
+		- restler_static_string: '/'
+		+ restler_fuzzable_group: ['False', 'True']
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 6 from scratch
+
+2024-05-04 00:27:48.440: Request 6
+2024-05-04 00:27:48.440: Endpoint - /zones
+2024-05-04 00:27:48.440: Hex Def - 892a06231f99027dd3198b591de027131c2e1262
+2024-05-04 00:27:48.440: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:48.441: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'zones'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 7 from scratch
+
+2024-05-04 00:27:48.848: Request 7
+2024-05-04 00:27:48.848: Endpoint - /temperature/{zoneId}/heater
+2024-05-04 00:27:48.848: Hex Def - 9c58a0e61e07b58e82ffb2aec63bd2fd6289624c
+2024-05-04 00:27:48.848: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:48.849: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'heater'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 8 from scratch
+
+2024-05-04 00:27:49.264: Request 8
+2024-05-04 00:27:49.264: Endpoint - /temperature
+2024-05-04 00:27:49.264: Hex Def - abc0d5ab9fac6796333278d69fc686428c10db46
+2024-05-04 00:27:49.264: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:49.265: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 9 from scratch
+
+2024-05-04 00:27:49.798: Request 9
+2024-05-04 00:27:49.798: Endpoint - /lighting/dimmers/{deviceId}/{value}
+2024-05-04 00:27:49.798: Hex Def - ad32eaa3410afd96a8327e9f9d34e4be544b5124
+2024-05-04 00:27:49.798: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:49.799: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'dimmers'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 10 from scratch
+
+2024-05-04 00:27:50.347: Request 10
+2024-05-04 00:27:50.347: Endpoint - /lighting/switches/{deviceId}/{value}/timer/{minutes}
+2024-05-04 00:27:50.347: Hex Def - c1e8ab7a426d86926e529d8c90b90a8c79dcb60d
+2024-05-04 00:27:50.347: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:50.348: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'switches'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		+ restler_fuzzable_group: ['True', 'False']
+		- restler_static_string: '/'
+		- restler_static_string: 'timer'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 11 from scratch
+
+2024-05-04 00:27:55.451: Request 11
+2024-05-04 00:27:55.451: Endpoint - /lighting/switches/{deviceId}
+2024-05-04 00:27:55.451: Hex Def - cad6f8a8dbfef743b5b16e12cb0ccbe6fe84a678
+2024-05-04 00:27:55.451: Sequence length that satisfies dependencies: 1
+2024-05-04 00:27:55.451: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'switches'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 12 from scratch
+
+2024-05-04 00:28:01.378: Request 12
+2024-05-04 00:28:01.378: Endpoint - /devices
+2024-05-04 00:28:01.378: Hex Def - f4e6a1aeb91e321a7943af4180f1bb3301c48f4c
+2024-05-04 00:28:01.378: Sequence length that satisfies dependencies: 1
+2024-05-04 00:28:01.379: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'devices'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "uri":'
+		+ restler_fuzzable_string: ['"http://10.0.0.220:8080"', '"fuzzstring"']
+		- restler_static_string: ',\n    "id":'
+		- restler_fuzzable_uuid4: <function restler_fuzzable_uuid4 at 0x7f4d60a66940>
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 13 from scratch
+
+2024-05-04 00:28:10.790: Request 13
+2024-05-04 00:28:10.790: Endpoint - /temperature/forecast/{days}
+2024-05-04 00:28:10.790: Hex Def - fa27693a2927ddb8e33b84947b196240f8459a33
+2024-05-04 00:28:10.790: Sequence length that satisfies dependencies: 1
+2024-05-04 00:28:10.791: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: '/'
+		- restler_static_string: 'forecast'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 14 from scratch
+
+2024-05-04 00:28:19.785: Request 14
+2024-05-04 00:28:19.785: Endpoint - /lighting/dimmers/{deviceId}/{value}/timer/{timeunit}
+2024-05-04 00:28:19.785: Hex Def - fc12b2c7c88525699b71a5c359ef7248ac5a996a
+2024-05-04 00:28:19.785: Sequence length that satisfies dependencies: 1
+2024-05-04 00:28:19.786: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'dimmers'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '/'
+		- restler_static_string: 'timer'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '?'
+		- restler_static_string: 'units='
+		+ restler_fuzzable_group: ['seconds', 'minutes', 'milliseconds']
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:28:19.786: Generation: 1 / Sequences Collection Size: 15 
+(After directed-smoke-test Render)
+
+2024-05-04 00:28:19.786: Final Swagger spec coverage: 15 / 15
+2024-05-04 00:28:19.786: Rendered requests: 15 / 15
+2024-05-04 00:28:19.786: Rendered requests with "valid" status codes: 15 / 15
+2024-05-04 00:28:19.786: Num fully valid requests (no resource creation failures): 15
+2024-05-04 00:28:19.786: Num requests not rendered due to invalid sequence re-renders: 0
+2024-05-04 00:28:19.786: Num invalid requests caused by failed resource creations: 0
+2024-05-04 00:28:19.786: Total Creations of Dyn Objects: 0
+2024-05-04 00:28:19.786: Total Requests Sent: {'gc': 0, 'main_driver': 15}
+2024-05-04 00:28:19.786: Bug Buckets: {}
+
+Testing completed -- below are the final stats:
+
+2024-05-04 00:28:19.832: Final Swagger spec coverage: 15 / 15
+2024-05-04 00:28:19.832: Rendered requests: 15 / 15
+2024-05-04 00:28:19.832: Rendered requests with "valid" status codes: 15 / 15
+2024-05-04 00:28:19.832: Num fully valid requests (no resource creation failures): 15
+2024-05-04 00:28:19.832: Num requests not rendered due to invalid sequence re-renders: 0
+2024-05-04 00:28:19.832: Num invalid requests caused by failed resource creations: 0
+2024-05-04 00:28:19.832: Total Creations of Dyn Objects: 0
+2024-05-04 00:28:19.832: Total Requests Sent: {'gc': 0, 'main_driver': 15}
+2024-05-04 00:28:19.832: Bug Buckets: {}

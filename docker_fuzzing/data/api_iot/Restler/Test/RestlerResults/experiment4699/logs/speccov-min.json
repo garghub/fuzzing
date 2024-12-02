@@ -1,0 +1,121 @@
+{
+    "0f2e99dd50c3a6092fe03b1f8e7e5a7129741d66_1": {
+        "verb": "POST",
+        "endpoint": "/lighting/switches/{deviceId}/{value}",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring/True HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"code\" : 0,\n  \"message\" : \"everything is ok\"\n}"
+    },
+    "16b22ff485c1864603cb71d8c12fbf3890c56984_1": {
+        "verb": "GET",
+        "endpoint": "/temperature/{zoneId}",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 144\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"id\" : \"string\",\n  \"name\" : \"string\",\n  \"value\" : 1.100000023841858,\n  \"units\" : \"fahrenheit\",\n  \"timestamp\" : \"2015-07-20T15:49:04-07:00\"\n}"
+    },
+    "310a06fb09ca6a15f45e5c8e9ec8b26bcfc9c692_1": {
+        "verb": "GET",
+        "endpoint": "/lightingSummary",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/lightingSummary HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 276\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"zones\" : [ {\n    \"id\" : \"string\",\n    \"name\" : \"string\",\n    \"deviceId\" : 0,\n    \"deviceType\" : \"dimmer\",\n    \"zone\" : \"string\"\n  } ],\n  \"zoneStatus\" : [ {\n    \"id\" : \"string\",\n    \"name\" : \"string\",\n    \"lastUpdate\" : \"2015-07-20T15:49:04-07:00\",\n    \"level\" : 0\n  } ]\n}"
+    },
+    "5d1037e240236e5ea21ae86422b7e151a857e07e_1": {
+        "verb": "GET",
+        "endpoint": "/devices",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/devices?skip=1&limit=1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:47 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 28\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n[ \"http://10.0.0.225:8080\" ]"
+    },
+    "6389ef50f832c7a7ee4eebbff3f2367f8a5cc592_1": {
+        "verb": "GET",
+        "endpoint": "/zones/{zoneId}/quiet",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/zones/basement/quiet HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:47 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n"
+    },
+    "84594259b8ce9bb054b54bceba3b578e1fd88d12_1": {
+        "verb": "POST",
+        "endpoint": "/temperature/{zoneId}/heater/{state}",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "POST /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring/heater/False HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"code\" : 0,\n  \"message\" : \"everything is ok\"\n}"
+    },
+    "892a06231f99027dd3198b591de027131c2e1262_1": {
+        "verb": "GET",
+        "endpoint": "/zones",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/zones HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 12\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n[ \"string\" ]"
+    },
+    "9c58a0e61e07b58e82ffb2aec63bd2fd6289624c_1": {
+        "verb": "GET",
+        "endpoint": "/temperature/{zoneId}/heater",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring/heater HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 43\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"id\" : \"string\",\n  \"state\" : \"string\"\n}"
+    },
+    "abc0d5ab9fac6796333278d69fc686428c10db46_1": {
+        "verb": "GET",
+        "endpoint": "/temperature",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/temperature HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:49 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 314\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"zones\" : [ {\n    \"id\" : 0,\n    \"name\" : \"string\",\n    \"inputPosition\" : 0,\n    \"outputPosition\" : 0,\n    \"zone\" : \"string\"\n  } ],\n  \"zoneStatus\" : [ {\n    \"id\" : \"string\",\n    \"name\" : \"string\",\n    \"value\" : 1.100000023841858,\n    \"units\" : \"fahrenheit\",\n    \"timestamp\" : \"2015-07-20T15:49:04-07:00\"\n  } ]\n}"
+    },
+    "ad32eaa3410afd96a8327e9f9d34e4be544b5124_1": {
+        "verb": "POST",
+        "endpoint": "/lighting/dimmers/{deviceId}/{value}",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:49 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"code\" : 0,\n  \"message\" : \"everything is ok\"\n}"
+    },
+    "c1e8ab7a426d86926e529d8c90b90a8c79dcb60d_1": {
+        "verb": "POST",
+        "endpoint": "/lighting/switches/{deviceId}/{value}/timer/{minutes}",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring/True/timer/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:50 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"code\" : 0,\n  \"message\" : \"everything is ok\"\n}"
+    },
+    "cad6f8a8dbfef743b5b16e12cb0ccbe6fe84a678_1": {
+        "verb": "GET",
+        "endpoint": "/lighting/switches/{deviceId}",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:53 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 103\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"id\" : \"string\",\n  \"name\" : \"string\",\n  \"lastUpdate\" : \"2015-07-20T15:49:04-07:00\",\n  \"level\" : 0\n}"
+    },
+    "f4e6a1aeb91e321a7943af4180f1bb3301c48f4c_1": {
+        "verb": "POST",
+        "endpoint": "/devices",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "POST /AAYUSHGARGBU/api_iot/1.0.0/devices HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    \"uri\":\"http://10.0.0.220:8080\",\n    \"id\":\"4bb81b8e-63da-419c-96d3-5499fd634722\"}\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:28:00 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n"
+    },
+    "fa27693a2927ddb8e33b84947b196240f8459a33_1": {
+        "verb": "GET",
+        "endpoint": "/temperature/forecast/{days}",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/forecast/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:28:08 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 666\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"city\" : {\n    \"id\" : 0,\n    \"name\" : \"string\",\n    \"lat\" : 1.100000023841858,\n    \"lon\" : 1.100000023841858,\n    \"country\" : \"string\"\n  },\n  \"values\" : [ {\n    \"date\" : \"2015-07-20T15:49:04-07:00\",\n    \"pressure\" : 1.100000023841858,\n    \"humidity\" : 0,\n    \"windSpeed\" : 1.100000023841858,\n    \"clouds\" : 0,\n    \"temperature\" : {\n      \"low\" : 1.100000023841858,\n      \"high\" : 1.100000023841858,\n      \"morning\" : 1.100000023841858,\n      \"day\" : 1.100000023841858,\n      \"evening\" : 1.100000023841858,\n      \"night\" : 1.100000023841858\n    },\n    \"weather\" : {\n      \"summary\" : \"string\",\n      \"description\" : \"string\",\n      \"icon\" : \"string\"\n    }\n  } ]\n}"
+    },
+    "fc12b2c7c88525699b71a5c359ef7248ac5a996a_1": {
+        "verb": "POST",
+        "endpoint": "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}",
+        "valid": 1,
+        "matching_prefix": [],
+        "request": "POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1/timer/1?units=seconds HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+        "response": "HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:28:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"code\" : 0,\n  \"message\" : \"everything is ok\"\n}"
+    }}

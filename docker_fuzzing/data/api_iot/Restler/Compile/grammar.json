@@ -1,0 +1,1508 @@
+{
+  "Requests": [
+    {
+      "id": {
+        "endpoint": "/devices",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "devices"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": [
+              {
+                "name": "skip",
+                "payload": {
+                  "LeafNode": {
+                    "name": "",
+                    "payload": {
+                      "Fuzzable": {
+                        "primitiveType": "Int",
+                        "defaultValue": "1"
+                      }
+                    },
+                    "isRequired": false,
+                    "isReadOnly": false
+                  }
+                }
+              },
+              {
+                "name": "limit",
+                "payload": {
+                  "LeafNode": {
+                    "name": "",
+                    "payload": {
+                      "Fuzzable": {
+                        "primitiveType": "Int",
+                        "defaultValue": "1"
+                      }
+                    },
+                    "isRequired": false,
+                    "isReadOnly": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/devices",
+        "method": "Post"
+      },
+      "method": "Post",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "devices"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": [
+              {
+                "name": "__body__",
+                "payload": {
+                  "InternalNode": [
+                    {
+                      "name": "",
+                      "propertyType": "Object",
+                      "isRequired": true,
+                      "isReadOnly": false
+                    },
+                    [
+                      {
+                        "LeafNode": {
+                          "name": "uri",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring",
+                              "exampleValue": "http://10.0.0.220:8080"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "id",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "Uuid",
+                              "defaultValue": "566048da-ed19-4cd3-8e0a-b7e0e1ec4d72",
+                              "exampleValue": "0729a580-2240-11e6-9eb5-0002a5d5c51b"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": [
+              {
+                "name": "Content-Type",
+                "payload": {
+                  "LeafNode": {
+                    "name": "",
+                    "payload": {
+                      "Constant": [
+                        "String",
+                        "application/json"
+                      ]
+                    },
+                    "isRequired": true,
+                    "isReadOnly": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/lighting/dimmers/{deviceId}/{value}",
+        "method": "Post"
+      },
+      "method": "Post",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "lighting"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "dimmers"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "Int",
+            "defaultValue": "1"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}",
+        "method": "Post"
+      },
+      "method": "Post",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "lighting"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "dimmers"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "Int",
+            "defaultValue": "1"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "timer"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "Int",
+            "defaultValue": "1"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": [
+              {
+                "name": "units",
+                "payload": {
+                  "LeafNode": {
+                    "name": "",
+                    "payload": {
+                      "Fuzzable": {
+                        "primitiveType": {
+                          "Enum": [
+                            "units",
+                            "String",
+                            [
+                              "seconds",
+                              "minutes",
+                              "milliseconds"
+                            ],
+                            "milliseconds"
+                          ]
+                        },
+                        "defaultValue": "seconds"
+                      }
+                    },
+                    "isRequired": false,
+                    "isReadOnly": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/lighting/switches/{deviceId}",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "lighting"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "switches"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/lighting/switches/{deviceId}/{value}",
+        "method": "Post"
+      },
+      "method": "Post",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "lighting"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "switches"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": {
+              "Enum": [
+                "value",
+                "String",
+                [
+                  "True",
+                  "False"
+                ],
+                null
+              ]
+            },
+            "defaultValue": "True"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/lighting/switches/{deviceId}/{value}/timer/{minutes}",
+        "method": "Post"
+      },
+      "method": "Post",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "lighting"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "switches"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": {
+              "Enum": [
+                "value",
+                "String",
+                [
+                  "True",
+                  "False"
+                ],
+                null
+              ]
+            },
+            "defaultValue": "True"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "timer"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "Int",
+            "defaultValue": "1"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/lightingSummary",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "lightingSummary"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/temperature",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "temperature"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/temperature/forecast/{days}",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "temperature"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "forecast"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "Int",
+            "defaultValue": "1"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/temperature/{zoneId}",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "temperature"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/temperature/{zoneId}/heater",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "temperature"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "heater"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/temperature/{zoneId}/heater/{state}",
+        "method": "Post"
+      },
+      "method": "Post",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "temperature"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "heater"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": {
+              "Enum": [
+                "state",
+                "String",
+                [
+                  "False",
+                  "True"
+                ],
+                null
+              ]
+            },
+            "defaultValue": "False"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/zones",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "zones"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/zones/{zoneId}/quiet",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_iot/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "zones"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": {
+              "Enum": [
+                "zoneId",
+                "String",
+                [
+                  "basement",
+                  "first-floor",
+                  "second-floor"
+                ],
+                null
+              ]
+            },
+            "defaultValue": "basement"
+          }
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "quiet"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    }
+  ]
+}

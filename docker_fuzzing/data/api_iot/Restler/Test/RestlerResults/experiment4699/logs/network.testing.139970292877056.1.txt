@@ -1,0 +1,375 @@
+
+Generation-1: Rendering Sequence-1
+
+	Request: 1 (Remaining candidate combinations: 4)
+	Request hash: 0f2e99dd50c3a6092fe03b1f8e7e5a7129741d66
+
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'switches'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		+ restler_fuzzable_group: [True, False, ...]
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:45.844: Sending: 'POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring/True HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 691bcb0d-b8f5-45d7-b1bc-b96db13b852c\r\n\r\n'
+
+2024-05-04 00:27:46.062: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "code" : 0,\n  "message" : "everything is ok"\n}'
+
+
+Generation-1: Rendering Sequence-2
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: 16b22ff485c1864603cb71d8c12fbf3890c56984
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:46.259: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 0f5e7da4-f7da-423a-a496-5760ca1027ae\r\n\r\n'
+
+2024-05-04 00:27:46.481: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 144\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : "string",\n  "name" : "string",\n  "value" : 1.100000023841858,\n  "units" : "fahrenheit",\n  "timestamp" : "2015-07-20T15:49:04-07:00"\n}'
+
+
+Generation-1: Rendering Sequence-3
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: 310a06fb09ca6a15f45e5c8e9ec8b26bcfc9c692
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lightingSummary'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:46.693: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/lightingSummary HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 36f0f100-22c2-4c49-b272-641fcc067679\r\n\r\n'
+
+2024-05-04 00:27:46.879: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 276\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "zones" : [ {\n    "id" : "string",\n    "name" : "string",\n    "deviceId" : 0,\n    "deviceType" : "dimmer",\n    "zone" : "string"\n  } ],\n  "zoneStatus" : [ {\n    "id" : "string",\n    "name" : "string",\n    "lastUpdate" : "2015-07-20T15:49:04-07:00",\n    "level" : 0\n  } ]\n}'
+
+
+Generation-1: Rendering Sequence-4
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: 5d1037e240236e5ea21ae86422b7e151a857e07e
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'devices'
+		- restler_static_string: '?'
+		- restler_static_string: 'skip='
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '&'
+		- restler_static_string: 'limit='
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:47.085: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/devices?skip=1&limit=1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 49ab8a51-ca7e-44a0-9501-56ca26ee0028\r\n\r\n'
+
+2024-05-04 00:27:47.252: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:47 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 28\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n[ "http://10.0.0.225:8080" ]'
+
+
+Generation-1: Rendering Sequence-5
+
+	Request: 1 (Remaining candidate combinations: 6)
+	Request hash: 6389ef50f832c7a7ee4eebbff3f2367f8a5cc592
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'zones'
+		- restler_static_string: '/'
+		+ restler_fuzzable_group: [basement, first-floor, ...]
+		- restler_static_string: '/'
+		- restler_static_string: 'quiet'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:47.475: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/zones/basement/quiet HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 918cfe0d-6b7d-4efc-a9a4-c8876287147f\r\n\r\n'
+
+2024-05-04 00:27:47.666: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:47 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+
+Generation-1: Rendering Sequence-6
+
+	Request: 1 (Remaining candidate combinations: 4)
+	Request hash: 84594259b8ce9bb054b54bceba3b578e1fd88d12
+
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'heater'
+		- restler_static_string: '/'
+		+ restler_fuzzable_group: [False, True, ...]
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:47.875: Sending: 'POST /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring/heater/False HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: f3561f88-3d7f-466e-ab31-3ccbb1130c74\r\n\r\n'
+
+2024-05-04 00:27:48.031: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "code" : 0,\n  "message" : "everything is ok"\n}'
+
+
+Generation-1: Rendering Sequence-7
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: 892a06231f99027dd3198b591de027131c2e1262
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'zones'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:48.242: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/zones HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: b4ef6f30-128c-4138-bdf4-da2f5cb39c43\r\n\r\n'
+
+2024-05-04 00:27:48.397: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 12\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n[ "string" ]'
+
+
+Generation-1: Rendering Sequence-8
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: 9c58a0e61e07b58e82ffb2aec63bd2fd6289624c
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'heater'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:48.642: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring/heater HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: d0939352-591a-4fad-84e4-919709709423\r\n\r\n'
+
+2024-05-04 00:27:48.798: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 43\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : "string",\n  "state" : "string"\n}'
+
+
+Generation-1: Rendering Sequence-9
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: abc0d5ab9fac6796333278d69fc686428c10db46
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:49.059: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/temperature HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 71061abd-397c-4c21-aecd-71a0ea05638c\r\n\r\n'
+
+2024-05-04 00:27:49.216: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:49 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 314\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "zones" : [ {\n    "id" : 0,\n    "name" : "string",\n    "inputPosition" : 0,\n    "outputPosition" : 0,\n    "zone" : "string"\n  } ],\n  "zoneStatus" : [ {\n    "id" : "string",\n    "name" : "string",\n    "value" : 1.100000023841858,\n    "units" : "fahrenheit",\n    "timestamp" : "2015-07-20T15:49:04-07:00"\n  } ]\n}'
+
+
+Generation-1: Rendering Sequence-10
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: ad32eaa3410afd96a8327e9f9d34e4be544b5124
+
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'dimmers'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:49.567: Sending: 'POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 5f74f2c5-0b1d-44ad-8582-6cfd84c0a8e4\r\n\r\n'
+
+2024-05-04 00:27:49.753: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:49 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "code" : 0,\n  "message" : "everything is ok"\n}'
+
+
+Generation-1: Rendering Sequence-11
+
+	Request: 1 (Remaining candidate combinations: 4)
+	Request hash: c1e8ab7a426d86926e529d8c90b90a8c79dcb60d
+
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'switches'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		+ restler_fuzzable_group: [True, False, ...]
+		- restler_static_string: '/'
+		- restler_static_string: 'timer'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:50.092: Sending: 'POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring/True/timer/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 8283e28a-05c8-48d7-867b-02936c14bb46\r\n\r\n'
+
+2024-05-04 00:27:50.294: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:50 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "code" : 0,\n  "message" : "everything is ok"\n}'
+
+
+Generation-1: Rendering Sequence-12
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: cad6f8a8dbfef743b5b16e12cb0ccbe6fe84a678
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'switches'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:52.061: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: d630e533-e2f4-464e-8e46-9d6d171d10d6\r\n\r\n'
+
+2024-05-04 00:27:53.316: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:27:53 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 103\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : "string",\n  "name" : "string",\n  "lastUpdate" : "2015-07-20T15:49:04-07:00",\n  "level" : 0\n}'
+
+
+Generation-1: Rendering Sequence-13
+
+	Request: 1 (Remaining candidate combinations: 3)
+	Request hash: f4e6a1aeb91e321a7943af4180f1bb3301c48f4c
+
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'devices'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "uri":'
+		+ restler_fuzzable_string: ["http://10.0.0.220:8080", "fuzzstring", ...]
+		- restler_static_string: ',\n    "id":'
+		- restler_fuzzable_uuid4: <function restler_fuzzable_uuid4 at 0x7f4d60a66940>
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:27:59.497: Sending: 'POST /AAYUSHGARGBU/api_iot/1.0.0/devices HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nContent-Length: 88\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: be057e1d-26df-4b92-adc3-2df0fb5d2882\r\n\r\n{\n    "uri":"http://10.0.0.220:8080",\n    "id":"4bb81b8e-63da-419c-96d3-5499fd634722"}\r\n'
+
+2024-05-04 00:28:00.221: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:28:00 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+
+Generation-1: Rendering Sequence-14
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: fa27693a2927ddb8e33b84947b196240f8459a33
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'temperature'
+		- restler_static_string: '/'
+		- restler_static_string: 'forecast'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:28:06.503: Sending: 'GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/forecast/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 67f98c8c-e016-4fc3-964d-64fd6a6ad1ff\r\n\r\n'
+
+2024-05-04 00:28:08.916: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:28:08 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 666\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "city" : {\n    "id" : 0,\n    "name" : "string",\n    "lat" : 1.100000023841858,\n    "lon" : 1.100000023841858,\n    "country" : "string"\n  },\n  "values" : [ {\n    "date" : "2015-07-20T15:49:04-07:00",\n    "pressure" : 1.100000023841858,\n    "humidity" : 0,\n    "windSpeed" : 1.100000023841858,\n    "clouds" : 0,\n    "temperature" : {\n      "low" : 1.100000023841858,\n      "high" : 1.100000023841858,\n      "morning" : 1.100000023841858,\n      "day" : 1.100000023841858,\n      "evening" : 1.100000023841858,\n      "night" : 1.100000023841858\n    },\n    "weather" : {\n      "summary" : "string",\n      "description" : "string",\n      "icon" : "string"\n    }\n  } ]\n}'
+
+
+Generation-1: Rendering Sequence-15
+
+	Request: 1 (Remaining candidate combinations: 4)
+	Request hash: fc12b2c7c88525699b71a5c359ef7248ac5a996a
+
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_iot/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'lighting'
+		- restler_static_string: '/'
+		- restler_static_string: 'dimmers'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '/'
+		- restler_static_string: 'timer'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '?'
+		- restler_static_string: 'units='
+		+ restler_fuzzable_group: [seconds, minutes, ...]
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 00:28:15.142: Sending: 'POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1/timer/1?units=seconds HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: ca55aec7-e3ba-45c5-8e00-c051bf286cc7\r\n\r\n'
+
+2024-05-04 00:28:18.678: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 22:28:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 50\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "code" : 0,\n  "message" : "everything is ok"\n}'
+

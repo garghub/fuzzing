@@ -1,0 +1,23 @@
+{
+  "SwaggerSpecFilePath": [
+    "/mnt/d/ag/github/lazarus_target_apis/api_iot/api_iot.json"
+  ],
+  "GrammarOutputDirectoryPath": "/mnt/d/ag/github/lazarus_target_apis/api_iot/Compile",
+  "CustomDictionaryFilePath": "/mnt/d/ag/github/lazarus_target_apis/api_iot/Compile/defaultDict.json",
+  "IncludeOptionalParameters": true,
+  "UseHeaderExamples": true,
+  "UsePathExamples": false,
+  "UseQueryExamples": true,
+  "UseBodyExamples": true,
+  "UseAllExamplePayloads": false,
+  "DiscoverExamples": false,
+  "ExamplesDirectory": "",
+  "DataFuzzing": true,
+  "ReadOnlyFuzz": false,
+  "ResolveQueryDependencies": true,
+  "ResolveBodyDependencies": true,
+  "ResolveHeaderDependencies": false,
+  "UseRefreshableToken": true,
+  "AllowGetProducers": false,
+  "TrackFuzzedParameterNames": false
+}
