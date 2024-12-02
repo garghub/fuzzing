@@ -1,0 +1,59 @@
+InvalidValueChecker_500: 2
+InvalidDynamicObjectChecker_20x: 1
+main_driver_504: 3
+main_driver_502: 2
+Total Buckets: 8
+-------------
+InvalidValueChecker_500 - Bug was reproduced - InvalidValueChecker_500_1.replay.txt
+Hash: InvalidValueChecker_500_88567f9d3f3b318accbfb1f212350d4becaefe36
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags?tags=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+InvalidValueChecker_500 - Bug was reproduced - InvalidValueChecker_500_2.replay.txt
+Hash: InvalidValueChecker_500_397116bc35e49e462355f341675ef774863f4d84
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/login?username=fuzzstring&password=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+InvalidDynamicObjectChecker_20x - Bug was reproduced - InvalidDynamicObjectChecker_20x_1.replay.txt
+Hash: InvalidDynamicObjectChecker_20x_a878b3ccb70723d20d5c312ce6097b6b1c2dda17
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "petId":1,\n    "quantity":1,\n    "shipDate":2019-06-26T20:20:39+00:00,\n    "status":status,\n    "complete":true}\r\n
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_1.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_74901785196110954c0422bb0edf0cbbd0e9a9b8
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus?status= HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/logout HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/1/uploadImage HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "petId":1,\n    "quantity":1,\n    "shipDate":2019-06-26T20:20:39+00:00,\n    "status":status,\n    "complete":true}\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_2.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_a878b3ccb70723d20d5c312ce6097b6b1c2dda17
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/logout HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithArray HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "petId":1,\n    "quantity":1,\n    "shipDate":2019-06-26T20:20:39+00:00,\n    "status":status,\n    "complete":true}\r\n
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_3.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_882bc06f190b031a7aeccff9abcea816a5a61b12
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/1/uploadImage HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "petId":1,\n    "quantity":1,\n    "shipDate":2019-06-26T20:20:39+00:00,\n    "status":status,\n    "complete":true}\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithArray HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_502 - Unable to reproduce bug - main_driver_502_1.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_502_a878b3ccb70723d20d5c312ce6097b6b1c2dda17
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "petId":1,\n    "quantity":1,\n    "shipDate":2019-06-26T20:20:39+00:00,\n    "status":status,\n    "complete":true}\r\n
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/logout HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_502 - Unable to reproduce bug - main_driver_502_2.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_502_882bc06f190b031a7aeccff9abcea816a5a61b12
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "petId":1,\n    "quantity":1,\n    "shipDate":2019-06-26T20:20:39+00:00,\n    "status":status,\n    "complete":true}\r\n
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "username":fuzzstring,\n    "firstName":fuzzstring,\n    "lastName":fuzzstring,\n    "email":fuzzstring,\n    "password":fuzzstring,\n    "phone":fuzzstring,\n    "userStatus":1}\r\n
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithArray HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------

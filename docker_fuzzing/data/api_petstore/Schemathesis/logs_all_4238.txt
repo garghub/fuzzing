@@ -1,0 +1,423 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_petstore/api_petstore.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 38632206051517596327703758722035777689
+Workers: 1
+Collected API operations: 20
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet F                               [  5%]
+PUT /AAYUSHGARGBU/api_petstore/1.0.0/pet E                                [ 10%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus F                   [ 15%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags F                     [ 20%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} F                        [ 25%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} F                       [ 30%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} F                     [ 35%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId}/uploadImage F           [ 40%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/inventory F                    [ 45%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order F                       [ 50%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} F              [ 55%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} F           [ 60%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user F                              [ 65%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithArray .              [ 70%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithList .               [ 75%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/login F                         [ 80%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/logout .                        [ 85%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} F                    [ 90%]
+PUT /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} F                    [ 95%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} F                 [100%]
+
+==================================== ERRORS ====================================
+___________________ PUT /AAYUSHGARGBU/api_petstore/1.0.0/pet ___________________
+Runtime Error
+
+'latin-1' codec can't encode character '\u0100' in position 0: Body ('Ā') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 816, in network_test
+        response = _network_test(case, *args)
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 848, in _network_test
+        response = case.call(**kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/models.py", line 310, in call
+        response = self.operation.schema.transport.send(
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/transports/__init__.py", line 143, in send
+        response = session.request(**data)  # type: ignore
+      File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 486, in send
+        resp = conn.urlopen(
+      File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+        httplib_response = self._make_request(
+      File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+        conn.request(method, url, **httplib_request_kw)
+      File "/usr/lib/python3.8/http/client.py", line 1256, in request
+        self._send_request(method, url, body, headers, encode_chunked)
+      File "/usr/lib/python3.8/http/client.py", line 1301, in _send_request
+        body = _encode(body, 'body')
+      File "/usr/lib/python3.8/http/client.py", line 164, in _encode
+        raise UnicodeEncodeError(
+    UnicodeEncodeError: 'latin-1' codec can't encode character '\u0100' in position 0: Body ('Ā') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+
+Runtime Error
+
+'latin-1' codec can't encode character '\U000c2b08' in position 0: Body ('\U000c2b08') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 816, in network_test
+        response = _network_test(case, *args)
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 848, in _network_test
+        response = case.call(**kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/models.py", line 310, in call
+        response = self.operation.schema.transport.send(
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/transports/__init__.py", line 143, in send
+        response = session.request(**data)  # type: ignore
+      File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 486, in send
+        resp = conn.urlopen(
+      File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+        httplib_response = self._make_request(
+      File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+        conn.request(method, url, **httplib_request_kw)
+      File "/usr/lib/python3.8/http/client.py", line 1256, in request
+        self._send_request(method, url, body, headers, encode_chunked)
+      File "/usr/lib/python3.8/http/client.py", line 1301, in _send_request
+        body = _encode(body, 'body')
+      File "/usr/lib/python3.8/http/client.py", line 164, in _encode
+        raise UnicodeEncodeError(
+    UnicodeEncodeError: 'latin-1' codec can't encode character '\U000c2b08' in position 0: Body ('\U000c2b08') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+
+Runtime Error
+
+'latin-1' codec can't encode character '\U0008e152' in position 3: Body ('\U0008e152') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 816, in network_test
+        response = _network_test(case, *args)
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 848, in _network_test
+        response = case.call(**kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/models.py", line 310, in call
+        response = self.operation.schema.transport.send(
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/transports/__init__.py", line 143, in send
+        response = session.request(**data)  # type: ignore
+      File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+      File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 486, in send
+        resp = conn.urlopen(
+      File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+        httplib_response = self._make_request(
+      File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+        conn.request(method, url, **httplib_request_kw)
+      File "/usr/lib/python3.8/http/client.py", line 1256, in request
+        self._send_request(method, url, body, headers, encode_chunked)
+      File "/usr/lib/python3.8/http/client.py", line 1301, in _send_request
+        body = _encode(body, 'body')
+      File "/usr/lib/python3.8/http/client.py", line 164, in _encode
+        raise UnicodeEncodeError(
+    UnicodeEncodeError: 'latin-1' codec can't encode character '\U0008e152' in position 3: Body ('\U0008e152') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+
+Need more help?
+    Join our Discord server: https://discord.gg/R9ASRAmHnA
+=================================== FAILURES ===================================
+__________________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet ___________________
+1. Test Case ID: A2pnXq
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 405
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/xml' -d '<Pet><name>doggie</name><photoUrl></photoUrl></Pet>' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet
+
+___________________ PUT /AAYUSHGARGBU/api_petstore/1.0.0/pet ___________________
+1. Test Case ID: WNdxPt
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404, 405
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d false https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet
+
+____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus _____________
+1. Test Case ID: QQL3H7
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags ______________
+1. Test Case ID: OWbjsQ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags
+
+_______________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} _______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: 5e3j9d
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET -H 'api_key: [Filtered]' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/0
+
+______________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} _______________
+1. Test Case ID: PFhf3p
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 405
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/0
+
+_____________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} ______________
+1. Test Case ID: EEXcZQ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/0
+
+________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId}/uploadImage _________
+1. Test Case ID: O873TZ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/octet-stream' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/0/uploadImage
+
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/store/inventory _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: N2YSjK
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET -H 'api_key: [Filtered]' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/store/inventory
+
+______________ POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order _______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: zJbhSl
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/store/order
+
+__________ GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} __________
+1. Test Case ID: 9b39Kl
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/store/order/1
+
+________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} _________
+1. Test Case ID: Ifofqa
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/store/order/1
+
+__________________ POST /AAYUSHGARGBU/api_petstore/1.0.0/user __________________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: wuqdxP
+
+- Response timeout
+
+    The server failed to respond within the specified limit of 10000.00ms
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"firstName": "\u001a", "\u00c5": {"~\u00e7\u00fd\u00f57\u0e71\u000e(\u0087\u008c\u00be\u00edC\u00d9\r\u00e3": -1.26724533035203e+16, "\ud837\ude96": [8.85035482224826e+293, -1718740684], "": [null]}, "lastName": "0533207\ud8f7\ude71\u00b5\u0002CP", "@\udb2c\udfbf": {"\ud91b\udf8a\udb12\udfe8\u0011\u00ed\u0096\u008c\u00a0\ud991\udc8e\u0013L2\u00f4\ud95b\udea2\u007f\u00f9\u00ab,:\u00ca": {"-\u0301\ud957\ude02\ud97f\udf00": {"\u0000": null, "l\u00b2W\ud9fe\ude72\u00d7\u00bf": true}, "\ud9ed\uddfb": {}, "": {"\u00a7\u00d6'"'"'^": false}}, "#\u00b8h@": [6582, {"": ""}, []], "\u00e0\u009e+l\n)\u007f\u009e\u001a\u527c\u0082": {}}, "\u001b~U\ud908\udc4c\u009a\u0095\u001b\udbf6\ude8d\ud991\udee6\udaff\uddcbQ6\ud96e\udd1f\u00f5\udb14\udd7f\"\u00bc#\u00fa-\ud9f9\udcf7": [{"3Q\u00a9Q\u00ae\u0091": [true, true, 97]}, -6592], "\u00c1;\uda59\udcd5\u00da\u00ae": [null], "password": "\ud8f0\udfc2r\u0096w", "9\u009f\u00ca\ud9dc\udc27\u0086\ud902\ude96\u00ff\u00a8)\u00b4\ud858\udce3": {"\u0018\u00d0\u0093\u001a\u0096I": {}, "\u008e\u00d4PM\u00dd\u008e\u009b\u000b": null, "\u00a6\ud818\udd1e": {"": {"\u00f6\u0006\u00a8\u001e\u0096f\u007f[": {"\u00b6": -1.1, "\ud959\ude34HS<L\ud9b6\udd04\u00e2": -0.99999, "F\n\u00d2": true}, "\u00ee-\uda64\udc66\udb40\udf1e3\udba5\ude77\u00bc\u000e\ud868\udce4\u00ceA": [[], 126098790777842878, [null]]}, "\u00d2\f\u000e\u00db\u008d\udaba\udfaa\udbec\udfe6\ud893\udc87p\u0095": {}, "\ud81a\udd10`\u0017": {}}}, "username": "", "email": "\ud889\udfb0i\u00c2", "phone": "Z", "\u00b3": {"": []}}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user
+
+_______________ GET /AAYUSHGARGBU/api_petstore/1.0.0/user/login ________________
+1. Test Case ID: gRz0qn
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user/login?password=&username='
+
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} _____________
+1. Test Case ID: hSH0Ii
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user/0
+
+_____________ PUT /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} _____________
+1. Test Case ID: K16aA5
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user/0
+
+___________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} ____________
+1. Test Case ID: bptSGi
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user/0
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              405 / 405 passed          PASSED 
+    status_code_conformance                         315 / 405 passed          FAILED 
+    content_type_conformance                        405 / 405 passed          PASSED 
+    response_headers_conformance                    405 / 405 passed          PASSED 
+    response_schema_conformance                     405 / 405 passed          PASSED 
+    request_timeout                                 0 / 1 passed              FAILED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=38632206051517596327703758722035777689`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+================== 3 passed, 17 failed, 1 errored in 120.62s ===================

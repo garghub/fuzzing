@@ -1,0 +1,452 @@
+2024-05-03 15:15:00.758: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:01.979: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:02.039: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:02.205: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:02.238: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:02.405: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:02.438: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:02.655: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:02 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:12.696: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:12.865: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:12 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:12.900: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:13.060: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:13 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:13.292: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:13.462: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:13 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:13.484: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:13.637: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:13 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:23.673: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:23.846: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:23 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:23.880: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:24.044: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:24 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:24.081: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:24.250: Received: 'HTTP/1.1 429 Too Many Requests\r\nDate: Fri, 03 May 2024 13:15:24 GMT\r\nContent-Type: application/json;charset=iso-8859-1\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n1f\r\n{"error":"Exceeded rate limit"}\r\n0\r\n\r\n'
+
+2024-05-03 15:15:29.289: Retrying request
+2024-05-03 15:15:29.449: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:29.621: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:29 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:29.654: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:29.815: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:29 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:39.864: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:40.102: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:40 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:40.134: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:40.302: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:40 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:40.333: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:40.502: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:40 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:40.542: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:40.696: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:40 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:50.743: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:50.900: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:50 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:50.930: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:51.100: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:51 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:51.130: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:51.300: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:51 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:15:51.329: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:15:51.498: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:15:51 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:01.533: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:01.700: Received: 'HTTP/1.1 429 Too Many Requests\r\nDate: Fri, 03 May 2024 13:16:01 GMT\r\nContent-Type: application/json;charset=iso-8859-1\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n1f\r\n{"error":"Exceeded rate limit"}\r\n0\r\n\r\n'
+
+2024-05-03 15:16:06.734: Retrying request
+2024-05-03 15:16:07.053: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:07.226: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:07 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:07.257: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:07.430: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:07 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:07.465: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:07.618: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:07 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:07.656: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:07.811: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:07 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:17.856: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:18.031: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:18.077: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:18.245: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:18.286: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:18.447: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:18.477: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:18.641: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:28.675: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:28.847: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:28 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:28.883: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:29.049: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:29 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:29.098: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:29.252: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:29 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:29.282: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:29.447: Received: 'HTTP/1.1 429 Too Many Requests\r\nDate: Fri, 03 May 2024 13:16:29 GMT\r\nContent-Type: application/json;charset=iso-8859-1\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n1f\r\n{"error":"Exceeded rate limit"}\r\n0\r\n\r\n'
+
+2024-05-03 15:16:34.471: Retrying request
+2024-05-03 15:16:34.639: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:34.792: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:34 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:44.835: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:45.364: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:45 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:45.393: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:45.557: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:45 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:45.584: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:45.754: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:45 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:45.785: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:45.941: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:56.002: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:56.177: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:56 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:56.206: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:56.398: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:56 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:56.431: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:56.593: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:56 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:16:56.623: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:16:56.776: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:16:56 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:06.820: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:06.984: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:07 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:07.011: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:07.167: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:07 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:07.202: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:07.367: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:07 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:07.401: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:07.552: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:07 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:17.590: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:18.024: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:18.057: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:18.215: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:18.240: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:18.399: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:18.430: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:18.596: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:18 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:28.633: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:29.415: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:29 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:29.452: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:29.612: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:29 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:29.644: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:29.798: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:29 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:29.827: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:30.182: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:30 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:40.223: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:40.380: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:40 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:40.415: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:40.576: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:40 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:40.606: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:40.773: Received: 'HTTP/1.1 429 Too Many Requests\r\nDate: Fri, 03 May 2024 13:17:40 GMT\r\nContent-Type: application/json;charset=iso-8859-1\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n1f\r\n{"error":"Exceeded rate limit"}\r\n0\r\n\r\n'
+
+2024-05-03 15:17:45.798: Retrying request
+2024-05-03 15:17:45.961: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:46.114: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:46.146: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:46.310: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:46 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:56.357: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:56.527: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:56 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:56.559: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:56.704: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:56 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:56.734: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:56.882: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:56 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:17:56.917: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:17:57.084: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:17:57 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:07.138: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:08.199: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:08 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:08.229: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:08.386: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:08 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:08.422: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:08.575: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:08 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:09.383: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:10.649: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:10 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:20.704: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:21.188: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:21 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:21.225: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:21.381: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:21 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:21.408: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:21.562: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:21 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:21.583: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:21.740: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:21 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:31.777: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:31.931: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:32 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:31.962: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:32.112: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:32 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:32.147: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:32.307: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:32 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:32.337: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:32.497: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:32 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:42.542: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:42.713: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:42 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:42.743: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:42.898: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:42 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:42.925: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:43.087: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:43 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:43.118: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:43.276: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:43 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:53.312: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:53.462: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:53 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:53.489: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:53.647: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:53 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:53.680: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:53.845: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:53 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:18:53.871: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:18:54.042: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:18:54 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:04.087: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:04.259: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:04 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:04.293: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:04.449: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:04 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:04.477: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:04.631: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:04 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:04.660: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:04.819: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:04 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:14.876: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:15.067: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:15 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:15.105: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:15.264: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:15 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:15.289: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:15.444: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:15 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:15.464: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:15.629: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:15 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:25.657: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:26.405: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:26 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:26.435: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:26.604: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:26 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:26.643: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:26.797: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:26 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:26.827: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:26.977: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:27 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:37.018: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:37.186: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:37 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:37.215: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:37.369: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:37 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:37.406: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:37.566: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:37 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:37.591: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:37.747: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:37 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:47.788: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:47.947: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:47.985: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:48.140: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:48.176: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:48.328: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:48.369: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:48.527: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:48 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:58.567: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:58.717: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:58 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:58.756: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:58.903: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:58 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:58.940: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:59.100: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:59 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:19:59.147: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:19:59.296: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:19:59 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:20:09.329: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:20:09.499: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:20:09 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:20:09.527: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:20:09.675: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:20:09 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:20:09.711: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:20:09.864: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:20:09 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+
+2024-05-03 15:20:09.902: Sending: 'DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-03 15:20:10.057: Received: 'HTTP/1.1 400 Bad Request\r\nDate: Fri, 03 May 2024 13:20:10 GMT\r\nContent-Type: application/json;charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n0\r\n\r\n'
+

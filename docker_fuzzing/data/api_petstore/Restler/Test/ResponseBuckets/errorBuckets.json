@@ -1,0 +1,300 @@
+{
+  "400": {
+    "029a21cf-d29f-4fd9-88fa-51b18ffa72fa": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/user/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "0de22341-43b0-42c7-8a78-f8d05336a575": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/user/username_RANDOM_SUFFIX_ABSTRACTED_",
+            "query": "",
+            "body": "{}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "323be01e-34af-4078-b72e-99b38ffbcbe3": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/pet",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "5197c3f2-e90c-4036-bdc7-be07a146ea87": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/store/order/0",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "8187ec59-c36a-40dc-a41e-508d0d118f07": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/user/username_RANDOM_SUFFIX_ABSTRACTED_",
+            "query": "",
+            "body": "{\n    \"id\":1,\n    \"username\":\"fuzzstring\",\n    \"firstName\":\"fuzzstring\",\n    \"lastName\":\"fuzzstring\",\n    \"email\":\"fuzzstring\",\n    \"password\":\"fuzzstring\",\n    \"phone\":\"fuzzstring\",\n    \"userStatus\":1}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "83d05c86-db18-4b2c-95f4-f899ee36f8b7": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/1",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "be902c49-44ee-4b6c-9f66-0534fb035b11": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/pet",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "c0b2ae65-c531-4c55-9dc0-cc2ea23e55a5": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/store/order/0",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "c7d0216a-07d9-46f4-95cb-526592d7968f": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/user/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "f5609d5b-2261-4077-8bf3-ec6225b66cd8": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/1",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "Bad Request",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ]
+  },
+  "405": {
+    "02cceea8-980b-402d-a308-2e08e333ebde": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/pet",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "Method Not Allowed",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "05e08a74-54b9-46a7-96fa-c04fcdf14699": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/pet",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "Method Not Allowed",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "2d9e7813-29b0-46e2-ba0b-bfe7f9b4b822": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/1",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "Method Not Allowed",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6bd7596a-1553-4449-ad18-c746ab4a6d73": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/1",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "Method Not Allowed",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/_READER_DELIM_store_order_post_id_READER_DELIM

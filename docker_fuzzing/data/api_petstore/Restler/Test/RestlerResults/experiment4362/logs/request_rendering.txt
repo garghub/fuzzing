@@ -1,0 +1,218 @@
+
+2024-05-03 15:14:50.999: Generation-1
+2024-05-03 15:14:50.999: 	Rendered requests: 18 / 20
+2024-05-03 15:14:50.999: 	Rendered requests with "valid" status codes: 12 / 18
+2024-05-03 15:14:50.999: 	Rendered requests determined to be fully valid (no resource creation failures): 12 / 18
+2024-05-03 15:14:50.999: List of failing requests:
+	Request: 1
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 3
+		- restler_static_string: 'PUT '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 8
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'api_key: '
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 11
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 13
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 17
+		- restler_static_string: 'PUT '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_custom_payload_uuid4_suffix: 'u'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "username":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "firstName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "lastName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "email":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "password":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "phone":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "userStatus":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+-------------------------
+
+
+2024-05-03 15:15:00.645: Generation-2
+2024-05-03 15:15:00.645: 	Rendered requests: 20 / 20
+2024-05-03 15:15:00.645: 	Rendered requests with "valid" status codes: 14 / 20
+2024-05-03 15:15:00.645: 	Rendered requests determined to be fully valid (no resource creation failures): 14 / 20
+2024-05-03 15:15:00.645: List of failing requests:
+	Request: 1
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 3
+		- restler_static_string: 'PUT '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 8
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'api_key: '
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 11
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 13
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+	Request: 17
+		- restler_static_string: 'PUT '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_custom_payload_uuid4_suffix: 'u'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "username":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "firstName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "lastName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "email":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "password":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "phone":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "userStatus":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+-------------------------
+
+
+2024-05-03 15:15:00.647: 	Never Rendered requests:
+-------------------------
+

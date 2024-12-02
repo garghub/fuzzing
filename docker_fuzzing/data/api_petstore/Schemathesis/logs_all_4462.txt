@@ -1,0 +1,164 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_petstore/api_petstore.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 53834354006859228859435731206983034242
+Workers: 1
+Collected API operations: 20
+Collected API links: 0
+API probing: ...API probing: ERROR
+Schema analysis: ...Schema analysis: SKIP
+
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet E                               [  5%]
+PUT /AAYUSHGARGBU/api_petstore/1.0.0/pet E                                [ 10%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus E                   [ 15%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags E                     [ 20%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} E                        [ 25%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} E                       [ 30%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} E                     [ 35%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId}/uploadImage E           [ 40%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/inventory E                    [ 45%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order E                       [ 50%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} E              [ 55%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} E           [ 60%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user E                              [ 65%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithArray E              [ 70%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithList E               [ 75%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/login E                         [ 80%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/logout E                        [ 85%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} E                    [ 90%]
+PUT /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} E                    [ 95%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} E                 [100%]
+
+==================================== ERRORS ====================================
+__________________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet ___________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+___________________ PUT /AAYUSHGARGBU/api_petstore/1.0.0/pet ___________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags ______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_______________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} _______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+______________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} _______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} ______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId}/uploadImage _________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/store/inventory _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+______________ POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order _______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+__________ GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} __________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} _________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+__________________ POST /AAYUSHGARGBU/api_petstore/1.0.0/user __________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+__________ POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithArray __________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+__________ POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithList ___________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_______________ GET /AAYUSHGARGBU/api_petstore/1.0.0/user/login ________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_______________ GET /AAYUSHGARGBU/api_petstore/1.0.0/user/logout _______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ PUT /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+___________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} ____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+Need more help?
+    Join our Discord server: https://discord.gg/R9ASRAmHnA
+=================================== SUMMARY ====================================
+
+No checks were performed.
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================ 20 errored in 2663.90s ============================
