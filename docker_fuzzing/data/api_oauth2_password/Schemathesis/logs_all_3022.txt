@@ -1,0 +1,118 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_password/api_oauth2_password.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 216644174363785713343482919968665546640
+Workers: 1
+Collected API operations: 6
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                       [ 16%]
+POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                      [ 33%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 50%]
+PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 66%]
+DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F           [ 83%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping .                        [100%]
+
+=================================== FAILURES ===================================
+______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users _______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: oDaC1F
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users?=False&=3.996401226130107e%2B16&=%0B%C3%8Bo%C3%AD6+&%C3%A2%1B%C3%A2%C3%91%C2%86%25+e%C3%8E%19X%C2%99%C3%BC%3C%F1%99%9B%87%C2%AA%F1%9B%A7%AD7%2C%0Bu.%C2%A9=%C3%B0&%C3%A2%1B%C3%A2%C3%91%C2%86%25+e%C3%8E%19X%C2%99%C3%BC%3C%F1%99%9B%87%C2%AA%F1%9B%A7%AD7%2C%0Bu.%C2%A9=&%C3%A2%1B%C3%A2%C3%91%C2%86%25+e%C3%8E%19X%C2%99%C3%BC%3C%F1%99%9B%87%C2%AA%F1%9B%A7%AD7%2C%0Bu.%C2%A9=%C3%91&%C3%A2%1B%C3%A2%C3%91%C2%86%25+e%C3%8E%19X%C2%99%C3%BC%3C%F1%99%9B%87%C2%AA%F1%9B%A7%AD7%2C%0Bu.%C2%A9=%C2%8D%13&%C3%A2%1B%C3%A2%C3%91%C2%86%25+e%C3%8E%19X%C2%99%C3%BC%3C%F1%99%9B%87%C2%AA%F1%9B%A7%AD7%2C%0Bu.%C2%A9=None&%C3%A2%1B%C3%A2%C3%91%C2%86%25+e%C3%8E%19X%C2%99%C3%BC%3C%F1%99%9B%87%C2%AA%F1%9B%A7%AD7%2C%0Bu.%C2%A9=False&%C3%A2%1B%C3%A2%C3%91%C2%86%25+e%C3%8E%19X%C2%99%C3%BC%3C%F1%99%9B%87%C2%AA%F1%9B%A7%AD7%2C%0Bu.%C2%A9=13921&8%C3%9E%C2%A7=%05%C3%9FZ%C2%B5%C2%84%F3%9B%AF%AB%0B&%F3%9B%8D%A3%F1%B4%8B%A7%C2%AC%F0%91%A5%8E%F2%82%8D%8A=%C2%A5%C2%94%29%F0%A8%A7%A8%F2%AE%A1%B0%F0%A6%A0%BD%F2%86%9C%9F%C3%80%C2%B1uIK%1D%3B%F2%8D%A4%B11%F0%B9%B7%A4p%1D%F0%AF%A2%B0%C2%A4&%F3%9B%8D%A3%F1%B4%8B%A7%C2%AC%F0%91%A5%8E%F2%82%8D%8A=%C2%83%F1%88%9C%97%C3%BC%F0%AB%AD%8A%F2%A8%8D%B1%136b&%F3%9B%8D%A3%F1%B4%8B%A7%C2%AC%F0%91%A5%8E%F2%82%8D%8A=_%F2%93%A3%BA%08%C2%88%C3%8C%C3%B1&%F4%89%AD%A5W7%C3%8FRT%3D%C2%81YR%C2%A9%ED%8E%B8=%C2%B6%F4%84%95%80%05%C2%BE%0D%12%0E%0D&%F4%89%AD%A5W7%C3%8FRT%3D%C2%81YR%C2%A9%ED%8E%B8=&%F4%89%AD%A5W7%C3%8FRT%3D%C2%81YR%C2%A9%ED%8E%B8=%C3%8E%28%0E%C3%B9&%F4%89%AD%A5W7%C3%8FRT%3D%C2%81YR%C2%A9%ED%8E%B8=&%F4%89%AD%A5W7%C3%8FRT%3D%C2%81YR%C2%A9%ED%8E%B8=%7B%27%5CU000a4023%5Cx04%27%3A+True%2C+%27%27%3A+True%2C+%27X%5Cx0c%C3%BF%5Cx9b%C3%AAc%C2%B8%5Cx08E%3E%5Cx89%5CU000b945b%5CU000ca99a%27%3A+%27%C3%9F%5Cx04%3A%27%7D&%F4%89%AD%A5W7%C3%8FRT%3D%C2%81YR%C2%A9%ED%8E%B8=%7B%27%5CU000304acK%5Cx8e%22%C3%85%27%3A+-2.225073858507203e-309%2C+%27%3C%C3%B60%27%3A+True%2C+%27%5CU000c8b16%40%C3%83Y%5CU000eec3f%5Cx14%C3%87%C3%A2%5Cx06%C3%87%5Cx98%C2%BD%E9%86%92%C3%A5%C3%94%27%3A+True%7D&%F4%89%AD%A5W7%C3%8FRT%3D%C2%81YR%C2%A9%ED%8E%B8=%5B%5B%5D%2C+%7B%27%5Cx1b%5Cx884%C3%B7%C3%AEs%C3%98%C3%9A%C2%BD%C3%AC%27%3A+None%2C+%27%EC%9D%85Vd%27%3A+%5B%5D%2C+%27e%5Ct%5Cxad%5Cx03%27%3A+%271%27%7D%2C+%5B%27%C3%AC%C2%A3%5Cx18%C3%BB%5Cx0c%C2%A8%5Cx10%C3%8E%27%2C+1.1754943508222875e-38%2C+None%5D%5D&%F1%BA%97%AF%C3%83=%F2%A3%A1%AE%C2%BF%F0%A0%83%A0&%F1%BA%97%AF%C3%83=%C2%B0Q%F0%A9%BB%89%F1%96%9B%AF%F1%A6%A3%B3%40%C2%85%C2%9C%07o%C2%98%404%F4%84%A2%82%C2%A6%F1%83%B5%8C%C3%90%C2%AE%14%24%C3%80%C2%8B%F0%A5%A7%8E%C2%BE%7D&%F1%BA%97%AF%C3%83=Cp%C3%B4%C3%BDJ&2=%F1%98%8B%AB%0E%C3%91%C2%BF%C2%B3%1F%F4%8E%B1%A1%C2%88&2=%F4%83%85%91%16.T%23u&2=%C2%80'
+
+______________ POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users ______________
+1. Test Case ID: GTlV7d
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users
+
+__________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: sCv7kO
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+__________ PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: bDpYtk
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+________ DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} _________
+1. Test Case ID: 3jGqZt
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              46 / 46 passed          PASSED 
+    status_code_conformance                         11 / 46 passed          FAILED 
+    content_type_conformance                        46 / 46 passed          PASSED 
+    response_headers_conformance                    46 / 46 passed          PASSED 
+    response_schema_conformance                     46 / 46 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=216644174363785713343482919968665546640`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 5 failed in 6.96s ==========================

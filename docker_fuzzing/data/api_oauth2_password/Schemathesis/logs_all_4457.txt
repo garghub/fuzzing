@@ -1,0 +1,66 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_password/api_oauth2_password.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 103526219390765017990418361355395260917
+Workers: 1
+Collected API operations: 6
+Collected API links: 0
+API probing: ...API probing: ERROR
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users E                       [ 16%]
+POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users E                      [ 33%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} E              [ 50%]
+PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} E              [ 66%]
+DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} E           [ 83%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping E                        [100%]
+
+==================================== ERRORS ====================================
+______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users _______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+______________ POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users ______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+__________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+__________ PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+________ DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} _________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping _______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+Need more help?
+    Join our Discord server: https://discord.gg/R9ASRAmHnA
+=================================== SUMMARY ====================================
+
+No checks were performed.
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================ 6 errored in 1387.21s =============================

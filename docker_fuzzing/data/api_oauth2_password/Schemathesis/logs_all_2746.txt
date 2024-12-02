@@ -1,0 +1,132 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_password/api_oauth2_password.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 21922673638776512332382268922658574235
+Workers: 1
+Collected API operations: 6
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                       [ 16%]
+POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                      [ 33%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 50%]
+PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 66%]
+DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F           [ 83%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping F                        [100%]
+
+=================================== FAILURES ===================================
+______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users _______________
+1. Test Case ID: SiGyZq
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users?%C2%98%C3%A2u%3F%C2%9B%C3%9C%F2%9D%A0%8A%C2%B6N%F3%8B%9D%91%C2%AD1%C2%A0%C2%8E=%F2%82%9D%BE%00%C2%AD%F3%86%A2%86%3B%C2%8C%C2%97%F0%96%8C%8A%C3%8D%C3%95&%C2%98%C3%A2u%3F%C2%9B%C3%9C%F2%9D%A0%8A%C2%B6N%F3%8B%9D%91%C2%AD1%C2%A0%C2%8E=%F3%B3%BC%8F&%C2%98%C3%A2u%3F%C2%9B%C3%9C%F2%9D%A0%8A%C2%B6N%F3%8B%9D%91%C2%AD1%C2%A0%C2%8E=%2A%C2%A4&%C2%96%C3%96%C3%81%3Di%C2%AEy%C3%A8=%C2%B6&%F3%84%A9%B5%3C%C3%A7%C2%A1%C3%AF%C3%A4%F1%9A%85%91%C2%8E%25%F3%BF%B5%A7%7B=%C2%BA%F1%8A%A8%BF%F1%99%AC%93%C3%A5%C3%BFK%3E%F3%A6%AF%9D%F1%8E%9F%86&%F3%84%A9%B5%3C%C3%A7%C2%A1%C3%AF%C3%A4%F1%9A%85%91%C2%8E%25%F3%BF%B5%A7%7B=9&%F3%84%A9%B5%3C%C3%A7%C2%A1%C3%AF%C3%A4%F1%9A%85%91%C2%8E%25%F3%BF%B5%A7%7B=%3F&%F3%84%A9%B5%3C%C3%A7%C2%A1%C3%AF%C3%A4%F1%9A%85%91%C2%8E%25%F3%BF%B5%A7%7B=True&=%C2%85x%C3%8E%00%C2%A6&=%F0%AB%9A%85%28%EF%A1%B3%7B%F0%A2%92%88&=%14Ug%F1%A3%A3%B2%C3%BB'
+
+______________ POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users ______________
+1. Test Case ID: s0ruF2
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"email": ""}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users
+
+__________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: LQY39K
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+__________ PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: ceGSW6
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/2
+
+________ DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} _________
+1. Test Case ID: 2j0QWb
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+_______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping _______________
+1. Test Case ID: tFL5WM
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/ping
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              62 / 62 passed          PASSED 
+    status_code_conformance                         15 / 62 passed          FAILED 
+    content_type_conformance                        62 / 62 passed          PASSED 
+    response_headers_conformance                    62 / 62 passed          PASSED 
+    response_schema_conformance                     62 / 62 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=21922673638776512332382268922658574235`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================== 6 failed in 8.97s ===============================

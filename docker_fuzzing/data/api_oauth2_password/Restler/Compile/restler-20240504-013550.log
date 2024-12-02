@@ -1,0 +1,12 @@
+Restler Information: 0 : Starting task Compile...
+    DateTime=2024-05-03T23:35:50.8794332Z
+Restler Information: 0 : Launching 'dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../compiler/Restler.CompilerExe.dll" "/mnt/d/ag/github/lazarus_target_apis/api_oauth2_password/Compile/config.json"'
+    DateTime=2024-05-03T23:35:51.4555442Z
+Restler Information: 0 : Process execution terminated in 00:00:00.8232976 with exit code 0x0: 'dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../compiler/Restler.CompilerExe.dll" "/mnt/d/ag/github/lazarus_target_apis/api_oauth2_password/Compile/config.json"'
+    DateTime=2024-05-03T23:35:52.2815164Z
+Restler Information: 0 : (5082) dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../compiler/Restler.CompilerExe.dll" "/mnt/d/ag/github/lazarus_target_apis/api_oauth2_password/Compile/config.json" exited with code: 0
+    DateTime=2024-05-03T23:35:52.2844713Z
+Restler Information: 0 : Task Compile succeeded.
+    DateTime=2024-05-03T23:35:52.2949103Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2024-05-03T23:35:52.4576172Z

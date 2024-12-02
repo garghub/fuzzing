@@ -1,0 +1,185 @@
+Random seed: 12345
+Setting fuzzing schemes: directed-smoke-test
+2024-05-04 01:36:11.453: Going to fuzz a set with 6 requests
+2024-05-04 01:36:11.453: Request-0: Value Combinations: 2
+2024-05-04 01:36:11.453: Request-1: Value Combinations: 2
+2024-05-04 01:36:11.453: Request-2: Value Combinations: 2
+2024-05-04 01:36:11.453: Request-3: Value Combinations: 2
+2024-05-04 01:36:11.453: Request-4: Value Combinations: 2
+2024-05-04 01:36:11.453: Request-5: Value Combinations: 2
+2024-05-04 01:36:11.453: Avg. Value Combinations per Request: 2
+2024-05-04 01:36:11.453: Median Value Combinations per Request: 2.0
+2024-05-04 01:36:11.453: Min Value Combinations per Request: 2
+2024-05-04 01:36:11.453: Max Value Combinations per Request: 2
+2024-05-04 01:36:11.453: Total dependencies: 0
+
+2024-05-04 01:36:11.455: Generation: 1 / Sequences Collection Size: 6 
+(After directed-smoke-test Extend)
+
+Rendering request 0 from scratch
+
+2024-05-04 01:36:13.078: Request 0
+2024-05-04 01:36:13.078: Endpoint - /users/{userId}
+2024-05-04 01:36:13.078: Hex Def - 00dad0d3a94ece64ffc03ab30bcd151ecd0f7bc9
+2024-05-04 01:36:13.078: Sequence length that satisfies dependencies: 1
+2024-05-04 01:36:13.079: Rendering VALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/api_oauth2_password/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 1 from scratch
+
+2024-05-04 01:36:13.440: Request 1
+2024-05-04 01:36:13.440: Endpoint - /users/{userId}
+2024-05-04 01:36:13.440: Hex Def - 0cc228ea0ea3e4a30c25c05a440af79bec7dbea3
+2024-05-04 01:36:13.440: Sequence length that satisfies dependencies: 1
+2024-05-04 01:36:13.442: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_oauth2_password/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 2 from scratch
+
+2024-05-04 01:36:13.814: Request 2
+2024-05-04 01:36:13.814: Endpoint - /users
+2024-05-04 01:36:13.814: Hex Def - 1f618f842e18eb2f5e460fd10297b7118f7ae878
+2024-05-04 01:36:13.814: Sequence length that satisfies dependencies: 1
+2024-05-04 01:36:13.815: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_oauth2_password/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "username":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "email":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "firstName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "lastName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 3 from scratch
+
+2024-05-04 01:36:14.232: Request 3
+2024-05-04 01:36:14.232: Endpoint - /users/{userId}
+2024-05-04 01:36:14.232: Hex Def - 5f7a79160535debc42465d3a1f5b203064370aec
+2024-05-04 01:36:14.232: Sequence length that satisfies dependencies: 1
+2024-05-04 01:36:14.232: Rendering VALID
+		- restler_static_string: 'PUT '
+		- restler_static_string: '/AAYUSHGARGBU/api_oauth2_password/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: '/'
+		- restler_custom_payload_uuid4_suffix: 'u'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "username":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "email":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "firstName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "lastName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 4 from scratch
+
+2024-05-04 01:36:14.672: Request 4
+2024-05-04 01:36:14.672: Endpoint - /ping
+2024-05-04 01:36:14.672: Hex Def - 9653b2494e7b1213f58f1c3f5f464836ddb9e6df
+2024-05-04 01:36:14.672: Sequence length that satisfies dependencies: 1
+2024-05-04 01:36:14.672: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_oauth2_password/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'ping'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 5 from scratch
+
+2024-05-04 01:36:15.114: Request 5
+2024-05-04 01:36:15.114: Endpoint - /users
+2024-05-04 01:36:15.114: Hex Def - d007d97507801ce9652dac419a74e1a2e6a7b1ca
+2024-05-04 01:36:15.114: Sequence length that satisfies dependencies: 1
+2024-05-04 01:36:15.114: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_oauth2_password/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: '?'
+		- restler_static_string: 'filter='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+2024-05-04 01:36:15.115: Generation: 1 / Sequences Collection Size: 6 
+(After directed-smoke-test Render)
+
+2024-05-04 01:36:15.115: Final Swagger spec coverage: 6 / 6
+2024-05-04 01:36:15.115: Rendered requests: 6 / 6
+2024-05-04 01:36:15.115: Rendered requests with "valid" status codes: 6 / 6
+2024-05-04 01:36:15.115: Num fully valid requests (no resource creation failures): 6
+2024-05-04 01:36:15.115: Num requests not rendered due to invalid sequence re-renders: 0
+2024-05-04 01:36:15.115: Num invalid requests caused by failed resource creations: 0
+2024-05-04 01:36:15.115: Total Creations of Dyn Objects: 0
+2024-05-04 01:36:15.115: Total Requests Sent: {'gc': 0, 'main_driver': 6}
+2024-05-04 01:36:15.115: Bug Buckets: {}
+
+Testing completed -- below are the final stats:
+
+2024-05-04 01:36:15.119: Final Swagger spec coverage: 6 / 6
+2024-05-04 01:36:15.119: Rendered requests: 6 / 6
+2024-05-04 01:36:15.119: Rendered requests with "valid" status codes: 6 / 6
+2024-05-04 01:36:15.119: Num fully valid requests (no resource creation failures): 6
+2024-05-04 01:36:15.119: Num requests not rendered due to invalid sequence re-renders: 0
+2024-05-04 01:36:15.119: Num invalid requests caused by failed resource creations: 0
+2024-05-04 01:36:15.119: Total Creations of Dyn Objects: 0
+2024-05-04 01:36:15.119: Total Requests Sent: {'gc': 0, 'main_driver': 6}
+2024-05-04 01:36:15.119: Bug Buckets: {}

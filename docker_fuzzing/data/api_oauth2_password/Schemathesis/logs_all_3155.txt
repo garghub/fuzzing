@@ -1,0 +1,182 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_password/api_oauth2_password.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 156035147323624967449845816556499131439
+Workers: 1
+Collected API operations: 6
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                       [ 16%]
+POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                      [ 33%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 50%]
+PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 66%]
+DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F           [ 83%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping F                        [100%]
+
+=================================== FAILURES ===================================
+______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users _______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: 580M7i
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter='
+
+______________ POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users ______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: uV0F7P
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"lastName": "\u00ff7", "firstName": "\u00cb5", "username": "", "0!\u00f3U}\u00a9N\u00fb\u0002y\u00dc\u008a": [[{"\ud975\udfde": -5853233104136148764}, [null, null, false]], {"\ud8af\udf42": {"\u00c5\ud9dd\ude55\u00ba": [null, "61d"], "1": {"": false, "\ud92c\udc78": "\u00a1u\u00a4\u001b\u00b8\u00b9D3hvEQ:\uda81\udc7fag<\u00ee\u0003\u00a6\u001f\u0091z\udae3\udef6\u0089\u009d\uda8d\udc90$v"}}, "0\u00df\udbbd\udd7a\u00c4": [{"": "\n", "D3v\u00f1\u00c8\u00ec\u0080\u0098|\u00bd{\u00f1\u00ed\u00cfS": 6.103515625e-05, "mJ.\udaed\udfcd\ud9c7\udc3c-\u008e\u009f\u00db\u008b$\u00c8": 32}], "1\u0011\u00f8": [{"\u00c2": 9007199254740992.0, "\ud9e4\udcae\u00deA\u00fc\u00fa": -17889, "\u00c3": "\udaeb\udc33"}]}], "\u00adz\uda35\ude8f\u00e8\u009b\u00ec\u00bf\u0005\ud9e2\udd2a\u00de\u00ee+\u00bd\u001d\u00e0o\uda8d\uddf7\u00cf)\udaa6\udfb07\u008d\u0089\u00cawO": [20237, null, -20224], "\ud9e5\udc5dE\u00f8v\u00cb~j\udac5\udc8c\u009a": {"H(\u00cbe\u00b9\u00f3\u00f9\u0014\u0085\ud87c\udd8a\u0097\udace\udfd4\u0096\u00c5\u00d1%\ud929\udee1": {"gS": {"\u00be\u00b0\udb7a\udcdb\ud935\udc1dLi\u00e2\u00ef\udad6\udf0c\udbb4\ude4cp": "", "": "4\u00d0\u00de\u00fe\ud909\udd0c\u000e\u00b8", "U\ud99c\udfcb\ud936\udf0e\u00f6\ud8c4\udd3d\u0012\udbdd\udd81\u00cb}\ud820\udca5": "\u00c6\u00d4\u00e6}\b\u00df4x\u00c8\udb88\udc65l\u00d1\u00ed"}, "S\u0099\u008b\ud915\udf65\u00bb\u0012C\u00dd\ud9db\udf55\u0084\u00be\ud809\udfce": {"\u00cb\udb08\udca0G/@iZ\u00ca@\ud928\udc5b\u0000f\u00fd\ud8e1\udeaao\u00c4\ud829\udf76\u00ab\u001e": null}}, "\ud8e2\udeb1s\ud887\ude34\u00ab": [[[-1.401298464324817e-45, -8.246308237401729e-178, true]], {"\u00c5\ud9dd\ude55\u00ba": false, "\u00d4j\uda5b\udd80\u00d6\u00af": false, "\u00edA\ud92c\udc78": "\u00a1u\u00a4\u001b\u00b8\u00b9D3hvEQ:\uda81\udc7fag<\u00ee\u0003\u00a6\u001f\u0091z\udae3\udef6\u0089\u009d\uda8d\udc90$v"}], "{\u00df\u00d3": []}, "\u00ae\u00ef\u00af": {"\udaa1\udd1a\u0014": {"": 12615, "<\u00c7\udb25\udc38": null, "}`\ud8b6\ude50": "\ud98b\udf4f\u0002\ud80f\udfc5\u00ac\u00b8\u009e\u0013\u00c6"}, "": {"\u007f\ud9c6\udfe9": 12718, "\u008d\u008aJ\u0006\udb37\udd67]\u00d5\u0007\u00d0": -54}, "\ud925\udeebd\ud931\uddf5\u0092\ud8f0\ude16\ud9f4\udef56": {}}, "email": "\u008d\udb97\udc1f\u0096\u00cf/\u001a7", "id": "", "\u00ac": {}}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users
+
+__________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: dm6Xxl
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+- Response violates schema
+
+    [{'id': 'string', 'username': 'string', 'email': 'string', 'firstName': 'string', 'lastName': 'string'}] is not of type 'object'
+
+    Schema:
+
+        {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "Unique identifier for the user"
+                },
+                "username": {
+                    "type": "string",
+                    "description": "User's login username"
+                },
+                "email": {
+                    "type": "string",
+                    "description": "User's email address"
+                },
+                "firstName": {
+                    "type": "string",
+                    "description": "User's first name"
+                },
+            // Output truncated...
+        }
+
+    Value:
+
+        [
+            {
+                "id": "string",
+                "username": "string",
+                "email": "string",
+                "firstName": "string",
+                "lastName": "string"
+            }
+        ]
+
+[200] OK:
+
+    `[ {
+      "id" : "string",
+      "username" : "string",
+      "email" : "string",
+      "firstName" : "string",
+      "lastName" : "string"
+    } ]`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/.
+
+__________ PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: JR4Olr
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+________ DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} _________
+1. Test Case ID: L3vJeF
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+_______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping _______________
+1. Test Case ID: kzcsey
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/ping
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              72 / 72 passed          PASSED 
+    status_code_conformance                         38 / 72 passed          FAILED 
+    content_type_conformance                        72 / 72 passed          PASSED 
+    response_headers_conformance                    72 / 72 passed          PASSED 
+    response_schema_conformance                     71 / 72 passed          FAILED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=156035147323624967449845816556499131439`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================== 6 failed in 10.06s ==============================

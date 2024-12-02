@@ -1,0 +1,65 @@
+Warning: could not parse response in line 97: [ {\n  "id" : "string",\n  "username" : "string",\n  "email" : "string",\n  "firstName" : "string",\n  "lastName" : "string"\n} ]
+Warning: could not parse request in line 183: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=_Y Ve]\t!_91}\tA}KO\r HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 196: [ {\n  "id" : "string",\n  "username" : "string",\n  "email" : "string",\n  "firstName" : "string",\n  "lastName" : "string"\n} ]
+Warning: could not parse request in line 205: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=3>1-Q"Vg!e*Az[~bHG &E HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 215: <h1>Bad Message 400</h1><pre>reason: Illegal character HTAB=0x9</pre>
+Warning: could not parse response in line 247: [ {\n  "id" : "string",\n  "username" : "string",\n  "email" : "string",\n  "firstName" : "string",\n  "lastName" : "string"\n} ]
+Warning: could not parse request in line 256: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=B /^(t(O~Nh&g8\n+Fh,*J`i HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse request in line 305: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=bl>.=!by_vRi\\)S/AEh&?tZ- HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse request in line 321: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=?|&m\nElprp:<Yj!YVFV; HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 323: [ {\n  "id" : "string",\n  "username" : "string",\n  "email" : "string",\n  "firstName" : "string",\n  "lastName" : "string"\n} ]
+Warning: could not parse request in line 354: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=o 0x<JOyY<O&TS$Kc\nApDc;4 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse request in line 398: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=XG+7k_o0 7*2x2xIVg;u5M|8}!HM?Cs9 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 408: [ {\n  "id" : "string",\n  "username" : "string",\n  "email" : "string",\n  "firstName" : "string",\n  "lastName" : "string"\n} ]
+Warning: could not parse request in line 417: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=OFJg<~\nJV^80Pcp]SMlC!7r\t.qgQ)g?h])B.9 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 419: [ {\n  "id" : "string",\n  "username" : "string",\n  "email" : "string",\n  "firstName" : "string",\n  "lastName" : "string"\n} ]
+Warning: could not parse request in line 428: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=cPGnjeR$B55iIeR&qvI))(p?:~JKyA )7f+ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse request in line 436: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=$\x0bq?eC_m48y%u4mDzC\t%\x0bghh0B>7V.\nLSc.W HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 438: <h1>Bad Message 400</h1><pre>reason: Illegal character CNTL=0xb</pre>
+Warning: could not parse request in line 484: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=3\t3hnf#t=?9mJy]fDt}bW^-0]g3Ye<WW7HO=p8)%S HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 497: [ {\n  "id" : "string",\n  "username" : "string",\n  "email" : "string",\n  "firstName" : "string",\n  "lastName" : "string"\n} ]
+Warning: could not parse response in line 508: <h1>Bad Message 400</h1><pre>reason: Illegal character CNTL=0xb</pre>
+Warning: could not parse request in line 517: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=k7044"U+_}avUm-~`0O.[>x{wKu?*|4v8A>a":}/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 538: <h1>Bad Message 400</h1><pre>reason: Illegal character CNTL=0xb</pre>
+Warning: could not parse request in line 563: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=5{5W}JqtMG:|\x0c52<?kzrT"6ZW\nT(\t95y-WzH)C\tuwf#ki> dY8 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse response in line 565: <h1>Bad Message 400</h1><pre>reason: Illegal character CNTL=0xc</pre>
+Warning: could not parse request in line 596: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=4sbPu u|9ElgA?G6rj(+7 H3-@\x0bC6XHb#PCF0"y\x0cgQzD~7? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Warning: could not parse request in line 615: GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=I_>~3KBOwLa$/df>1 5jsW MR5pwNxdG{s*n2]4*_PY*CT HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n
+Unhandled exception. System.Exception: Unexpected response without prior request at 05/22/2024 01:20:25: { version = "HTTP/1.1"
+  statusCode = 400
+  statusDescription = "Illegal character HTAB=0x9"
+  headers =
+           map
+             [("Connection", "close"); ("Content-Length", "69");
+              ("Content-Type", "text/html;charset=iso-8859-1");
+              ("Date", "Tue, 21 May 2024 23:20:25 GMT");
+              ("Server", "Jetty(9.4.50.v20221201)")]
+  body = "<h1>Bad Message 400</h1><pre>reason: Illegal character HTAB=0x9</pre>"
+  str = None }
+   at Microsoft.FSharp.Core.PrintfModule.PrintFormatToStringThenFail@1639.Invoke(String message) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\printf.fs:line 1639
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.choose@171.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 179
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.map@75.DoMoveNext(b& curr) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 77
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.MapEnumerator`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 64
+   at Microsoft.FSharp.Core.CompilerServices.RuntimeHelpers.takeInner@266[T,TResult](ConcatEnumerator`2 x, Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seqcore.fs:line 268
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.map@75.DoMoveNext(b& curr) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 77
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.MapEnumerator`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 64
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.map@75.DoMoveNext(b& curr) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 77
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.MapEnumerator`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 64
+   at Microsoft.FSharp.Core.CompilerServices.RuntimeHelpers.takeInner@266[T,TResult](ConcatEnumerator`2 x, Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seqcore.fs:line 268
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.next@193[T](FSharpFunc`2 f, IEnumerator`1 e, FSharpRef`1 started, Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 194
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.filter@188.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 196
+   at Microsoft.FSharp.Collections.SeqModule.oneStepTo@987[T](IEnumerable`1 source, List`1 prefix, FSharpRef`1 enumeratorR, Int32 i) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 996
+   at Microsoft.FSharp.Collections.SeqModule.action@4164-1[T](IEnumerable`1 source, List`1 prefix, FSharpRef`1 enumeratorR, Int32 i, Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 1011
+   at Microsoft.FSharp.Collections.SeqModule.result@1003.Invoke(Int32 i)
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.unfold@205.DoMoveNext(b& curr) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 207
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.MapEnumerator`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 64
+   at Microsoft.FSharp.Collections.SeqModule.Iterate[T](FSharpFunc`2 action, IEnumerable`1 source) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 496
+   at Microsoft.FSharp.Collections.SeqModule.groupByValueType[T,TKey](FSharpFunc`2 keyf, IEnumerable`1 seq) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 1068
+   at Microsoft.FSharp.Collections.SeqModule.GroupBy@1076.Invoke(Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 1076
+   at Microsoft.FSharp.Collections.SeqModule.mkDelayedSeq@471.Invoke(Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 471
+   at Restler.ResultsAnalyzer.Analyze.Buckets.getBuckets@98.GenerateNext(IEnumerable`1& next) in /mnt/d/ag/github/restler-fuzzer/src/ResultsAnalyzer/Analyze/Buckets.fs:line 98
+   at Microsoft.FSharp.Core.CompilerServices.GeneratedSequenceBase`1.MoveNextImpl() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seqcore.fs:line 371
+   at Microsoft.FSharp.Core.CompilerServices.GeneratedSequenceBase`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seqcore.fs:line 403
+   at Microsoft.FSharp.Collections.SeqModule.ToList[T](IEnumerable`1 source)
+   at Restler.ResultsAnalyzer.Analyze.Main.main(AnalyzeArgs args) in /mnt/d/ag/github/restler-fuzzer/src/ResultsAnalyzer/Analyze/Main.fs:line 103
+   at Restler.ResultsAnalyzer.Program.main(String[] argv) in /mnt/d/ag/github/restler-fuzzer/src/ResultsAnalyzer/Program.fs:line 223

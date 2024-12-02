@@ -1,0 +1,657 @@
+{
+  "Requests": [
+    {
+      "id": {
+        "endpoint": "/users",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_oauth2_password/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "users"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": [
+              {
+                "name": "filter",
+                "payload": {
+                  "LeafNode": {
+                    "name": "",
+                    "payload": {
+                      "Fuzzable": {
+                        "primitiveType": "String",
+                        "defaultValue": "fuzzstring"
+                      }
+                    },
+                    "isRequired": false,
+                    "isReadOnly": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/users",
+        "method": "Post"
+      },
+      "method": "Post",
+      "basePath": "/AAYUSHGARGBU/api_oauth2_password/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "users"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": [
+              {
+                "name": "__body__",
+                "payload": {
+                  "InternalNode": [
+                    {
+                      "name": "",
+                      "propertyType": "Object",
+                      "isRequired": true,
+                      "isReadOnly": false
+                    },
+                    [
+                      {
+                        "LeafNode": {
+                          "name": "id",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "username",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "email",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "firstName",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "lastName",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": [
+              {
+                "name": "Content-Type",
+                "payload": {
+                  "LeafNode": {
+                    "name": "",
+                    "payload": {
+                      "Constant": [
+                        "String",
+                        "application/json"
+                      ]
+                    },
+                    "isRequired": true,
+                    "isReadOnly": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/users/{userId}",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_oauth2_password/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "users"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/users/{userId}",
+        "method": "Put"
+      },
+      "method": "Put",
+      "basePath": "/AAYUSHGARGBU/api_oauth2_password/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "users"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Custom": {
+            "payloadType": "UuidSuffix",
+            "primitiveType": "String",
+            "payloadValue": "userId",
+            "isObject": false
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": [
+              {
+                "name": "__body__",
+                "payload": {
+                  "InternalNode": [
+                    {
+                      "name": "",
+                      "propertyType": "Object",
+                      "isRequired": true,
+                      "isReadOnly": false
+                    },
+                    [
+                      {
+                        "LeafNode": {
+                          "name": "id",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "username",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "email",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "firstName",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      },
+                      {
+                        "LeafNode": {
+                          "name": "lastName",
+                          "payload": {
+                            "Fuzzable": {
+                              "primitiveType": "String",
+                              "defaultValue": "fuzzstring"
+                            }
+                          },
+                          "isRequired": false,
+                          "isReadOnly": false
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": [
+              {
+                "name": "Content-Type",
+                "payload": {
+                  "LeafNode": {
+                    "name": "",
+                    "payload": {
+                      "Constant": [
+                        "String",
+                        "application/json"
+                      ]
+                    },
+                    "isRequired": true,
+                    "isReadOnly": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/users/{userId}",
+        "method": "Delete"
+      },
+      "method": "Delete",
+      "basePath": "/AAYUSHGARGBU/api_oauth2_password/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "users"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Fuzzable": {
+            "primitiveType": "String",
+            "defaultValue": "fuzzstring"
+          }
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    },
+    {
+      "id": {
+        "endpoint": "/ping",
+        "method": "Get"
+      },
+      "method": "Get",
+      "basePath": "/AAYUSHGARGBU/api_oauth2_password/1.0.0",
+      "path": [
+        {
+          "Constant": [
+            "String",
+            "/"
+          ]
+        },
+        {
+          "Constant": [
+            "String",
+            "ping"
+          ]
+        }
+      ],
+      "queryParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "bodyParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "headerParameters": [
+        [
+          "Schema",
+          {
+            "ParameterList": []
+          }
+        ],
+        [
+          "DictionaryCustomPayload",
+          {
+            "ParameterList": []
+          }
+        ]
+      ],
+      "token": "Refreshable",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ],
+        [
+          "Host",
+          "virtserver.swaggerhub.com"
+        ]
+      ],
+      "httpVersion": "1.1",
+      "requestMetadata": {
+        "isLongRunningOperation": false
+      }
+    }
+  ]
+}
