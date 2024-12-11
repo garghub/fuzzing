@@ -1,6 +1,14 @@
+
 # Payload Analysis of Adversaries’ Tooling: Automated Identification of Fuzzers  
 
 This repository accompanies the paper *"Payload Analysis of Adversaries’ Tooling: Automated Identification of Fuzzers,"* submitted to the IEEE Transactions on Information Forensics & Security.  
+
+## Pre-print Availability  
+
+A pre-print version of the paper is now available for reference and citation:  
+**[Payload Analysis of Adversaries’ Tooling: Automated Identification of Fuzzers (Pre-print)](https://doi.org/10.36227/techrxiv.173385946.65994728/v1)**  
+
+---
 
 ## Overview  
 The repository includes:  
@@ -9,6 +17,8 @@ The repository includes:
 3. **Trained Models**: Pre-trained models for replicating our classification results.  
 4. **Supplementary Scripts**: Tools for data preprocessing, analysis, and visualization.  
 5. **Docker Setup**: A containerized environment to execute the fuzzers on the provided APIs, enabling users to replicate or generate the dataset independently.  
+
+---
 
 ## Purpose of the Docker Setup  
 The Docker container is designed to streamline the execution of fuzzers against the five custom APIs developed for our study. This setup is particularly useful for:  
@@ -77,11 +87,11 @@ python3 /docker_fuzzing/tools/ja4-0.18.4/python/ja4.py [parameters]
 ## Running Fuzzers Iteratively  
 
 ### Bash Scripts for Iterative Execution  
-Below are scripts to execute fuzzers iteratively:  
+The following scripts execute each fuzzer iteratively on the APIs:  
 - **APIFuzzer**: `/docker_fuzzing/scripts/bash_script_to_run_APIFuzzer_Iteratively.sh`  
 - **Kiterunner**: `/docker_fuzzing/scripts/bash_script_to_run_Kiterunner_Iteratively.sh`  
 - **RESTler**: `/docker_fuzzing/scripts/bash_script_to_run_RESTler.sh`  
-  _Note: RESTler provides an in-built functionality to set execution time._  
+  _Note: RESTler provides an in-built time-setting functionality._  
 - **Schemathesis**: `/docker_fuzzing/scripts/bash_script_to_run_Schemathesis_Iteratively.sh`  
 
 ---
