@@ -5,7 +5,7 @@ This repository accompanies the paper *"Payload Analysis of Adversaries’ Tooli
 
 ## Pre-print Availability  
 
-A pre-print version of the paper is now available for reference and citation:  
+A pre-print version of the paper is now available for reference:  
 **[Payload Analysis of Adversaries’ Tooling: Automated Identification of Fuzzers (Pre-print)](https://doi.org/10.36227/techrxiv.173385946.65994728/v1)**  
 
 ---
