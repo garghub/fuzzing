@@ -1,0 +1,122 @@
+[05/04/2024 01:22:58] Generating grammar...
+[05/04/2024 01:22:58] Getting requests...
+found unsupported format: email
+[05/04/2024 01:22:59] Getting dependencies...
+[05/04/2024 01:22:59] Getting path consumers...
+[05/04/2024 01:22:59] Getting query consumers...
+[05/04/2024 01:22:59] Getting header consumers...
+[05/04/2024 01:22:59] Getting body consumers...
+found unsupported format: email
+[05/04/2024 01:22:59] Getting producers...
+[05/04/2024 01:22:59] Done processing producers
+[05/04/2024 01:22:59] Compute dependencies
+found unsupported format: email
+[[[05/04/2024 01:22:59[05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }[05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/example"
+  xMsPath = None
+  method = Get }
+05/04/2024 01:22:59] [Second pass dependencies for request { endpoint = "/example"
+  xMsPath = None
+  method = Get }05/04/2024 01:22:59] 
+Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59[] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+] Second pass dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/example"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] 05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] 
+[05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+Second pass dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+
+Second pass dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/example"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/example"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/example"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/example"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/example"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:22:59] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:22:59] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:22:59] Assigning equality constraints...
+found unsupported format: email
+[05/04/2024 01:22:59] Getting ordering constraints...
+[05/04/2024 01:22:59] Dependency analysis completed.
+[05/04/2024 01:22:59] Generating request primitives...
+found unsupported format: email
+found unsupported format: email
+Writing new dictionary to /mnt/d/ag/github/lazarus_target_apis/api_oauth2_application/Compile/dict.json
+[05/04/2024 01:22:59] Generating python grammar...
+[05/04/2024 01:22:59] Get requests
+[05/04/2024 01:22:59] Done get requests
+[05/04/2024 01:22:59] Done generating python grammar.
+Workflow completed.  See /mnt/d/ag/github/lazarus_target_apis/api_oauth2_application/Compile for REST-ler grammar.

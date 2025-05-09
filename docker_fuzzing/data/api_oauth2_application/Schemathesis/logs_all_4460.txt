@@ -1,0 +1,52 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_application/api_oauth2_application.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 71343992126975390739726459910754147633
+Workers: 1
+Collected API operations: 4
+Collected API links: 0
+API probing: ...API probing: ERROR
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example E                  [ 25%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping E                     [ 50%]
+POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users E                   [ 75%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users E                    [100%]
+
+==================================== ERRORS ====================================
+____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example ____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping ______________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+____________ POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+Need more help?
+    Join our Discord server: https://discord.gg/R9ASRAmHnA
+=================================== SUMMARY ====================================
+
+No checks were performed.
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================= 4 errored in 682.95s =============================

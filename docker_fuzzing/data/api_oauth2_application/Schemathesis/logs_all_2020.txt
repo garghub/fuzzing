@@ -1,0 +1,86 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_application/api_oauth2_application.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 252975273880582760985219936011515192873
+Workers: 1
+Collected API operations: 4
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example F                  [ 25%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping .                     [ 50%]
+POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                   [ 75%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                    [100%]
+
+=================================== FAILURES ===================================
+____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example ____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: 9kLB4X
+
+- Undocumented HTTP status code
+
+    Received: 400
+    Documented: 200
+
+[400] Bad Request:
+
+    `<h1>Bad Message 400</h1><pre>reason: Illegal character CNTL=0x17</pre>`
+
+Reproduce with: 
+
+    curl -X GET -H 'Kk.c1.cttKNx: ' -H '8Dgj: j1' -H '4320433326346501*3k: ' -H '7~%|E~VFj~D2: i' -H '%O5: ' -H '~AUoInpof1: ' -H 'FrtVk7: ' -H 'R6Rkobdy'"'"'!63F%XkJcVe7fz$a4: ' -H 't7.: ' -H 'E|E: )¦' -H 'Z45: ô¿vXNW' -H '3645: 5' 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/example?=%F1%B0%A4%81%F1%8A%88%872~&=365'
+
+____________ POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: VVFPWc
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '[[0, 10000000.0, null], {"\u00be": {"\u00c4\u00d8\ud9b0\udd34\u00f6\u0085\"": 5e-324, "\u00b19\u00dfsy\ud957\udf05\u00e5\u00a4\u00e0\u00b2\ud90d\uddff\u0086y": -1084995213, "$^yd": false}, "\u00fb": {}, "\uda37\udfe2": [1.1754943508222875e-38]}, {}, {"C\u00d1p": "\u0091", "\u0003\u00d3\udb31\udf86R\u00e07\u00c4Z\u00e6^\u00cd\r\u0010\u0091\u00e6\udacb\udfd0C\u00c3\uda13\udf31\u00ae\u00ea\u0095\uda8d\udfe0]`": {}, "\u00a7\ud958\udcee": [-1.7976931348623155e+308, true, 5749]}, [{"\u0091": 1.1, "\u00e0d\u00e1\uf061\u0007R\u00c1c": [], "\u0011": ["", 5e-324, 4.5044594770184145e+44]}, ["Q", [], 2.2250738585072014e-308]], {"\u00f8\u0085\u00a6\u000f\uda91\udd71W\u00f9\ud9e4\udf66\uda7a\ude02": -14612, "\u0093\uda2b\ude22": "\u00e1\u00cd\u00cc,\u0093]\u00d8\u00e09\u00e3\ud885\udf22-"}, null, []]' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+_____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+1. Test Case ID: DOeIaW
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              37 / 37 passed          PASSED 
+    status_code_conformance                         17 / 37 passed          FAILED 
+    content_type_conformance                        37 / 37 passed          PASSED 
+    response_headers_conformance                    37 / 37 passed          PASSED 
+    response_schema_conformance                     37 / 37 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=252975273880582760985219936011515192873`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 3 failed in 5.21s ==========================

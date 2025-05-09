@@ -1,0 +1,168 @@
+{
+    "0bbb188016c9792e69df47bf20f5b97d6099caa5_1": {
+        "verb": "GET",
+        "endpoint": "/example",
+        "verb_endpoint": "GET /example",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 0,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:23:12",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_oauth2_application/1.0.0/example?filter=fuzzstring",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com",
+                "X-Request-ID: d34a48ad-9564-40c3-af85-f6643211a242"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:23:12 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 71",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"message\" : \"string\",\n  \"timestamp\" : \"2015-07-20T15:49:04-07:00\"\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "1f618f842e18eb2f5e460fd10297b7118f7ae878_1": {
+        "verb": "POST",
+        "endpoint": "/users",
+        "verb_endpoint": "POST /users",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "201",
+        "status_text": "Created",
+        "error_message": null,
+        "request_order": 1,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:23:13",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/api_oauth2_application/1.0.0/users",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com",
+                "Content-Type: application/json"
+            ],
+            "request_body": "{\n    \"id\":\"47ac4ef7-5af3-45b6-b4f3-bfa31b734767\",\n    \"name\":\"fuzzstring\",\n    \"email\":\"fuzzstring\",\n    \"age\":1}\r\n",
+            "response_status_code": "201",
+            "response_status_text": "Created",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:23:13 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "9653b2494e7b1213f58f1c3f5f464836ddb9e6df_1": {
+        "verb": "GET",
+        "endpoint": "/ping",
+        "verb_endpoint": "GET /ping",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 2,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:23:13",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_oauth2_application/1.0.0/ping",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:23:13 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "d007d97507801ce9652dac419a74e1a2e6a7b1ca_1": {
+        "verb": "GET",
+        "endpoint": "/users",
+        "verb_endpoint": "GET /users",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 3,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:23:14",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_oauth2_application/1.0.0/users?age=1",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:23:14 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 123",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "[ {\n  \"id\" : \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\n  \"name\" : \"string\",\n  \"email\" : \"apiteam@swagger.io\",\n  \"age\" : 0\n} ]"
+        },
+        "tracked_parameters": {}
+    }
+}

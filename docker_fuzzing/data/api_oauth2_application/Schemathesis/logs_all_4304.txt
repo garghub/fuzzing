@@ -1,0 +1,86 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_application/api_oauth2_application.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 258062194096733944123790845738977693745
+Workers: 1
+Collected API operations: 4
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example F                  [ 25%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/ping .                     [ 50%]
+POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                   [ 75%]
+GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users F                    [100%]
+
+=================================== FAILURES ===================================
+____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/example ____________
+1. Test Case ID: VckjRl
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET -H 'X-Request-ID: ' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/example
+
+____________ POST /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: shZDrJ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"email": "-5@RHW.PCFh8yb.ZZLMc.tOyS", "id": "\u00d5\u0000\udbbf\ude15\u00c3", "name": "\u0016\uda91\udc68\u00f4\ud90e\udc17"}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users
+
+_____________ GET /AAYUSHGARGBU/api_oauth2_application/1.0.0/users _____________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: D5BO3m
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_application/1.0.0/users?R=-6851187734346679958&R=%7B%27k%F0%A8%BD%AC%5CU0005056bz%F0%9B%B0%BF%5Cx02%C2%BE%5CU000e8e88l%C3%A3%C3%B4%5Cx8ak%C3%86U%5CU0004b6bb%C2%BD%5Cx05%3F%60S%C2%B3%25%5Cu1ccfR%5CU0009f729%2F%27%3A+%5B%7B%27%F0%AA%B3%A3%C3%BB%C3%B0%5Cx95%27%3A+-1.5%2C+%27%27%3A+None%2C+%27%5Cx9c%C3%B9%27%3A+-2.225073858507203e-309%7D%2C+%5B-12%2C+None%5D%5D%2C+%27%5CU000574496%C3%A2%27%3A+%27%5Cx12%27%2C+%27F%27%3A+True%7D&R=%7B%27%27%3A+%27%5CU00095d9b%27%2C+%27Z%5D%22%5CU000bc0fe%27%3A+-34%7D&R=%5B%27%C3%85%27%2C+3.815176430127631e%2B16%2C+-65132813456453050482626810125890519667%5D&%F1%A5%9F%AA%C2%B6%C2%84=%C2%95%C3%AA&%F1%A5%9F%AA%C2%B6%C2%84=23328&=2.2250738585072014e-308&%2C%C3%BB%C3%98%0A=13837&s-=-2.225073858507e-311&s-=%F3%89%B7%B9m%F1%B1%9D%B7&s-=%C3%B7%C2%A2%C3%BD%C2%B8&s-='
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              23 / 23 passed          PASSED 
+    status_code_conformance                         9 / 23 passed           FAILED 
+    content_type_conformance                        23 / 23 passed          PASSED 
+    response_headers_conformance                    23 / 23 passed          PASSED 
+    response_schema_conformance                     23 / 23 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=258062194096733944123790845738977693745`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 3 failed in 5.48s ==========================
