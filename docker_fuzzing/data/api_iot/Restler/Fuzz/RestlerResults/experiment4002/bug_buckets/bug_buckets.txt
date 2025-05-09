@@ -1,0 +1,52 @@
+main_driver_502: 2
+main_driver_504: 4
+Total Buckets: 6
+-------------
+main_driver_502 - Unable to reproduce bug - main_driver_502_1.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_502_05401d2575c7f2e1e82e80140bd3e837c58161d4
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/devices HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "uri":fuzzstring,\n    "id":566048da-ed19-4cd3-8e0a-b7e0e1ec4d72}\r\n
+GET /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/devices HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "uri":fuzzstring,\n    "id":566048da-ed19-4cd3-8e0a-b7e0e1ec4d72}\r\n
+--------------------------------------------------------------------------------
+main_driver_502 - Unable to reproduce bug - main_driver_502_2.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_502_7ec15c63183f49cd8f033fbc8a5c95f85a70a7d6
+GET /AAYUSHGARGBU/api_iot/1.0.0/zones/zoneId/quiet HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring/heater/state HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1/timer/1?units=units HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring/value/timer/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_1.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_05401d2575c7f2e1e82e80140bd3e837c58161d4
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1/timer/1?units=units HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/devices HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "uri":fuzzstring,\n    "id":566048da-ed19-4cd3-8e0a-b7e0e1ec4d72}\r\n
+GET /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/devices HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "uri":fuzzstring,\n    "id":566048da-ed19-4cd3-8e0a-b7e0e1ec4d72}\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_2.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_bfa4cab4c80a88ec3a714f620de4364a6837c70d
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring/heater HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/api_iot/1.0.0/devices?skip=1&limit=1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring/value HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_3.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_7ec15c63183f49cd8f033fbc8a5c95f85a70a7d6
+POST /AAYUSHGARGBU/api_iot/1.0.0/devices HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "uri":fuzzstring,\n    "id":566048da-ed19-4cd3-8e0a-b7e0e1ec4d72}\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1/timer/1?units=units HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1/timer/1?units=units HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/fuzzstring/value/timer/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_4.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_ea8cfb4702f50000faa0c99ad2f62068c7961baf
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/devices HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "uri":fuzzstring,\n    "id":566048da-ed19-4cd3-8e0a-b7e0e1ec4d72}\r\n
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/fuzzstring/1 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/api_iot/1.0.0/lightingSummary HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------

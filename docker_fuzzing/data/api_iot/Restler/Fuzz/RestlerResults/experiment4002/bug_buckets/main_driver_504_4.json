@@ -1,0 +1,16 @@
+{
+    "status_code": "504",
+    "checker_name": "main_driver",
+    "reproducible": false,
+    "verb": "GET",
+    "endpoint": "/lightingSummary",
+    "status_text": "Gateway Time-out",
+    "request_sequence": [
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n",
+            "response": "HTTP/1.1 504 Gateway Time-out\r\nServer: awselb/2.0\r\nDate: Tue, 28 May 2024 11:39:55 GMT\r\nContent-Type: text/html\r\nContent-Length: 132\r\nConnection: keep-alive\r\n\r\n<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
+        }
+    ]
+}

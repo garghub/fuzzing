@@ -1,0 +1,132 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_iot/api_iot.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_iot/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 46991726807960808763517229941322143027
+Workers: 1
+Collected API operations: 15
+Collected API links: 0
+API probing: ...API probing: ERROR
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_iot/1.0.0/devices E                                 [  6%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/devices E                                [ 13%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/{deviceId}/{valu[...] E [ 20%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/{deviceId}/{valu[...] E [ 26%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId} E            [ 33%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId}/{val[...] E [ 40%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId}/{val[...] E [ 46%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/lightingSummary E                         [ 53%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature E                             [ 60%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/forecast/{days} E             [ 66%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId} E                    [ 73%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId}/heater E             [ 80%]
+POST /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId}/heater/{stat[...] E [ 86%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/zones E                                   [ 93%]
+GET /AAYUSHGARGBU/api_iot/1.0.0/zones/{zoneId}/quiet E                    [100%]
+
+============================== HYPOTHESIS OUTPUT ===============================
+WARNING: Hypothesis has spent more than five minutes working to shrink a failing example, and stopped because it is making very slow progress.  When you re-run your tests, shrinking will resume and may take this long before aborting again.
+PLEASE REPORT THIS if you can provide a reproducing example, so that we can improve shrinking performance for everyone.
+==================================== ERRORS ====================================
+___________________ GET /AAYUSHGARGBU/api_iot/1.0.0/devices ____________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+___________________ POST /AAYUSHGARGBU/api_iot/1.0.0/devices ___________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____ POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/{deviceId}/{value} _____
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+ POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/dimmers/{deviceId}/{value}/timer/{timeunit} 
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_________ GET /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId} _________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+____ POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId}/{value} _____
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+ POST /AAYUSHGARGBU/api_iot/1.0.0/lighting/switches/{deviceId}/{value}/timer/{minutes} 
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_______________ GET /AAYUSHGARGBU/api_iot/1.0.0/lightingSummary ________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_________________ GET /AAYUSHGARGBU/api_iot/1.0.0/temperature __________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_________ GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/forecast/{days} __________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId} _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_________ GET /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId}/heater __________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____ POST /AAYUSHGARGBU/api_iot/1.0.0/temperature/{zoneId}/heater/{state} _____
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+____________________ GET /AAYUSHGARGBU/api_iot/1.0.0/zones _____________________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+_____________ GET /AAYUSHGARGBU/api_iot/1.0.0/zones/{zoneId}/quiet _____________
+Network Error
+
+Connection failed
+
+    Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+Need more help?
+    Join our Discord server: https://discord.gg/R9ASRAmHnA
+=================================== SUMMARY ====================================
+
+No checks were performed.
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================ 15 errored in 3391.45s ============================

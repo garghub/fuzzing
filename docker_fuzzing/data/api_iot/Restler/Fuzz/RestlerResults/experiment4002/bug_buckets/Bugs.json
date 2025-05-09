@@ -1,0 +1,25 @@
+{"bugs":[{
+    "filepath": "main_driver_502_1.json",
+    "reproducible": false,
+    "checker_name": "main_driver",
+    "error_code": "502"},{
+    "filepath": "main_driver_504_1.json",
+    "reproducible": false,
+    "checker_name": "main_driver",
+    "error_code": "504"},{
+    "filepath": "main_driver_504_2.json",
+    "reproducible": false,
+    "checker_name": "main_driver",
+    "error_code": "504"},{
+    "filepath": "main_driver_504_3.json",
+    "reproducible": false,
+    "checker_name": "main_driver",
+    "error_code": "504"},{
+    "filepath": "main_driver_502_2.json",
+    "reproducible": false,
+    "checker_name": "main_driver",
+    "error_code": "502"},{
+    "filepath": "main_driver_504_4.json",
+    "reproducible": false,
+    "checker_name": "main_driver",
+    "error_code": "504"}]}

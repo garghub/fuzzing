@@ -1,0 +1,802 @@
+[
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/devices",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "skip"
+        },
+        "ContainerName": "devices",
+        "PathContainerName": "devices",
+        "CandidateTypeNames": [
+          "device"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "skip",
+        "ProducerParameterName": "skip",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Int"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/devices",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "limit"
+        },
+        "ContainerName": "devices",
+        "PathContainerName": "devices",
+        "CandidateTypeNames": [
+          "device"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "limit",
+        "ProducerParameterName": "limit",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Int"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/devices",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "BodyResource": {
+            "name": "id",
+            "fullPath": {
+              "path": [
+                "id"
+              ]
+            }
+          }
+        },
+        "ContainerName": "devices",
+        "PathContainerName": "devices",
+        "CandidateTypeNames": [
+          "device"
+        ],
+        "AccessPath": "id",
+        "AccessPathParts": {
+          "path": [
+            "id"
+          ]
+        },
+        "ResourceName": "id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Uuid"
+      },
+      "parameterKind": "Body"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/devices",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "BodyResource": {
+            "name": "uri",
+            "fullPath": {
+              "path": [
+                "uri"
+              ]
+            }
+          }
+        },
+        "ContainerName": "devices",
+        "PathContainerName": "devices",
+        "CandidateTypeNames": [
+          "device"
+        ],
+        "AccessPath": "uri",
+        "AccessPathParts": {
+          "path": [
+            "uri"
+          ]
+        },
+        "ResourceName": "uri",
+        "ProducerParameterName": "uri",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Body"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/dimmers/{deviceId}/{value}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "deviceId",
+            "pathToParameter": [
+              "lighting",
+              "dimmers"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "dimmers",
+        "CandidateTypeNames": [
+          "dimmer"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "deviceId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/dimmers/{deviceId}/{value}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "value",
+            "pathToParameter": [
+              "lighting",
+              "dimmers",
+              "{deviceId}"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "dimmers",
+        "CandidateTypeNames": [
+          "dimmer"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "value",
+        "ProducerParameterName": "value",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Int"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "QueryResource": "units"
+        },
+        "ContainerName": "timer",
+        "PathContainerName": "timer",
+        "CandidateTypeNames": [
+          "timer"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "units",
+        "ProducerParameterName": "units",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": {
+          "Enum": [
+            "units",
+            "String",
+            [
+              "seconds",
+              "minutes",
+              "milliseconds"
+            ],
+            "milliseconds"
+          ]
+        }
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "deviceId",
+            "pathToParameter": [
+              "lighting",
+              "dimmers"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "dimmers",
+        "PathContainerName": "timer",
+        "CandidateTypeNames": [
+          "dimmer"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "deviceId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "value",
+            "pathToParameter": [
+              "lighting",
+              "dimmers",
+              "{deviceId}"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "dimmers",
+        "PathContainerName": "timer",
+        "CandidateTypeNames": [
+          "dimmer"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "value",
+        "ProducerParameterName": "value",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Int"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "timeunit",
+            "pathToParameter": [
+              "lighting",
+              "dimmers",
+              "{deviceId}",
+              "{value}",
+              "timer"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "timer",
+        "PathContainerName": "timer",
+        "CandidateTypeNames": [
+          "timer"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "timeunit",
+        "ProducerParameterName": "timeunit",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Int"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/switches/{deviceId}",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "deviceId",
+            "pathToParameter": [
+              "lighting",
+              "switches"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "switches",
+        "PathContainerName": "switches",
+        "CandidateTypeNames": [
+          "switch"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "deviceId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/switches/{deviceId}/{value}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "deviceId",
+            "pathToParameter": [
+              "lighting",
+              "switches"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "switches",
+        "CandidateTypeNames": [
+          "switch"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "deviceId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/switches/{deviceId}/{value}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "value",
+            "pathToParameter": [
+              "lighting",
+              "switches",
+              "{deviceId}"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "switches",
+        "CandidateTypeNames": [
+          "switch"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "value",
+        "ProducerParameterName": "value",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": {
+          "Enum": [
+            "value",
+            "String",
+            [
+              "True",
+              "False"
+            ],
+            null
+          ]
+        }
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/switches/{deviceId}/{value}/timer/{minutes}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "deviceId",
+            "pathToParameter": [
+              "lighting",
+              "switches"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "switches",
+        "PathContainerName": "timer",
+        "CandidateTypeNames": [
+          "switch"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "deviceId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/switches/{deviceId}/{value}/timer/{minutes}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "value",
+            "pathToParameter": [
+              "lighting",
+              "switches",
+              "{deviceId}"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "switches",
+        "PathContainerName": "timer",
+        "CandidateTypeNames": [
+          "switch"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "value",
+        "ProducerParameterName": "value",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": {
+          "Enum": [
+            "value",
+            "String",
+            [
+              "True",
+              "False"
+            ],
+            null
+          ]
+        }
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/lighting/switches/{deviceId}/{value}/timer/{minutes}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "minutes",
+            "pathToParameter": [
+              "lighting",
+              "switches",
+              "{deviceId}",
+              "{value}",
+              "timer"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "timer",
+        "PathContainerName": "timer",
+        "CandidateTypeNames": [
+          "timer"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "minutes",
+        "ProducerParameterName": "minutes",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Int"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/temperature/forecast/{days}",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "days",
+            "pathToParameter": [
+              "temperature",
+              "forecast"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "forecast",
+        "PathContainerName": "forecast",
+        "CandidateTypeNames": [
+          "forecast"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "days",
+        "ProducerParameterName": "days",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Int"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/temperature/{zoneId}",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "zoneId",
+            "pathToParameter": [
+              "temperature"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "temperature",
+        "PathContainerName": "temperature",
+        "CandidateTypeNames": [
+          "temperature"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "zoneId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/temperature/{zoneId}/heater",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "zoneId",
+            "pathToParameter": [
+              "temperature"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "temperature",
+        "PathContainerName": "heater",
+        "CandidateTypeNames": [
+          "temperature"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "zoneId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/temperature/{zoneId}/heater/{state}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "zoneId",
+            "pathToParameter": [
+              "temperature"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "temperature",
+        "PathContainerName": "heater",
+        "CandidateTypeNames": [
+          "temperature"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "zoneId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/temperature/{zoneId}/heater/{state}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "state",
+            "pathToParameter": [
+              "temperature",
+              "{zoneId}",
+              "heater"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "heater",
+        "PathContainerName": "heater",
+        "CandidateTypeNames": [
+          "heater"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "state",
+        "ProducerParameterName": "state",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": {
+          "Enum": [
+            "state",
+            "String",
+            [
+              "False",
+              "True"
+            ],
+            null
+          ]
+        }
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/zones/{zoneId}/quiet",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "zoneId",
+            "pathToParameter": [
+              "zones"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "zones",
+        "PathContainerName": "quiet",
+        "CandidateTypeNames": [
+          "zone"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "zoneId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": {
+          "Enum": [
+            "zoneId",
+            "String",
+            [
+              "basement",
+              "first-floor",
+              "second-floor"
+            ],
+            null
+          ]
+        }
+      },
+      "parameterKind": "Path"
+    }
+  }
+]

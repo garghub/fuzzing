@@ -1,0 +1,386 @@
+[05/04/2024 00:27:33] Generating grammar...
+[05/04/2024 00:27:33] Getting requests...
+found unsupported format: uri
+[05/04/2024 00:27:33] Getting dependencies...
+[05/04/2024 00:27:33] Getting path consumers...
+[05/04/2024 00:27:33] Getting query consumers...
+[05/04/2024 00:27:33] Getting header consumers...
+[05/04/2024 00:27:33] Getting body consumers...
+found unsupported format: uri
+[05/04/2024 00:27:33] Getting producers...
+[05/04/2024 00:27:33] Done processing producers
+[05/04/2024 00:27:33] Compute dependencies
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}"
+  xMsPath = None
+  method = Post }[05/04/2024 00:27:33[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}/heater/{state}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}/timer/{minutes}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33[] Second pass dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33
+] Second pass dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33[] Second pass dependencies for request { endpoint = "/temperature/forecast/{days}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}/heater/{state}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}/timer/{minutes}"
+  xMsPath = None
+  method = Post }
+05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Get }
+05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Get }] 
+Second pass dependencies for request { endpoint = "/temperature/forecast/{days}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}/heater/{state}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/forecast/{days}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}/heater/{state}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}/timer/{minutes}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}/timer/{minutes}"
+  xMsPath = None
+  method = Post }
+found unsupported format: uri
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/zones"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/forecast/{days}"
+  xMsPath = None
+  method = Get }[
+05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/zones"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/zones"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/zones"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lightingSummary"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lightingSummary"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/zones/{zoneId}/quiet"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] [Done dependencies for request { endpoint = "/lightingSummary"
+  xMsPath = None
+  method = Get }05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}"
+  xMsPath = None
+  method = Get }
+
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}/heater"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lightingSummary"
+  xMsPath = None
+  method = Get }[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/zones/{zoneId}/quiet"
+  xMsPath = None
+  method = Get }
+
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/zones/{zoneId}/quiet"
+  xMsPath = None
+  method = Get }
+[[[05/04/2024 00:27:33] [Done dependencies for request { endpoint = "/lighting/switches/{deviceId}"
+  xMsPath = None
+  method = Get }
+05/04/2024 00:27:33] 05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}"
+  xMsPath = None
+  method = Post }Second pass dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Get }
+
+05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/forecast/{days}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}/heater/{state}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}/timer/{minutes}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] [[05/04/2024 00:27:3305/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }] Second pass dependencies for request { endpoint = "/temperature"
+  xMsPath = None
+  method = Get }
+
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/zones/{zoneId}/quiet"
+  xMsPath = None
+  method = Get }
+Second pass dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}"
+  xMsPath = None
+  method = Post }[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/forecast/{days}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}/timer/{minutes}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}/heater"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature"
+  xMsPath = None
+  method = Get }
+
+
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}/timer/{minutes}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}/heater"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}/heater/{state}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lightingSummary"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/forecast/{days}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lightingSummary"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}/heater"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}/heater/{state}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lightingSummary"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/zones"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lightingSummary"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}/timer/{minutes}"
+  xMsPath = None
+  method = Post }[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}"
+  xMsPath = None
+  method = Post }[[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}/timer/{timeunit}"
+  xMsPath = None
+  method = Post }[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}/heater/{state}"
+  xMsPath = None
+  method = Post }
+
+[05/04/2024 00:27:33[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}"
+  xMsPath = None
+  method = Get }
+
+05/04/2024 00:27:33] Done dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Get }[05/04/2024 00:27:33
+] Done dependencies for request { endpoint = "/temperature/{zoneId}"
+  xMsPath = None
+  method = Get }
+
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/zones"
+  xMsPath = None
+  method = Get }
+] Done dependencies for request { endpoint = "/temperature/forecast/{days}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}/heater"
+  xMsPath = None
+  method = Get }
+] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/zones/{zoneId}/quiet"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}/heater"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Post }[
+05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/zones"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/zones/{zoneId}/quiet"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/zones"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/temperature/{zoneId}/heater"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/switches/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/zones/{zoneId}/quiet"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/temperature/{zoneId}/heater"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/zones/{zoneId}/quiet"
+  xMsPath = None
+  method = Get }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/devices"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Second pass dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Done dependencies for request { endpoint = "/lighting/dimmers/{deviceId}/{value}"
+  xMsPath = None
+  method = Post }
+[05/04/2024 00:27:33] Assigning equality constraints...
+found unsupported format: uri
+[05/04/2024 00:27:33] Getting ordering constraints...
+[05/04/2024 00:27:33] Dependency analysis completed.
+[05/04/2024 00:27:33] Generating request primitives...
+found unsupported format: uri
+found unsupported format: uri
+Writing new dictionary to /mnt/d/ag/github/lazarus_target_apis/api_iot/Compile/dict.json
+[05/04/2024 00:27:34] Generating python grammar...
+[05/04/2024 00:27:34] Get requests
+[05/04/2024 00:27:34] Done get requests
+[05/04/2024 00:27:34] Done generating python grammar.
+Workflow completed.  See /mnt/d/ag/github/lazarus_target_apis/api_iot/Compile for REST-ler grammar.
