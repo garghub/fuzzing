@@ -1,0 +1,530 @@
+Random seed: 12345
+Setting fuzzing schemes: directed-smoke-test
+2024-05-03 15:14:22.896: Going to fuzz a set with 20 requests
+2024-05-03 15:14:22.896: Request-0: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-1: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-2: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-3: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-4: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-5: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-6: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-7: Value Combinations: 6
+2024-05-03 15:14:22.896: Request-8: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-9: Value Combinations: 4
+2024-05-03 15:14:22.896: Request-10: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-11: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-12: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-13: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-14: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-15: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-16: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-17: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-18: Value Combinations: 2
+2024-05-03 15:14:22.896: Request-19: Value Combinations: 2
+2024-05-03 15:14:22.896: Avg. Value Combinations per Request: 2.3
+2024-05-03 15:14:22.896: Median Value Combinations per Request: 2.0
+2024-05-03 15:14:22.896: Min Value Combinations per Request: 2
+2024-05-03 15:14:22.896: Max Value Combinations per Request: 6
+2024-05-03 15:14:22.896: Total dependencies: 3
+
+2024-05-03 15:14:22.899: Generation: 1 / Sequences Collection Size: 18 
+(After directed-smoke-test Extend)
+
+Rendering request 0 from scratch
+
+2024-05-03 15:14:23.995: Request 0
+2024-05-03 15:14:23.995: Endpoint - /user/{username}
+2024-05-03 15:14:23.995: Hex Def - 0ae5fb0ca7ffc0394f5ccbf9f183e19a4bcfa902
+2024-05-03 15:14:23.995: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:23.995: Rendering INVALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 1 from scratch
+
+2024-05-03 15:14:24.892: Request 1
+2024-05-03 15:14:24.892: Endpoint - /pet
+2024-05-03 15:14:24.892: Hex Def - 1e197ffa0c5c5aa2380a17f7c4c4dfca746532fa
+2024-05-03 15:14:24.892: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:24.893: Rendering INVALID
+		- restler_static_string: 'PUT '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 2 from scratch
+
+2024-05-03 15:14:25.261: Request 2
+2024-05-03 15:14:25.261: Endpoint - /user/logout
+2024-05-03 15:14:25.261: Hex Def - 2e6d82be0c65bfb446bafa9d83af642cfe31b5a2
+2024-05-03 15:14:25.261: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:25.261: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_static_string: 'logout'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 3 from scratch
+
+2024-05-03 15:14:25.623: Request 3
+2024-05-03 15:14:25.623: Endpoint - /user/createWithList
+2024-05-03 15:14:25.623: Hex Def - 3524a08380b5e01cf02bd47c20aa410860dede4b
+2024-05-03 15:14:25.623: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:25.624: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_static_string: 'createWithList'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 4 from scratch
+
+2024-05-03 15:14:26.010: Request 4
+2024-05-03 15:14:26.010: Endpoint - /user
+2024-05-03 15:14:26.010: Hex Def - 4a24c036d324535f79ae845df379b61d5c23ae52
+2024-05-03 15:14:26.010: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:26.011: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "username":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "firstName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "lastName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "email":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "password":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "phone":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "userStatus":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 5 from scratch
+
+2024-05-03 15:14:26.391: Request 5
+2024-05-03 15:14:26.391: Endpoint - /pet/findByStatus
+2024-05-03 15:14:26.391: Hex Def - 5f18aff087c9371ce187a3303d446cdaaa2cb7be
+2024-05-03 15:14:26.391: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:26.391: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_static_string: 'findByStatus'
+		- restler_static_string: '?'
+		- restler_static_string: 'status='
+		+ restler_fuzzable_group: ['available', 'pending', 'sold']
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 6 from scratch
+
+2024-05-03 15:14:27.102: Request 6
+2024-05-03 15:14:27.102: Endpoint - /pet/{petId}
+2024-05-03 15:14:27.102: Hex Def - 6965ad608ab434c60da18817cba663355846d91e
+2024-05-03 15:14:27.102: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:27.103: Rendering INVALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'api_key: '
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 7 from scratch
+
+2024-05-03 15:14:27.483: Request 7
+2024-05-03 15:14:27.483: Endpoint - /store/order
+2024-05-03 15:14:27.483: Hex Def - 6da970759d953a2b8b91e0f33f8410c3ea0007bd
+2024-05-03 15:14:27.483: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:27.483: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'store'
+		- restler_static_string: '/'
+		- restler_static_string: 'order'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "petId":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "quantity":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "shipDate":'
+		- restler_fuzzable_datetime: '"2019-06-26T20:20:39+00:00"'
+		- restler_static_string: ',\n    "status":'
+		+ restler_fuzzable_group: ['placed', 'approved', 'delivered']
+		- restler_static_string: ',\n    "complete":'
+		- restler_fuzzable_bool: 'true'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 8 from scratch
+
+2024-05-03 15:14:27.831: Request 8
+2024-05-03 15:14:27.831: Endpoint - /store/inventory
+2024-05-03 15:14:27.831: Hex Def - 931571b2ed562f5af35555548452ab555ffaf128
+2024-05-03 15:14:27.831: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:27.832: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'store'
+		- restler_static_string: '/'
+		- restler_static_string: 'inventory'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 9 from scratch
+
+2024-05-03 15:14:28.572: Request 9
+2024-05-03 15:14:28.572: Endpoint - /pet/{petId}
+2024-05-03 15:14:28.572: Hex Def - 9bd4444ac16fc810924c256b96cb3ecdfb2d8ae0
+2024-05-03 15:14:28.572: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:28.573: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 10 from scratch
+
+2024-05-03 15:14:28.935: Request 10
+2024-05-03 15:14:28.935: Endpoint - /user/login
+2024-05-03 15:14:28.935: Hex Def - a3932a0ed508e719ba658e17323b49e85775a95e
+2024-05-03 15:14:28.935: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:28.935: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_static_string: 'login'
+		- restler_static_string: '?'
+		- restler_static_string: 'username='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '&'
+		- restler_static_string: 'password='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 11 from scratch
+
+2024-05-03 15:14:29.823: Request 11
+2024-05-03 15:14:29.823: Endpoint - /pet
+2024-05-03 15:14:29.823: Hex Def - acd5a0631bab949f13667afade7d2e57568713f9
+2024-05-03 15:14:29.823: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:29.823: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 12 from scratch
+
+2024-05-03 15:14:30.346: Request 12
+2024-05-03 15:14:30.346: Endpoint - /pet/findByTags
+2024-05-03 15:14:30.346: Hex Def - b3c7856d335ad623ec1c3fa75cccc8b7fc8e0c45
+2024-05-03 15:14:30.346: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:30.347: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_static_string: 'findByTags'
+		- restler_static_string: '?'
+		- restler_static_string: 'tags='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 13 from scratch
+
+2024-05-03 15:14:31.792: Request 13
+2024-05-03 15:14:31.792: Endpoint - /user/{username}
+2024-05-03 15:14:31.792: Hex Def - b99d6fddf17ede3dd2620d386a868c5cf8129ff0
+2024-05-03 15:14:31.792: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:31.810: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 14 from scratch
+
+2024-05-03 15:14:36.950: Request 14
+2024-05-03 15:14:36.950: Endpoint - /pet/{petId}
+2024-05-03 15:14:36.950: Hex Def - c71b12eb41e5100049f3c9c58eae57c2483e7107
+2024-05-03 15:14:36.950: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:36.951: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 15 from scratch
+
+2024-05-03 15:14:44.788: Request 15
+2024-05-03 15:14:44.788: Endpoint - /user/{username}
+2024-05-03 15:14:44.788: Hex Def - d33dcc58cb2674fc056cace63b2cefca39df0c1b
+2024-05-03 15:14:44.788: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:44.789: Rendering INVALID
+		- restler_static_string: 'PUT '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_custom_payload_uuid4_suffix: 'u'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "username":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "firstName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "lastName":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "email":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "password":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "phone":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "userStatus":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 16 from scratch
+
+2024-05-03 15:14:48.033: Request 16
+2024-05-03 15:14:48.033: Endpoint - /pet/{petId}/uploadImage
+2024-05-03 15:14:48.033: Hex Def - f6052076487e9fb742cd7747a1d9c7494df47cce
+2024-05-03 15:14:48.033: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:48.035: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'pet'
+		- restler_static_string: '/'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: '/'
+		- restler_static_string: 'uploadImage'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 17 from scratch
+
+2024-05-03 15:14:50.995: Request 17
+2024-05-03 15:14:50.995: Endpoint - /user/createWithArray
+2024-05-03 15:14:50.995: Hex Def - fc4f4068e09da936a7dee78cf7954e18e91bb47c
+2024-05-03 15:14:50.995: Sequence length that satisfies dependencies: 1
+2024-05-03 15:14:50.996: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'user'
+		- restler_static_string: '/'
+		- restler_static_string: 'createWithArray'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+2024-05-03 15:14:50.997: Generation: 1 / Sequences Collection Size: 12 
+(After directed-smoke-test Render)
+
+2024-05-03 15:14:50.998: Final Swagger spec coverage: 12 / 20
+2024-05-03 15:14:50.998: Rendered requests: 18 / 20
+2024-05-03 15:14:50.998: Rendered requests with "valid" status codes: 12 / 18
+2024-05-03 15:14:50.998: Num fully valid requests (no resource creation failures): 12
+2024-05-03 15:14:50.998: Num requests not rendered due to invalid sequence re-renders: 0
+2024-05-03 15:14:50.998: Num invalid requests caused by failed resource creations: 0
+2024-05-03 15:14:50.998: Total Creations of Dyn Objects: 1
+2024-05-03 15:14:50.998: Total Requests Sent: {'gc': 0, 'main_driver': 24}
+2024-05-03 15:14:50.998: Bug Buckets: {}
+2024-05-03 15:14:51.000: Generation: 2 / Sequences Collection Size: 2 
+(After directed-smoke-test Extend)
+
+Found a matching prefix of length 1 for request 18 with previous request 7
+	and re-using that VALID prefix (1 rendering combinations)
+
+2024-05-03 15:14:56.030: Request 18
+2024-05-03 15:14:56.030: Endpoint - /store/order/{orderId}
+2024-05-03 15:14:56.030: Hex Def - 0589191cecb11c347422ed7ac5787244e8cea17d
+2024-05-03 15:14:56.030: Sequence length that satisfies dependencies: 2
+2024-05-03 15:14:56.030: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'store'
+		- restler_static_string: '/'
+		- restler_static_string: 'order'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_store_order_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 19 with previous request 7
+	and re-using that VALID prefix (1 rendering combinations)
+
+2024-05-03 15:15:00.640: Request 19
+2024-05-03 15:15:00.640: Endpoint - /store/order/{orderId}
+2024-05-03 15:15:00.640: Hex Def - 184500edd3b8d56c6488c795a76c6d871c29e9e3
+2024-05-03 15:15:00.640: Sequence length that satisfies dependencies: 2
+2024-05-03 15:15:00.640: Rendering INVALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/api_petstore/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'store'
+		- restler_static_string: '/'
+		- restler_static_string: 'order'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_store_order_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+2024-05-03 15:15:00.641: Generation: 2 / Sequences Collection Size: 1 
+(After directed-smoke-test Render)
+
+2024-05-03 15:15:00.641: Final Swagger spec coverage: 14 / 20
+2024-05-03 15:15:00.641: Rendered requests: 20 / 20
+2024-05-03 15:15:00.641: Rendered requests with "valid" status codes: 14 / 20
+2024-05-03 15:15:00.641: Num fully valid requests (no resource creation failures): 14
+2024-05-03 15:15:00.641: Num requests not rendered due to invalid sequence re-renders: 0
+2024-05-03 15:15:00.641: Num invalid requests caused by failed resource creations: 0
+2024-05-03 15:15:00.641: Total Creations of Dyn Objects: 4
+2024-05-03 15:15:00.641: Total Requests Sent: {'gc': 0, 'main_driver': 30}
+2024-05-03 15:15:00.641: Bug Buckets: {}
+
+Testing completed -- below are the final stats:
+
+2024-05-03 15:20:10.094: Final Swagger spec coverage: 14 / 20
+2024-05-03 15:20:10.094: Rendered requests: 20 / 20
+2024-05-03 15:20:10.094: Rendered requests with "valid" status codes: 14 / 20
+2024-05-03 15:20:10.094: Num fully valid requests (no resource creation failures): 14
+2024-05-03 15:20:10.094: Num requests not rendered due to invalid sequence re-renders: 0
+2024-05-03 15:20:10.094: Num invalid requests caused by failed resource creations: 0
+2024-05-03 15:20:10.094: Total Creations of Dyn Objects: 4
+2024-05-03 15:20:10.094: Total Requests Sent: {'gc': 108, 'main_driver': 30}
+2024-05-03 15:20:10.094: Bug Buckets: {}

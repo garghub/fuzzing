@@ -1,0 +1,16 @@
+{
+    "status_code": "502",
+    "checker_name": "main_driver",
+    "reproducible": false,
+    "verb": "POST",
+    "endpoint": "/user/createWithArray",
+    "status_text": "Bad Gateway",
+    "request_sequence": [
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    \"id\":1,\n    \"petId\":1,\n    \"quantity\":1,\n    \"shipDate\":\"2019-06-26T20:20:39+00:00\",\n    \"status\":\"placed\",\n    \"complete\":true}\r\n",
+            "response": "HTTP/1.1 502 Bad Gateway\r\nServer: awselb/2.0\r\nDate: Tue, 28 May 2024 12:41:48 GMT\r\nContent-Type: text/html\r\nContent-Length: 122\r\nConnection: keep-alive\r\n\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
+        }
+    ]
+}

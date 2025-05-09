@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="2" tests="2" time="1.113037382994662">
+	<testsuite disabled="0" errors="0" failures="2" name="API Fuzzer" skipped="0" tests="2" time="1.113037382994662" timestamp="1727397408.82571">
+		<testcase name="384" time="0.556379" timestamp="1727396522.4799402" status="failed">
+			<failure type="failure" message="{&quot;status&quot;: &quot;failed&quot;, &quot;name&quot;: {}, &quot;sub_reports&quot;: [], &quot;test_number&quot;: 384, &quot;state&quot;: &quot;COMPLETED&quot;, &quot;request_url&quot;: &quot;https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags?tags=%&quot;, &quot;request_method&quot;: &quot;GET&quot;, &quot;request_headers&quot;: &quot;{\&quot;User-Agent\&quot;: \&quot;APIFuzzer 0.9.13\&quot;, \&quot;Accept-Encoding\&quot;: \&quot;gzip, deflate\&quot;, \&quot;Accept\&quot;: \&quot;*/*\&quot;, \&quot;Connection\&quot;: \&quot;keep-alive\&quot;}&quot;, &quot;request_body&quot;: {}, &quot;response&quot;: &quot;&quot;, &quot;parsed_status_code&quot;: 500, &quot;reason&quot;: &quot;failed&quot;}"/>
+		</testcase>
+		<testcase name="464" time="0.556658" timestamp="1727396566.3078275" status="failed">
+			<failure type="failure" message="{&quot;status&quot;: &quot;failed&quot;, &quot;name&quot;: {}, &quot;sub_reports&quot;: [], &quot;test_number&quot;: 464, &quot;state&quot;: &quot;COMPLETED&quot;, &quot;request_url&quot;: &quot;https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus?status=%&quot;, &quot;request_method&quot;: &quot;GET&quot;, &quot;request_headers&quot;: &quot;{\&quot;User-Agent\&quot;: \&quot;APIFuzzer 0.9.13\&quot;, \&quot;Accept-Encoding\&quot;: \&quot;gzip, deflate\&quot;, \&quot;Accept\&quot;: \&quot;*/*\&quot;, \&quot;Connection\&quot;: \&quot;keep-alive\&quot;}&quot;, &quot;request_body&quot;: {}, &quot;response&quot;: &quot;&quot;, &quot;parsed_status_code&quot;: 500, &quot;reason&quot;: &quot;failed&quot;}"/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+################################################################################
+ main_driver_502
+
+ Hash: main_driver_502_882bc06f190b031a7aeccff9abcea816a5a61b12
+
+ To attempt to reproduce this bug using restler, run restler with the command
+ line option of --replay_log <path_to_this_log>.
+ If an authentication token is required, you must also specify the token_refresh_cmd.
+
+ This log may contain specific values for IDs or names that were generated
+ during fuzzing, using the fuzzing dictionary. Such names will be re-played
+ without modification. You must update the replay log manually with any changes
+ required to execute the requests in your environment (for example, replacing
+ pre-created account, subscription, or other resource IDs, as needed).
+################################################################################
+
+-> POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "petId":1,\n    "quantity":1,\n    "shipDate":"2019-06-26T20:20:39+00:00",\n    "status":"placed",\n    "complete":true}\r\n
+! producer_timing_delay 0
+! max_async_wait_time 0
+PREVIOUS RESPONSE: 'HTTP/1.1 502 Bad Gateway\r\nServer: awselb/2.0\r\nDate: Tue, 28 May 2024 12:41:48 GMT\r\nContent-Type: text/html\r\nContent-Length: 122\r\nConnection: keep-alive\r\n\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n'
+

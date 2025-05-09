@@ -1,0 +1,310 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_petstore/api_petstore.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 205041617746704974134931031787861569922
+Workers: 1
+Collected API operations: 20
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet F                               [  5%]
+PUT /AAYUSHGARGBU/api_petstore/1.0.0/pet F                                [ 10%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus F                   [ 15%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags F                     [ 20%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} F                        [ 25%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} F                       [ 30%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} F                     [ 35%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId}/uploadImage F           [ 40%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/inventory F                    [ 45%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order F                       [ 50%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} F              [ 55%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} F           [ 60%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user .                              [ 65%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithArray .              [ 70%]
+POST /AAYUSHGARGBU/api_petstore/1.0.0/user/createWithList .               [ 75%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/login F                         [ 80%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/logout .                        [ 85%]
+GET /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} F                    [ 90%]
+PUT /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} F                    [ 95%]
+DELETE /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} F                 [100%]
+
+=================================== FAILURES ===================================
+__________________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet ___________________
+1. Test Case ID: ilQhMk
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 405
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"name": "doggie", "photoUrls": []}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet
+
+___________________ PUT /AAYUSHGARGBU/api_petstore/1.0.0/pet ___________________
+1. Test Case ID: fk6fJJ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404, 405
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/xml' -d '<Pet><name>doggie</name><photoUrl></photoUrl></Pet>' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet
+
+____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus _____________
+1. Test Case ID: Th61nx
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus
+
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags ______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: xhwxlQ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags?tags=&tags=%C2%A6%C3%8956%F0%AE%84%8027%C2%AE%F1%9B%A0%837%C3%8A%C2%8B%1B%C2%BD61%F1%B0%BC%887%C3%AA%C2%BF%C2%AAL%2B%F2%9F%91%AA&tags=&tags=%C3%96f%19%F1%BF%AF%BC%1B&tags=%F4%8F%9D%81%C2%AB%C3%9D%C2%96%DC%81&tags=%3C'
+
+_______________ GET /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} _______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: SfqHrK
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET -H 'api_key: [Filtered]' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/54
+
+______________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} _______________
+1. Test Case ID: BgltUv
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 405
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/0
+
+_____________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId} ______________
+1. Test Case ID: rqgYEz
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/0
+
+________ POST /AAYUSHGARGBU/api_petstore/1.0.0/pet/{petId}/uploadImage _________
+1. Test Case ID: oPXFfl
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/octet-stream' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/pet/0/uploadImage
+
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/store/inventory _____________
+1. Test Case ID: wOxNHZ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET -H 'api_key: [Filtered]' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/store/inventory
+
+______________ POST /AAYUSHGARGBU/api_petstore/1.0.0/store/order _______________
+1. Test Case ID: pBoIFk
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/store/order
+
+__________ GET /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} __________
+1. Test Case ID: 6Itx89
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/store/order/1
+
+________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/store/order/{orderId} _________
+1. Test Case ID: a7D4qG
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/store/order/1
+
+_______________ GET /AAYUSHGARGBU/api_petstore/1.0.0/user/login ________________
+1. Test Case ID: YG3VSM
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user/login?password=&username='
+
+_____________ GET /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} _____________
+1. Test Case ID: 5ZOEEy
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user/0
+
+_____________ PUT /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} _____________
+1. Test Case ID: fQ59RJ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user/0
+
+___________ DELETE /AAYUSHGARGBU/api_petstore/1.0.0/user/{username} ____________
+1. Test Case ID: UFScPl
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_petstore/1.0.0/user/0
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              405 / 405 passed          PASSED 
+    status_code_conformance                         311 / 405 passed          FAILED 
+    content_type_conformance                        405 / 405 passed          PASSED 
+    response_headers_conformance                    405 / 405 passed          PASSED 
+    response_schema_conformance                     405 / 405 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=205041617746704974134931031787861569922`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+======================== 4 passed, 16 failed in 53.35s =========================

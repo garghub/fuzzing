@@ -1,0 +1,838 @@
+{
+    "0ae5fb0ca7ffc0394f5ccbf9f183e19a4bcfa902_1": {
+        "verb": "DELETE",
+        "endpoint": "/user/{username}",
+        "verb_endpoint": "DELETE /user/{username}",
+        "valid": 0,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "400",
+        "status_text": "Bad Request",
+        "error_message": "0",
+        "request_order": 0,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:23",
+            "request_verb": "DELETE",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/user/fuzzstring",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "400",
+            "response_status_text": "Bad Request",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:23 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "1e197ffa0c5c5aa2380a17f7c4c4dfca746532fa_1": {
+        "verb": "PUT",
+        "endpoint": "/pet",
+        "verb_endpoint": "PUT /pet",
+        "valid": 0,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "400",
+        "status_text": "Bad Request",
+        "error_message": "0",
+        "request_order": 1,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:24",
+            "request_verb": "PUT",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/pet",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "400",
+            "response_status_text": "Bad Request",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:24 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "2e6d82be0c65bfb446bafa9d83af642cfe31b5a2_1": {
+        "verb": "GET",
+        "endpoint": "/user/logout",
+        "verb_endpoint": "GET /user/logout",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 2,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:25",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/user/logout",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:25 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "3524a08380b5e01cf02bd47c20aa410860dede4b_1": {
+        "verb": "POST",
+        "endpoint": "/user/createWithList",
+        "verb_endpoint": "POST /user/createWithList",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "201",
+        "status_text": "Created",
+        "error_message": null,
+        "request_order": 3,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:25",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/user/createWithList",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "201",
+            "response_status_text": "Created",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:25 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "4a24c036d324535f79ae845df379b61d5c23ae52_1": {
+        "verb": "POST",
+        "endpoint": "/user",
+        "verb_endpoint": "POST /user",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "201",
+        "status_text": "Created",
+        "error_message": null,
+        "request_order": 4,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:26",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/user",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com",
+                "Content-Type: application/json"
+            ],
+            "request_body": "{\n    \"id\":1,\n    \"username\":\"fuzzstring\",\n    \"firstName\":\"fuzzstring\",\n    \"lastName\":\"fuzzstring\",\n    \"email\":\"fuzzstring\",\n    \"password\":\"fuzzstring\",\n    \"phone\":\"fuzzstring\",\n    \"userStatus\":1}\r\n",
+            "response_status_code": "201",
+            "response_status_text": "Created",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:26 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "5f18aff087c9371ce187a3303d446cdaaa2cb7be_1": {
+        "verb": "GET",
+        "endpoint": "/pet/findByStatus",
+        "verb_endpoint": "GET /pet/findByStatus",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 5,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:26",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/findByStatus?status=available",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:26 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 211",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "[ {\n  \"id\" : 0,\n  \"category\" : {\n    \"id\" : 0,\n    \"name\" : \"string\"\n  },\n  \"name\" : \"doggie\",\n  \"photoUrls\" : [ \"string\" ],\n  \"tags\" : [ {\n    \"id\" : 0,\n    \"name\" : \"string\"\n  } ],\n  \"status\" : \"available\"\n} ]"
+        },
+        "tracked_parameters": {}
+    },
+    "6965ad608ab434c60da18817cba663355846d91e_1": {
+        "verb": "DELETE",
+        "endpoint": "/pet/{petId}",
+        "verb_endpoint": "DELETE /pet/{petId}",
+        "valid": 0,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "400",
+        "status_text": "Bad Request",
+        "error_message": "0",
+        "request_order": 6,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:26",
+            "request_verb": "DELETE",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/1",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com",
+                "api_key: fuzzstring"
+            ],
+            "request_body": null,
+            "response_status_code": "400",
+            "response_status_text": "Bad Request",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:26 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "6da970759d953a2b8b91e0f33f8410c3ea0007bd_1": {
+        "verb": "POST",
+        "endpoint": "/store/order",
+        "verb_endpoint": "POST /store/order",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 7,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:27",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/store/order",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com",
+                "Content-Type: application/json"
+            ],
+            "request_body": "{\n    \"id\":1,\n    \"petId\":1,\n    \"quantity\":1,\n    \"shipDate\":\"2019-06-26T20:20:39+00:00\",\n    \"status\":\"placed\",\n    \"complete\":true}\r\n",
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:27 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 136",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"id\" : 0,\n  \"petId\" : 0,\n  \"quantity\" : 0,\n  \"shipDate\" : \"2015-07-20T15:49:04-07:00\",\n  \"status\" : \"placed\",\n  \"complete\" : false\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "931571b2ed562f5af35555548452ab555ffaf128_1": {
+        "verb": "GET",
+        "endpoint": "/store/inventory",
+        "verb_endpoint": "GET /store/inventory",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 8,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:27",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/store/inventory",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:27 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 77",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"additionalProp1\" : 0,\n  \"additionalProp2\" : 0,\n  \"additionalProp3\" : 0\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "9bd4444ac16fc810924c256b96cb3ecdfb2d8ae0_1": {
+        "verb": "POST",
+        "endpoint": "/pet/{petId}",
+        "verb_endpoint": "POST /pet/{petId}",
+        "valid": 0,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "405",
+        "status_text": "Method Not Allowed",
+        "error_message": "0",
+        "request_order": 9,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:28",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/1",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "405",
+            "response_status_text": "Method Not Allowed",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:28 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "a3932a0ed508e719ba658e17323b49e85775a95e_1": {
+        "verb": "GET",
+        "endpoint": "/user/login",
+        "verb_endpoint": "GET /user/login",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 10,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:28",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/user/login?username=fuzzstring&password=fuzzstring",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:28 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 8",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "X-Rate-Limit: 0",
+                "X-Expires-After: 2015-07-20T15:49:04-07:00",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "\"string\""
+        },
+        "tracked_parameters": {}
+    },
+    "acd5a0631bab949f13667afade7d2e57568713f9_1": {
+        "verb": "POST",
+        "endpoint": "/pet",
+        "verb_endpoint": "POST /pet",
+        "valid": 0,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "405",
+        "status_text": "Method Not Allowed",
+        "error_message": "0",
+        "request_order": 11,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:29",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/pet",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "405",
+            "response_status_text": "Method Not Allowed",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:29 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "b3c7856d335ad623ec1c3fa75cccc8b7fc8e0c45_1": {
+        "verb": "GET",
+        "endpoint": "/pet/findByTags",
+        "verb_endpoint": "GET /pet/findByTags",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 12,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:30",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/findByTags?tags=fuzzstring",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:30 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 211",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "[ {\n  \"id\" : 0,\n  \"category\" : {\n    \"id\" : 0,\n    \"name\" : \"string\"\n  },\n  \"name\" : \"doggie\",\n  \"photoUrls\" : [ \"string\" ],\n  \"tags\" : [ {\n    \"id\" : 0,\n    \"name\" : \"string\"\n  } ],\n  \"status\" : \"available\"\n} ]"
+        },
+        "tracked_parameters": {}
+    },
+    "b99d6fddf17ede3dd2620d386a868c5cf8129ff0_1": {
+        "verb": "GET",
+        "endpoint": "/user/{username}",
+        "verb_endpoint": "GET /user/{username}",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 13,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:31",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/user/fuzzstring",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:30 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 179",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"id\" : 0,\n  \"username\" : \"string\",\n  \"firstName\" : \"string\",\n  \"lastName\" : \"string\",\n  \"email\" : \"string\",\n  \"password\" : \"string\",\n  \"phone\" : \"string\",\n  \"userStatus\" : 0\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "c71b12eb41e5100049f3c9c58eae57c2483e7107_1": {
+        "verb": "GET",
+        "endpoint": "/pet/{petId}",
+        "verb_endpoint": "GET /pet/{petId}",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 14,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:36",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/1",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:36 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 207",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"id\" : 0,\n  \"category\" : {\n    \"id\" : 0,\n    \"name\" : \"string\"\n  },\n  \"name\" : \"doggie\",\n  \"photoUrls\" : [ \"string\" ],\n  \"tags\" : [ {\n    \"id\" : 0,\n    \"name\" : \"string\"\n  } ],\n  \"status\" : \"available\"\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "d33dcc58cb2674fc056cace63b2cefca39df0c1b_1": {
+        "verb": "PUT",
+        "endpoint": "/user/{username}",
+        "verb_endpoint": "PUT /user/{username}",
+        "valid": 0,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "400",
+        "status_text": "Bad Request",
+        "error_message": "0",
+        "request_order": 15,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:41",
+            "request_verb": "PUT",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/user/usernameb44a84ba79",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com",
+                "Content-Type: application/json"
+            ],
+            "request_body": "{\n    \"id\":1,\n    \"username\":\"fuzzstring\",\n    \"firstName\":\"fuzzstring\",\n    \"lastName\":\"fuzzstring\",\n    \"email\":\"fuzzstring\",\n    \"password\":\"fuzzstring\",\n    \"phone\":\"fuzzstring\",\n    \"userStatus\":1}\r\n",
+            "response_status_code": "400",
+            "response_status_text": "Bad Request",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:40 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "f6052076487e9fb742cd7747a1d9c7494df47cce_1": {
+        "verb": "POST",
+        "endpoint": "/pet/{petId}/uploadImage",
+        "verb_endpoint": "POST /pet/{petId}/uploadImage",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 16,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:48",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/pet/1/uploadImage",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:48 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 61",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"code\" : 0,\n  \"type\" : \"string\",\n  \"message\" : \"string\"\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "fc4f4068e09da936a7dee78cf7954e18e91bb47c_1": {
+        "verb": "POST",
+        "endpoint": "/user/createWithArray",
+        "verb_endpoint": "POST /user/createWithArray",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "201",
+        "status_text": "Created",
+        "error_message": null,
+        "request_order": 17,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:50",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/user/createWithArray",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "201",
+            "response_status_text": "Created",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:51 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    },
+    "0589191cecb11c347422ed7ac5787244e8cea17d_1__1": {
+        "verb": "GET",
+        "endpoint": "/store/order/{orderId}",
+        "verb_endpoint": "GET /store/order/{orderId}",
+        "valid": 1,
+        "matching_prefix": [
+            {
+                "id": "6da970759d953a2b8b91e0f33f8410c3ea0007bd_1",
+                "valid": 1
+            }
+        ],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 18,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:56",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/store/order/0",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:56 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 136",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"id\" : 0,\n  \"petId\" : 0,\n  \"quantity\" : 0,\n  \"shipDate\" : \"2015-07-20T15:49:04-07:00\",\n  \"status\" : \"placed\",\n  \"complete\" : false\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "184500edd3b8d56c6488c795a76c6d871c29e9e3_1__1": {
+        "verb": "DELETE",
+        "endpoint": "/store/order/{orderId}",
+        "verb_endpoint": "DELETE /store/order/{orderId}",
+        "valid": 0,
+        "matching_prefix": [
+            {
+                "id": "6da970759d953a2b8b91e0f33f8410c3ea0007bd_1",
+                "valid": 1
+            }
+        ],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "400",
+        "status_text": "Bad Request",
+        "error_message": "0",
+        "request_order": 19,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 13:14:59",
+            "request_verb": "DELETE",
+            "request_uri": "/AAYUSHGARGBU/api_petstore/1.0.0/store/order/0",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "400",
+            "response_status_text": "Bad Request",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 13:14:59 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Transfer-Encoding: chunked",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "0"
+        },
+        "tracked_parameters": {}
+    }
+}
