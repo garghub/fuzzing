@@ -1,0 +1,43 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/api_simple_items.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 272877555466615538908139455001275339824
+Workers: 1
+Collected API operations: 5
+Collected API links: 0
+API probing: ...API probing: ERROR
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items Test Execution Error
+
+An internal error occurred during the test run
+
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/cli/__init__.py", line 1110, in into_event_stream
+        yield from runner.from_schema(
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 192, in _generate_events
+        yield from self._execute(results, stop_event)
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/solo.py", line 24, in _execute
+        for event in self._execute_impl(results):
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/solo.py", line 32, in _execute_impl
+        yield from self._run_tests(
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 253, in _run_tests
+        for event in run_test(
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/impl/core.py", line 546, in run_test
+        yield events.AfterExecution.from_result(
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/events.py", line 198, in from_result
+        result=SerializedTestResult.from_test_result(result),
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/serialization.py", line 421, in from_test_result
+        errors=[SerializedError.from_exception(error) for error in result.errors],
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/serialization.py", line 421, in <listcomp>
+        errors=[SerializedError.from_exception(error) for error in result.errors],
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/runner/serialization.py", line 241, in from_exception
+        message, extras = extract_requests_exception_details(exception)
+      File "/usr/local/lib/python3.8/dist-packages/schemathesis/exceptions.py", line 547, in extract_requests_exception_details
+        if ":" not in inner.reason.args[0]:
+    TypeError: argument of type 'VerifiedHTTPSConnection' is not iterable
+
+Tip: Please consider reporting the traceback above to our issue tracker:
+
+  https://github.com/schemathesis/schemathesis/issues/new?labels=Status%3A%20Needs%20Triage%2C+Type%3A+Bug&template=bug_report.md&title=%5BBUG%5D.

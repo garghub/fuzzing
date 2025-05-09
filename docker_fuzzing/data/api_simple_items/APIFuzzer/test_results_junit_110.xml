@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="0.0">
+	<testsuite disabled="0" errors="0" failures="0" name="API Fuzzer" skipped="0" tests="1" time="0" timestamp="1727605321.3131065">
+		<testcase name="Fuzz test succeed" status="Pass"/>
+	</testsuite>
+</testsuites>

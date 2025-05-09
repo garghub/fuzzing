@@ -1,0 +1,430 @@
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Sending invalid request(s):
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Sending invalid request(s):
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM
+
+Sending invalid request(s):
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/?/ HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0?? HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'
+'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{} HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\n\r\n'

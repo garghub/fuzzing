@@ -1,0 +1,103 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/api_simple_items.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 158171279286060244608201695518972855376
+Workers: 1
+Collected API operations: 5
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items .                                [ 20%]
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items F                               [ 40%]
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 60%]
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 80%]
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                    [100%]
+
+=================================== FAILURES ===================================
+__________________ POST /AAYUSHGARGBU/Simple_API/1.0.0/items ___________________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: gG55Wu
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"id": "", "name": "10\ud802\ude00#\udad7\udced", "\ud8c3\udcd6\ud871\udd6f": [[[6.103515625e-05, "Wd\u00ab\u007f\udb89\udf4b\u009e", -23335]]], "": {"\u00dc\ud90b\udf00]\u00cb\u00e39\uda8f\udcff\ud8c0\ude98\u00cd": {"\u00c5n\u0095\u0004\ud83b\uddfd\u0095\r8+m\u00e5": [], "": []}, "\f\ud8ad\uddd2\u0001\udbf8\udc8a\u00c5\udacb\udeaa!\u00det\t\u001dJ": {"\u00aa\u00b2\udade\ude9e\u0083\u00a6V&\u00cb\u00f9\udbd0\udd35": 36, "H\u00c0": 6.103515625e-05, "\ud8d7\udcb7\u00a1L\u00c4": 0.0}, "\u00e4": {}}, "\u00c5\u00ee": [[-20803]], "\udafd\udebdx": [{"7\ud8ed\udd9b\u00f8G": [23587, -52], "r\u00a7": {"\udacf\udcfcX\u0095\u00a6x=u\u00ff\uda77\udf0d\udb0d\udcb8\ud824\udf64\u000ehe\ud82f\udc6f\ud93c\udc66}": {"\u000e\u00ea\u0093": -32281, "[\ud82c\udc66%\udae6\udfae9e\ud940\uddbdp>": 20642, "1\ud869\udca8": "P\u0096e"}, "\u00ab&\u00b5": [-1.7976931348623157e+308, 50, "\ud9e8\udeca.\u00c6"]}, "\u00e9\u0097\udb27\udc20": ""}, {"": "n\ud9d7\udf3fi", "\udb60\udd6a\u0097\u00d7\u0004b": {"\u0089{r\ud8fc\udd63\u00ad": 60, "": null, "l\u00c5#\u0080\ud8ed\udd06": -3371}}, {"\u00a0\u00ad\u0095\u00b1\u0005\uda04\udfaa\ud935\udf3c\u008a": {"H": 0.5}, "": ["\u00fa\u00e1\u0083\ud902\ude7cw\u00e9\u0094\u00e0a"], "\u009c\ud8d4\ude004Y\u00bb": {"\u0094\u00da\u00b7": {"\u00c3\u00cd\ud95a\udf71": 1.401298464324817e-45, "\u00a2": "U\u0011", "\u00ef": null}, "`": {"\u00c0\u0081\u1f56\u00a3\u00a9\u00bd": -28}}}], "\u00cf\u00a2": true, "\u00e3": {}, ":$\u00bc\u00cb\u0087f\u0005\u00d4@\u0099D\udae1\udd68\u0088cf": {"": "", "\udafd\udd17": {}, "\u00af\u00f4\u0093\u008e\u0086\u0082\u0012": {"\u00fd&\u0017\u00f4\udba7\udcc9\u0098Z": null, "\u0087s\u0018\u00ac^": "\u0005v"}}, "\"S\u0088": {}, "i\ud8cc\ude59\u001e@\u00a3\u00c7\u0018\u00ae#": {}, "\u00e73\u00a6\u7b306\u009a": {"\udbbb\ude78\u00d0\ud810\udf7b\u0090\t\u00f6": -8077423929451723370, "l": [{"m\u007f\u0099": null}, [], -31980]}, "w\u008f\udacb\udeda\u00adxT\u00c1\u00d9&\uc051\u00bd\uda15\ude82\ud966\ude80\u0084\u00de\u00b6\ud8c1\ude08\u00ae\uda00\udc52\u00ee\u00c0\udb11\udfb9Z\u0007\u0011\u0084\u00a4\u0084\u0082\udbc8\udd6e#\u00f02\ud9e3\udda5": {}, "Z3\u00cb": [], "\uda31\uded0\u00ea\u00055": {"\u00ad\u00e2\udb45\ude2f\u0080\u00e2": {"": 1.1754943508222875e-38, "\u00e7": 10090}, "\u00db\u00a6": [{}], "\u00abA\u0094\ud83d\udee3": [{"\ud842\udcaf\u0002\u00f5h\u00b2": -58444222}, null]}, "\ud9ff\udd4a\"\u001b^\u00a7\u00ef": {"\u00b8\ud916\udcfby\u00cc": "\u009d\u00f2Y\ud998\udfed\ue452\ud83e\udf7c\u00a5|l\u0086I#p\udb59\udd15\ud90b\udd06\ud812\udf32\ud91d\udc9e"}, "/\u0099.\u0099": {"\u0085\u00f4\u00fbR\u0095\u001d\udabb\udeb1\u00b1\u00dd\u00d2\u00cf\u00ed\u00c0": null, "\u00a4": [[null, null, [-0.99999]], [true, "\u00c4T\udaf7\udf42\u0084", {":": null, "\u001f": "\u00c8", "\u00c7": -10001}], "\u00bb"], "\u00e72\udbe6\udc32v": "\udbeb\udfd9\udac0\udea8\u00b3\f\udacf\udf52-\u00a4q\u001d"}}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items
+
+______________ GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+1. Test Case ID: WN5zUB
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+______________ PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: qbGohK
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{"id": 17, "name": ""}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+_____________ DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _____________
+1. Test Case ID: iWMAc6
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              32 / 32 passed          PASSED 
+    status_code_conformance                         14 / 32 passed          FAILED 
+    content_type_conformance                        32 / 32 passed          PASSED 
+    response_headers_conformance                    32 / 32 passed          PASSED 
+    response_schema_conformance                     32 / 32 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=158171279286060244608201695518972855376`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 4 failed in 4.45s ==========================

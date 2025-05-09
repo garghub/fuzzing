@@ -1,0 +1,223 @@
+{
+    "710653357a5e6a74efb33e60c61a009c48bee0f4_1": {
+        "verb": "GET",
+        "endpoint": "/items",
+        "verb_endpoint": "GET /items",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 0,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:10:42",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/Simple_API/1.0.0/items",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:10:42 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 39",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "[ {\n  \"id\" : 0,\n  \"name\" : \"string\"\n} ]"
+        },
+        "tracked_parameters": {}
+    },
+    "d1d1f7d7e8484214c04eb6eda5d2177eefa0230d_1": {
+        "verb": "POST",
+        "endpoint": "/items",
+        "verb_endpoint": "POST /items",
+        "valid": 1,
+        "matching_prefix": [],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "201",
+        "status_text": "Created",
+        "error_message": null,
+        "request_order": 1,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:10:42",
+            "request_verb": "POST",
+            "request_uri": "/AAYUSHGARGBU/Simple_API/1.0.0/items",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com",
+                "Content-Type: application/json"
+            ],
+            "request_body": "{\n    \"id\":1,\n    \"name\":\"fuzzstring\"}\r\n",
+            "response_status_code": "201",
+            "response_status_text": "Created",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:10:42 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 35",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"id\" : 0,\n  \"name\" : \"string\"\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "156bbce674464d27d379aafb3a14d210d4fa6b6d_1__1": {
+        "verb": "DELETE",
+        "endpoint": "/items/{itemId}",
+        "verb_endpoint": "DELETE /items/{itemId}",
+        "valid": 1,
+        "matching_prefix": [
+            {
+                "id": "d1d1f7d7e8484214c04eb6eda5d2177eefa0230d_1",
+                "valid": 1
+            }
+        ],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "204",
+        "status_text": "No Content",
+        "error_message": null,
+        "request_order": 2,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:10:43",
+            "request_verb": "DELETE",
+            "request_uri": "/AAYUSHGARGBU/Simple_API/1.0.0/items/0",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "204",
+            "response_status_text": "No Content",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:10:43 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": ""
+        },
+        "tracked_parameters": {}
+    },
+    "782fbde991a51ee8a607fb43ecc76ce81f8456ac_1__1": {
+        "verb": "GET",
+        "endpoint": "/items/{itemId}",
+        "verb_endpoint": "GET /items/{itemId}",
+        "valid": 1,
+        "matching_prefix": [
+            {
+                "id": "d1d1f7d7e8484214c04eb6eda5d2177eefa0230d_1",
+                "valid": 1
+            }
+        ],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 3,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:10:44",
+            "request_verb": "GET",
+            "request_uri": "/AAYUSHGARGBU/Simple_API/1.0.0/items/0",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com"
+            ],
+            "request_body": null,
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:10:44 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 35",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"id\" : 0,\n  \"name\" : \"string\"\n}"
+        },
+        "tracked_parameters": {}
+    },
+    "e5da879e3a144e01af284a3b3f0680a9b40a64d4_1__1": {
+        "verb": "PUT",
+        "endpoint": "/items/{itemId}",
+        "verb_endpoint": "PUT /items/{itemId}",
+        "valid": 1,
+        "matching_prefix": [
+            {
+                "id": "d1d1f7d7e8484214c04eb6eda5d2177eefa0230d_1",
+                "valid": 1
+            }
+        ],
+        "invalid_due_to_sequence_failure": 0,
+        "invalid_due_to_resource_failure": 0,
+        "invalid_due_to_parser_failure": 0,
+        "invalid_due_to_500": 0,
+        "status_code": "200",
+        "status_text": "OK",
+        "error_message": null,
+        "request_order": 4,
+        "sample_request": {
+            "request_sent_timestamp": null,
+            "response_received_timestamp": "2024-05-03 23:10:44",
+            "request_verb": "PUT",
+            "request_uri": "/AAYUSHGARGBU/Simple_API/1.0.0/items/0",
+            "request_headers": [
+                "Accept: application/json",
+                "Host: virtserver.swaggerhub.com",
+                "Content-Type: application/json"
+            ],
+            "request_body": "{\n    \"id\":1,\n    \"name\":\"fuzzstring\"}\r\n",
+            "response_status_code": "200",
+            "response_status_text": "OK",
+            "response_headers": [
+                "Date: Fri, 03 May 2024 23:10:44 GMT",
+                "Content-Type: application/json;charset=utf-8",
+                "Content-Length: 35",
+                "Connection: keep-alive",
+                "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin",
+                "Access-Control-Allow-Origin: *",
+                "Access-Control-Allow-Methods: *",
+                "Access-Control-Allow-Credentials: true",
+                "Server: Jetty(9.4.50.v20221201)"
+            ],
+            "response_body": "{\n  \"id\" : 0,\n  \"name\" : \"string\"\n}"
+        },
+        "tracked_parameters": {}
+    }
+}

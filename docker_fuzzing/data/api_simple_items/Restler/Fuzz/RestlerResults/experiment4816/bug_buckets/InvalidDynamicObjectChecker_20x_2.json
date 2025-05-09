@@ -1,0 +1,22 @@
+{
+    "status_code": "200",
+    "checker_name": "InvalidDynamicObjectChecker",
+    "reproducible": true,
+    "verb": "PUT",
+    "endpoint": "/items/{itemId}",
+    "status_text": "OK",
+    "request_sequence": [
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 20,
+            "replay_request": "POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    \"id\":1,\n    \"name\":\"fuzzstring\"}\r\n",
+            "response": "HTTP/1.1 201 Created\r\nDate: Wed, 22 May 2024 00:04:04 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"id\" : 0,\n  \"name\" : \"string\"\n}"
+        },
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0?injected_query_string=123 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\n\r\n{\n    \"id\":1,\n    \"name\":\"fuzzstring\"}\r\n",
+            "response": "HTTP/1.1 200 OK\r\nDate: Wed, 22 May 2024 00:04:04 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  \"id\" : 0,\n  \"name\" : \"string\"\n}"
+        }
+    ]
+}

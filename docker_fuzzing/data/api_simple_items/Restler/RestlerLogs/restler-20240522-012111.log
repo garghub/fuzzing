@@ -1,0 +1,42 @@
+Restler Information: 0 : Starting task Fuzz...
+    DateTime=2024-05-21T23:21:11.4723662Z
+Restler Information: 0 : Launching 'python --version'
+    DateTime=2024-05-21T23:21:11.9158794Z
+Restler Information: 0 : Launching 'python3 --version'
+    DateTime=2024-05-21T23:21:11.9159999Z
+Restler Information: 0 : Process execution terminated in 00:00:00.0172295 with exit code 0x0: 'python3 --version'
+    DateTime=2024-05-21T23:21:11.9362626Z
+Restler Information: 0 : (4814) python3 --version exited with code: 0
+    DateTime=2024-05-21T23:21:11.9393791Z
+Restler Information: 0 : Launching 'python3 -B "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../engine/restler.py" --restler_grammar "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/grammar.py" --custom_mutations "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/dict.json" --set_version 9.2.4    --no_ssl   --settings "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/engine_settings.json" --enable_checkers * --disable_checkers namespacerule --time_budget 168.000000   --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode bfs-cheap'
+    DateTime=2024-05-21T23:21:11.9481058Z
+Restler Information: 0 : Process execution terminated in 7.00:00:35.7020799 with exit code 0x0: 'python3 -B "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../engine/restler.py" --restler_grammar "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/grammar.py" --custom_mutations "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/dict.json" --set_version 9.2.4    --no_ssl   --settings "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/engine_settings.json" --enable_checkers * --disable_checkers namespacerule --time_budget 168.000000   --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode bfs-cheap'
+    DateTime=2024-05-28T23:21:54.7590718Z
+Restler Information: 0 : (4816) python3 -B "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../engine/restler.py" --restler_grammar "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/grammar.py" --custom_mutations "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/dict.json" --set_version 9.2.4    --no_ssl   --settings "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/engine_settings.json" --enable_checkers * --disable_checkers namespacerule --time_budget 168.000000   --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode bfs-cheap exited with code: 0
+    DateTime=2024-05-28T23:21:54.7592410Z
+Restler Information: 0 : Launching 'dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Fuzz" --output_dir "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Fuzz/ResponseBuckets" --dictionary_file "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/dict.json" --max_instances_per_bucket 10'
+    DateTime=2024-05-28T23:21:54.7649731Z
+Restler Information: 0 : Process execution terminated in 00:00:53.0073177 with exit code 0x86: 'dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Fuzz" --output_dir "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Fuzz/ResponseBuckets" --dictionary_file "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/dict.json" --max_instances_per_bucket 10'
+    DateTime=2024-05-28T23:22:47.7728927Z
+Restler Information: 0 : (23318) dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Fuzz" --output_dir "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Fuzz/ResponseBuckets" --dictionary_file "/mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Compile/dict.json" --max_instances_per_bucket 10 exited with code: 134
+    DateTime=2024-05-28T23:22:47.7730134Z
+Restler Error: 0 : Results analyzer for logs in /mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/RESTler/Fuzz failed.
+    DateTime=2024-05-28T23:22:47.7798482Z
+Restler Information: 0 : Request coverage (successful / total): 5 / 5
+    DateTime=2024-05-28T23:22:47.8621532Z
+Restler Information: 0 : Attempted requests: 5 / 5
+    DateTime=2024-05-28T23:22:47.8623629Z
+Restler Information: 0 : Bugs were found!
+    DateTime=2024-05-28T23:22:47.8653042Z
+Restler Information: 0 : Bug buckets:
+    DateTime=2024-05-28T23:22:47.8655207Z
+Restler Information: 0 : 
+InvalidDynamicObjectChecker_20x: 2
+UseAfterFreeChecker_20x: 1
+main_driver_502: 2
+main_driver_504: 3
+    DateTime=2024-05-28T23:22:47.8662383Z
+Restler Information: 0 : Task Fuzz succeeded.
+    DateTime=2024-05-28T23:22:47.8676064Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2024-05-28T23:22:48.2345062Z

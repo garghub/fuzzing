@@ -1,0 +1,101 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_simple_items/api_simple_items.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 84241063553156575660131197740729204636
+Workers: 1
+Collected API operations: 5
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items .                                [ 20%]
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items F                               [ 40%]
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 60%]
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                       [ 80%]
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} F                    [100%]
+
+=================================== FAILURES ===================================
+__________________ POST /AAYUSHGARGBU/Simple_API/1.0.0/items ___________________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: o5ZUHu
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"id": 1, "\u0085\ud8a0\udf0bo\uda83\udc47\ud92c\udedd": {}, "/\u00b1\u00ad\udad3\ude90": {":*": [31, {}, [{}, true, [-98, "\uda54\uddcfq", null]]], "\u0082": [2.2250738585e-313, []], "\u0014\u00d9\u00d13\u0084G\u001a\ud9bf\udfa5\ud93c\ude97\ud86d\udf36[J\uda0b\udd27": {"\u001d\u00c0": {}, "\u00bcE\u8ab4\u00bd\ud96e\ude6a": {"\u00c3\u00855": -1.175494351e-38, "\u00a4\u008b\u0087\u00a8\u00c8": -39, "J\u00eb": null}}}, "\ud8e9\udeab": {"": [1e-05], "Ngb\ud95f\udf6aCY": null, "MQ\u00f0PI": [false]}, "W": {"!\u00cf\u00d4\u00a1\np\u00df": {}, "": [[-2.225073858507203e-309, 20258], {"": [], "~\u0005\ud802\udd007\u00b0\ud943\ude0761\u0204\u00f9\u0088\udb33\ude89\udb7d\udc3eS\udab6\udfdc": {}, "\u009e~\u0005": 13587}], "\ud985\udcec\u00ac\u0088\ud914\uddd4\u008dV\u00ea\u00ed": [null, {"(B&\ud911\ude15\u0085": null}]}, "\u00e8R\u00ab\u0011\udbcd\udcd6": {}, "{F\u009a1": {"W&\u00c3\u001e": [false, false, -1.175494351e-38], "": {"\u0012~\ud80f\udd1aw\u0090\fm\u00d8": -17125, "H\u008a6\u00da\ud885\ude41\u00e8<\ud92e\ude08": -126, "*\ud978\udccb\u0091U\u00ec": 2.2250738585e-313}, "\ua151": null}, "\u0010": ["\t\uda0e\udced", {"\ud8ee\udf8b\u00b6y\u00d5": 57}, false], "": [[{"\r:\u00a7\u00e6\u00cc\u00ee\ud914\uddb2\u00ear\u0002\u00d5\u00be": {"\u00c3\u001a^D\u00c0q\u0007L": {"*\ud963\udd88\ud8c1\uddf2\u00ad_\u00e1\u00c4": null, "\u001fH": "\udaa1\udf5f\ud933\udc47\u00cb\u0014.\u0005V", "E\u0010\u0089\u00b2": "\u0001\udb3b\udda7J\udb0d\udfd8\u0082\u00bd{\u00a8\u00a4\u0003\u00ea\ud9f7\udc70\u00a39\u00c82"}}, "\u0095j\u001a": [], "k\u0093\u00b0\u009d": "\ud938\udf76`\uf1a7"}, [], {"\u00e2": -2.00001, "\u00e1M{\u00fd": null, "": true}], [""]], "\u00c6\u0094\u00ea\u0096\u00d1\u009a\u00bb\u00b5\u000f\u00ffs": [], "\u00b9\u0098\u000e\u5782": [null], "d": true, "\u0099\f\u00fa\u008f": [{"\u00ffa\u00b4N\u0094\udb1f\ude6ey": -1.7976931348623157e+308, "": null}, {}, []], "\ud9bc\udc1d\u00b8": [], "\u0097\u00da": [], "a\u00d7": {}, ">\u00d2": {}, "\u00cd\ud8d3\udc0d\u00ca": {"": false, "\ud805\ude2cv\udb49\udcef\udaf5\ude51": "\u00a1", "\uda76\udd32\ud806\udd73": []}, "H\u00a4\udb5f\udd03\u00b7\udaa1\udcef": ["\u00b8\u00d9\u0093\u008e\udbfe\udeb8"], "\udbd3\udd6e\ud9b2\udd6c7\r\u0084\u00d6_\u000fW P\u00e1\u00a3\u00d2": [{"": true, "\u00f7\u00f3\"\u0004\udb0a\ude6cF\ud90c\udf5c!\u008c\u0083\u00f3\u00e6": null, "\u00c8E": 4.544032016312899e-09}, ["", -1e-05], {"\u00f3\u0092\u00bcY\udbfd\udfcc\udae8\ude46\ud950\udf4f\u00dd\u0085\u00e6": {"F\u00be\u00f0>\ud9c5\udf7d,\u0089\u00c8Z": false}}], "\u00b9\u008c\u0088\uda04\udd55\ud913\ude1c": [], "\u00b3": {}}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items
+
+______________ GET /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+1. Test Case ID: Rnflgi
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+______________ PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _______________
+1. Test Case ID: SG3Avu
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{"id": 0, "name": ""}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/0
+
+_____________ DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/{itemId} _____________
+1. Test Case ID: ISxYRf
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/Simple_API/1.0.0/items/1
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              36 / 36 passed          PASSED 
+    status_code_conformance                         16 / 36 passed          FAILED 
+    content_type_conformance                        36 / 36 passed          PASSED 
+    response_headers_conformance                    36 / 36 passed          PASSED 
+    response_schema_conformance                     36 / 36 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=84241063553156575660131197740729204636`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+========================= 1 passed, 4 failed in 5.20s ==========================

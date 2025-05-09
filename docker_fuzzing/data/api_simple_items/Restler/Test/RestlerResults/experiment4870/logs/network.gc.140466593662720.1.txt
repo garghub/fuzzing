@@ -1,0 +1,16 @@
+2024-05-04 01:10:45.076: Sending: 'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-04 01:10:45.270: Received: 'HTTP/1.1 204 No Content\r\nDate: Fri, 03 May 2024 23:10:45 GMT\r\nContent-Type: application/json;charset=utf-8\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n'
+
+2024-05-04 01:10:45.312: Sending: 'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-04 01:10:45.470: Received: 'HTTP/1.1 204 No Content\r\nDate: Fri, 03 May 2024 23:10:45 GMT\r\nContent-Type: application/json;charset=utf-8\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n'
+
+2024-05-04 01:10:45.496: Sending: 'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-04 01:10:45.660: Received: 'HTTP/1.1 204 No Content\r\nDate: Fri, 03 May 2024 23:10:45 GMT\r\nContent-Type: application/json;charset=utf-8\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n'
+
+2024-05-04 01:10:45.688: Sending: 'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\n\r\n'
+
+2024-05-04 01:10:45.857: Received: 'HTTP/1.1 204 No Content\r\nDate: Fri, 03 May 2024 23:10:45 GMT\r\nContent-Type: application/json;charset=utf-8\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n'
+

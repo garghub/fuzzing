@@ -1,0 +1,32 @@
+Restler Information: 0 : Starting task Test...
+    DateTime=2024-05-03T23:10:40.9862450Z
+Restler Information: 0 : Launching 'python --version'
+    DateTime=2024-05-03T23:10:41.4167989Z
+Restler Information: 0 : Launching 'python3 --version'
+    DateTime=2024-05-03T23:10:41.4169103Z
+Restler Information: 0 : Process execution terminated in 00:00:00.0165157 with exit code 0x0: 'python3 --version'
+    DateTime=2024-05-03T23:10:41.4422867Z
+Restler Information: 0 : (4868) python3 --version exited with code: 0
+    DateTime=2024-05-03T23:10:41.4454021Z
+Restler Information: 0 : Launching 'python3 -B "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../engine/restler.py" --restler_grammar "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/grammar.py" --custom_mutations "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/dict.json" --set_version 9.2.4    --no_ssl   --settings "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/engine_settings.json"     --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test'
+    DateTime=2024-05-03T23:10:41.4538829Z
+Restler Information: 0 : Process execution terminated in 00:00:04.4636485 with exit code 0x0: 'python3 -B "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../engine/restler.py" --restler_grammar "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/grammar.py" --custom_mutations "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/dict.json" --set_version 9.2.4    --no_ssl   --settings "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/engine_settings.json"     --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test'
+    DateTime=2024-05-03T23:10:45.9177174Z
+Restler Information: 0 : (4870) python3 -B "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../engine/restler.py" --restler_grammar "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/grammar.py" --custom_mutations "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/dict.json" --set_version 9.2.4    --no_ssl   --settings "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/engine_settings.json"     --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test exited with code: 0
+    DateTime=2024-05-03T23:10:45.9178056Z
+Restler Information: 0 : Launching 'dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Test" --output_dir "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Test/ResponseBuckets" --dictionary_file "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/dict.json" --max_instances_per_bucket 10'
+    DateTime=2024-05-03T23:10:45.9245094Z
+Restler Information: 0 : Process execution terminated in 00:00:00.2429148 with exit code 0x0: 'dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Test" --output_dir "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Test/ResponseBuckets" --dictionary_file "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/dict.json" --max_instances_per_bucket 10'
+    DateTime=2024-05-03T23:10:46.1675306Z
+Restler Information: 0 : (4875) dotnet "/mnt/d/ag/github/restler-fuzzer/restler_bin/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Test" --output_dir "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Test/ResponseBuckets" --dictionary_file "/mnt/d/ag/github/lazarus_target_apis/api_simple_items/Compile/dict.json" --max_instances_per_bucket 10 exited with code: 0
+    DateTime=2024-05-03T23:10:46.1677423Z
+Restler Information: 0 : Request coverage (successful / total): 5 / 5
+    DateTime=2024-05-03T23:10:46.2533762Z
+Restler Information: 0 : Attempted requests: 5 / 5
+    DateTime=2024-05-03T23:10:46.2535336Z
+Restler Information: 0 : No bugs were found.
+    DateTime=2024-05-03T23:10:46.2548950Z
+Restler Information: 0 : Task Test succeeded.
+    DateTime=2024-05-03T23:10:46.2599755Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2024-05-03T23:10:46.4176731Z

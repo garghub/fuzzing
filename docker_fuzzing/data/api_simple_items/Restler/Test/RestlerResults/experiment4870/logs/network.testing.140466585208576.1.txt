@@ -1,0 +1,201 @@
+
+Generation-1: Rendering Sequence-1
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: 710653357a5e6a74efb33e60c61a009c48bee0f4
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/Simple_API/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 01:10:42.245: Sending: 'GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: c1955af8-78c4-4e3c-b35a-e922269bb1e1\r\n\r\n'
+
+2024-05-04 01:10:42.440: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 23:10:42 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 39\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n[ {\n  "id" : 0,\n  "name" : "string"\n} ]'
+
+
+Generation-1: Rendering Sequence-2
+
+	Request: 1 (Remaining candidate combinations: 2)
+	Request hash: d1d1f7d7e8484214c04eb6eda5d2177eefa0230d
+
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/Simple_API/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "name":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+2024-05-04 01:10:42.697: Sending: 'POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nContent-Length: 40\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 953a0b0b-5f6a-4671-a918-e38da75a27e8\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+2024-05-04 01:10:42.883: Received: 'HTTP/1.1 201 Created\r\nDate: Fri, 03 May 2024 23:10:42 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+
+
+Generation-2: Rendering Sequence-1
+
+	Request: 1 (Current combination: 1 / 2)
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/Simple_API/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "name":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+	Request: 2 (Remaining candidate combinations: 2)
+	Request hash: 156bbce674464d27d379aafb3a14d210d4fa6b6d
+
+		- restler_static_string: 'DELETE '
+		- restler_static_string: '/AAYUSHGARGBU/Simple_API/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_items_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 01:10:43.198: Sending: 'POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nContent-Length: 40\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 7211cd1d-2199-4362-84fa-bcb8d6579991\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+2024-05-04 01:10:43.356: Received: 'HTTP/1.1 201 Created\r\nDate: Fri, 03 May 2024 23:10:43 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+
+2024-05-04 01:10:43.397: Sending: 'DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 7211cd1d-2199-4362-84fa-bcb8d6579991\r\n\r\n'
+
+2024-05-04 01:10:43.582: Received: 'HTTP/1.1 204 No Content\r\nDate: Fri, 03 May 2024 23:10:43 GMT\r\nContent-Type: application/json;charset=utf-8\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n'
+
+
+Generation-2: Rendering Sequence-2
+
+	Request: 1 (Current combination: 1 / 2)
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/Simple_API/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "name":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+	Request: 2 (Remaining candidate combinations: 2)
+	Request hash: 782fbde991a51ee8a607fb43ecc76ce81f8456ac
+
+		- restler_static_string: 'GET '
+		- restler_static_string: '/AAYUSHGARGBU/Simple_API/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_items_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+
+2024-05-04 01:10:43.835: Sending: 'POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nContent-Length: 40\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 41c73dbe-c2c5-4bbe-a643-ff0acced8190\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+2024-05-04 01:10:43.991: Received: 'HTTP/1.1 201 Created\r\nDate: Fri, 03 May 2024 23:10:44 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+
+2024-05-04 01:10:44.021: Sending: 'GET /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 41c73dbe-c2c5-4bbe-a643-ff0acced8190\r\n\r\n'
+
+2024-05-04 01:10:44.174: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 23:10:44 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+
+
+Generation-2: Rendering Sequence-3
+
+	Request: 1 (Current combination: 1 / 2)
+		- restler_static_string: 'POST '
+		- restler_static_string: '/AAYUSHGARGBU/Simple_API/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "name":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+	Request: 2 (Remaining candidate combinations: 2)
+	Request hash: e5da879e3a144e01af284a3b3f0680a9b40a64d4
+
+		- restler_static_string: 'PUT '
+		- restler_static_string: '/AAYUSHGARGBU/Simple_API/1.0.0'
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_items_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: virtserver.swaggerhub.com\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: [token_auth_method, token_refresh_interval, ...]
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "id":'
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ',\n    "name":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+2024-05-04 01:10:44.514: Sending: 'POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nContent-Length: 40\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 1f5fa2e1-6052-498f-b01f-1fb7ed824465\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+2024-05-04 01:10:44.681: Received: 'HTTP/1.1 201 Created\r\nDate: Fri, 03 May 2024 23:10:44 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+
+2024-05-04 01:10:44.730: Sending: 'PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/0 HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nContent-Length: 40\r\nUser-Agent: restler/9.2.4\r\nx-restler-sequence-id: 1f5fa2e1-6052-498f-b01f-1fb7ed824465\r\n\r\n{\n    "id":1,\n    "name":"fuzzstring"}\r\n'
+
+2024-05-04 01:10:44.880: Received: 'HTTP/1.1 200 OK\r\nDate: Fri, 03 May 2024 23:10:44 GMT\r\nContent-Type: application/json;charset=utf-8\r\nContent-Length: 35\r\nConnection: keep-alive\r\nAccess-Control-Allow-Headers: X-Requested-With,Content-Type,Accept,Origin\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Credentials: true\r\nServer: Jetty(9.4.50.v20221201)\r\n\r\n{\n  "id" : 0,\n  "name" : "string"\n}'
+

@@ -1,0 +1,76 @@
+InvalidDynamicObjectChecker_20x: 2
+UseAfterFreeChecker_20x: 1
+main_driver_502: 2
+main_driver_504: 3
+Total Buckets: 8
+-------------
+InvalidDynamicObjectChecker_20x - Bug was reproduced - InvalidDynamicObjectChecker_20x_1.replay.txt
+Hash: InvalidDynamicObjectChecker_20x_460277b69e88a17d4ce1d20e13c183dc6385c65c
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+InvalidDynamicObjectChecker_20x - Bug was reproduced - InvalidDynamicObjectChecker_20x_2.replay.txt
+Hash: InvalidDynamicObjectChecker_20x_76bf43a8515fdb6cda3636c76c9cd6cacf081a3a
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+--------------------------------------------------------------------------------
+UseAfterFreeChecker_20x - Bug was reproduced - UseAfterFreeChecker_20x_1.replay.txt
+Hash: UseAfterFreeChecker_20x_460277b69e88a17d4ce1d20e13c183dc6385c65c
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_502 - Bug was reproduced - main_driver_502_1.replay.txt
+Hash: main_driver_502_070f35ffe6c5f93809d3d93aa4d5ae482762d78e
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_502 - Unable to reproduce bug - main_driver_502_2.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_502_76bf43a8515fdb6cda3636c76c9cd6cacf081a3a
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_1.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_070f35ffe6c5f93809d3d93aa4d5ae482762d78e
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_2.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_460277b69e88a17d4ce1d20e13c183dc6385c65c
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+--------------------------------------------------------------------------------
+main_driver_504 - Unable to reproduce bug - main_driver_504_3.replay.txt
+Attempted to reproduce 1 time(s); Reproduced 0 time(s)
+Hash: main_driver_504_76bf43a8515fdb6cda3636c76c9cd6cacf081a3a
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+POST /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+DELETE /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+GET /AAYUSHGARGBU/Simple_API/1.0.0/items HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nauthentication_token_tag\r\n
+PUT /AAYUSHGARGBU/Simple_API/1.0.0/items/_READER_DELIM_items_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: virtserver.swaggerhub.com\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "id":1,\n    "name":fuzzstring}\r\n
+--------------------------------------------------------------------------------
