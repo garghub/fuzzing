@@ -1,0 +1,164 @@
+[05/04/2024 01:35:51] Generating grammar...
+[05/04/2024 01:35:51] Getting requests...
+[05/04/2024 01:35:52] Getting dependencies...
+[05/04/2024 01:35:52] Getting path consumers...
+[05/04/2024 01:35:52] Getting query consumers...
+[05/04/2024 01:35:52] Getting header consumers...
+[05/04/2024 01:35:52] Getting body consumers...
+[05/04/2024 01:35:52] Getting producers...
+[05/04/2024 01:35:52] Done processing producers
+[05/04/2024 01:35:52] Compute dependencies
+[[[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:35:52[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Put }
+
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Put }
+[[05/04/2024 01:35:5205/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }[
+05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Get }
+
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/ping"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Get }
+] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Delete }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[05/04/2024 01:35:52] Second pass dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:35:52] Done dependencies for request { endpoint = "/users/{userId}"
+  xMsPath = None
+  method = Put }
+[05/04/2024 01:35:52] Assigning equality constraints...
+[05/04/2024 01:35:52] Getting ordering constraints...
+[05/04/2024 01:35:52] Dependency analysis completed.
+[05/04/2024 01:35:52] Generating request primitives...
+Writing new dictionary to /mnt/d/ag/github/lazarus_target_apis/api_oauth2_password/Compile/dict.json
+[05/04/2024 01:35:52] Generating python grammar...
+[05/04/2024 01:35:52] Get requests
+[05/04/2024 01:35:52] Done get requests
+[05/04/2024 01:35:52] Done generating python grammar.
+Workflow completed.  See /mnt/d/ag/github/lazarus_target_apis/api_oauth2_password/Compile for REST-ler grammar.

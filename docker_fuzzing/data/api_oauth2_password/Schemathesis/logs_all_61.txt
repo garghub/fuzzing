@@ -1,0 +1,134 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/api_oauth2_password/api_oauth2_password.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 4412277744862282055158700968858276414
+Workers: 1
+Collected API operations: 6
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                       [ 16%]
+POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                      [ 33%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 50%]
+PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 66%]
+DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F           [ 83%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping F                        [100%]
+
+=================================== FAILURES ===================================
+______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users _______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: lqt8vL
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET 'https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users?filter=&filter=%C3%98&filter=%C3%BF%C2%B0%C2%81%1E%F3%BE%AF%98%1D%C3%99%C2%A8%C2%AD%C2%9C%26%C2%AB%C3%B6%C3%93%C2%ABL%C2%A4&filter=%C2%8A%C3%87%C2%A2%3D%F2%B6%99%85x%C2%82%5C%2F%F2%9D%89%8F%C3%96%3Dq%C2%90%04%F4%81%8A%89&%2A.%C2%A4%C3%9B_%C2%BC%24=%F3%8D%B2%A2%C3%A0&D%C2%87%C2%A5Z%5B%06%7B%23%00%E2%AF%A2%19=%C3%974%C3%B3%F3%AB%84%85&D%C2%87%C2%A5Z%5B%06%7B%23%00%E2%AF%A2%19=%F1%BE%99%B1%C2%93.%17%C3%AE%C2%B3%C2%B2%C2%8C%C2%A4&D%C2%87%C2%A5Z%5B%06%7B%23%00%E2%AF%A2%19=%C3%8B%C2%91&%C2%AB%19%C2%8E=%F3%BA%93%8A_%F0%9F%B8%A2%F1%B4%B5%92&%C2%AB%19%C2%8E=%7B%27%5Cx9f%C3%BC%5CU000895be%F0%97%87%90%5Cx81%5CU0003313c%F0%AD%AA%8FNe%C3%9B%27%3A+None%7D&%C2%AB%19%C2%8E=-25907&%C2%AB%19%C2%8E=25565&%C3%A8%C3%BC%C2%A4M%1F%3E%C2%BD%F4%8B%88%8F%C2%BD=123&=&=%F3%AF%88%B9%06%F0%B9%9D%83%F0%94%AF%86%C3%B3f%F0%B9%9A%B2&=K%F3%93%AD%85%F0%93%9D%AE%C2%8F%F2%B4%BA%91U%C3%88&%F0%AA%BA%BDk=&%F0%AA%BA%BDk=None&%F0%AA%BA%BDk=None&%F0%AA%BA%BDk=-7074&%F0%AA%BA%BDk=-2.2250738585e-313&%17%C2%8B9F=False&%17%C2%8B9F=True&%17%C2%8B9F=None&%C2%9D=15833&%C2%9D=-9814&%C2%9D=9007199254740992.0&%C2%9D=1.192092896e-07&%C3%91n%26%F1%8B%9C%B3%C2%AF%C2%B6%C3%8E%F2%93%A6%B6%C2%89%15%C2%9E%C2%A8%F4%8B%BE%91%C3%8E%C3%A2%5E%F2%A4%8F%88%F0%BC%B3%981%F3%B8%95%B8e%F3%A0%A6%A5%C3%BA%191%12%C3%96%C2%89F4%2C%C2%80q%23%C2%B1%C2%B6%C3%B7%27=null&%60%C3%8B%C3%91%10%C3%9F%C3%8A%C3%BC=%5B%27s%C3%97%5Cx7f%60%C3%BCt%27%2C+-5e-324%2C+%27%C3%B1%C3%A8N%5Cx07%27%5D&%60%C3%8B%C3%91%10%C3%9F%C3%8A%C3%BC=%7B%27%27%3A+3135173268805795091%2C+%27%C3%B3%C3%BD%C3%B0%27%3A+None%7D&%02%C2%9C%C2%A6%F4%8C%9C%98=%F0%BF%BB%9A%03%C3%A1%F3%B7%8B%8B%C3%A0'
+
+______________ POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users ______________
+1. Test Case ID: g57QMw
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users
+
+__________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: WZfT2i
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+__________ PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: HkrM7Z
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+________ DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} _________
+1. Test Case ID: fIYSrp
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+_______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping _______________
+1. Test Case ID: 5bccDa
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/ping
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              65 / 65 passed          PASSED 
+    status_code_conformance                         20 / 65 passed          FAILED 
+    content_type_conformance                        65 / 65 passed          PASSED 
+    response_headers_conformance                    65 / 65 passed          PASSED 
+    response_schema_conformance                     65 / 65 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=4412277744862282055158700968858276414`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================== 6 failed in 10.03s ==============================

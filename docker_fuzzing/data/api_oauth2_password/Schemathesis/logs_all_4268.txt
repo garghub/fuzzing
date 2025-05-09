@@ -1,0 +1,136 @@
+======================= Schemathesis test session starts =======================
+Schema location: file:///mnt/d/ag/github/lazarus_target_apis/data/api_oauth2_password/api_oauth2_password.json
+Base URL: https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0
+Specification version: Open API 3.0.0
+Random seed: 100718590973942465622166591594604615015
+Workers: 1
+Collected API operations: 6
+Collected API links: 0
+API probing: ...API probing: SUCCESS
+Schema analysis: ...Schema analysis: SKIP
+
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                       [ 16%]
+POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users F                      [ 33%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 50%]
+PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F              [ 66%]
+DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} F           [ 83%]
+GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping F                        [100%]
+
+=================================== FAILURES ===================================
+______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users _______________
+1. Test Case ID: aJ6pbm
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users
+
+______________ POST /AAYUSHGARGBU/api_oauth2_password/1.0.0/users ______________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: V7SusM
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 201, 400
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X POST -H 'Content-Type: application/json' -d '[[], 92030166493530465152535446950953763239, {"\u00dc\u00e0\ud835\udfda\udad0\ude48\u00ca\ud85b\udd8c%|u\u0015\u00a2": {}, "\u0086\u001f\u00f0\u0092\u0007": {"F\u00ff": "?{\u00c9\u00e2\u0086Lv\udad8\udcd7v\u00c5Mnl\\\u00d3-", "\u0098\u0007\uda4b\udd75": 20297, "\u007f,": 5.09496511576986e+29}, "\u00ce\u007f": {"\u00b6\u00fb\uda2d\ude12\u008d\udb54\udf4fYj\u0013\u00a6\u00c5\u00a3\u00c2\u00aa\ud99a\ude930": -3805, "\uda64\ude43\u0006!\udb22\udfdb\u00d3.1\udb11\udec8": {"\u00dc\u00ff": -1.1125369292536007e-308, "\ud9ce\uded8\u00d5\u00ff": "\udbff\uddc7", "r\fQ\u00ce\u00ca\udaa6\udf94\u00f3(\u00a1n\u0084\u00f4h\u0088\uda75\udc76i": "\u0097\u00b6\udb74\udd22r\ud93d\udea6\u00fd\ud8a4\uddaf\u0013f0I"}, "PsG\u00db\u00a6\u0089[\u0097": {"H\u00fdo\ud875\udd42\u3e40\u00f4\u0084\u00c0\u00e3\u6ebc\u00a1\u001c": false, "M\uda14\udc62\u001e\ud9cc\uddbc\udbb7\uded5\u00da": -30244, "E": -11308}}}, {"\uda83\udee1$$\u00af\ud898\udc61": {"": true, "\u00a1\udbea\ude8e\u00bdS\uda13\uddea": {"\u00cd\u001d\u00dc\uda7e\udf6f\u00d1\udb5c\udeb3\u0095\udbde\udeee\u00c9\u00adT|\u00be": -10000000.0, "\u00b8": -10000000.0, "\n\n\u000b\udab1\udde7\u00e3a": null}, "TXq\ud818\udc11\u0006W\u008b\ud870\udfbd\u0086\u00dbF\ud9e4\udcf9\udb9b\udf00\uda3d\uddec\udbd9\udfda\n": {}}, "\u008a\u00e2\u00c1\u00ac\u00a8{K\u00ef": {"\uda9d\udfe4&": 15645, "n\u00c9\ud955\uded30\u00caj": {}, "\u0088X\u0095": 4.0085100011700306e-290}}, {"": {"\udbe8\udfb8S2\u001f\ud837\ude60M\u00b1\u00dfd\u00ed\u00ed\u0091\u0006R\"M\u009e\u00ad\u00b2\uda77\ude6c\u0097\u0096": 11, "\u7f2f": null, "\u009f\udb3b\udc86P\u00fd\u000b": 57}}]' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users
+
+__________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+[FLAKY] Schemathesis was not able to reliably reproduce this failure
+
+1. Test Case ID: 2iwCTQ
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+__________ PUT /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} __________
+1. Test Case ID: 2rNvkF
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200, 400, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X PUT -H 'Content-Type: application/json' -d '{}' https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/0
+
+________ DELETE /AAYUSHGARGBU/api_oauth2_password/1.0.0/users/{userId} _________
+1. Test Case ID: MStCGV
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 204, 404
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X DELETE https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/users/1
+
+_______________ GET /AAYUSHGARGBU/api_oauth2_password/1.0.0/ping _______________
+1. Test Case ID: gwGI8B
+
+- Undocumented HTTP status code
+
+    Received: 429
+    Documented: 200
+
+[429] Too Many Requests:
+
+    `{"error":"Exceeded rate limit"}`
+
+Reproduce with: 
+
+    curl -X GET https://virtserver.swaggerhub.com/AAYUSHGARGBU/api_oauth2_password/1.0.0/ping
+
+=================================== SUMMARY ====================================
+
+Performed checks:
+    not_a_server_error                              63 / 63 passed          PASSED 
+    status_code_conformance                         15 / 63 passed          FAILED 
+    content_type_conformance                        63 / 63 passed          PASSED 
+    response_headers_conformance                    63 / 63 passed          PASSED 
+    response_schema_conformance                     63 / 63 passed          PASSED 
+
+Note: Use the 'X-Schemathesis-TestCaseId' header to correlate test case ids from failure messages with server logs for debugging.
+
+Note: To replicate these test failures, rerun with `--hypothesis-seed=100718590973942465622166591594604615015`
+
+Tip: Use the `--report` CLI option to visualize test results via Schemathesis.io.
+We run additional conformance checks on reports from public repos.
+
+============================== 6 failed in 19.29s ==============================
